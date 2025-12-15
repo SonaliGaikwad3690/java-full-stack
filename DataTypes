@@ -1,0 +1,24 @@
+
+public class Day1 {
+     
+	public static void main (String []args) {
+		
+		byte age=21;
+		short weight=66;
+		int studentid=3456;
+		long adharNo= 369678028;
+		float marks=33.40f;
+		double temp=102.45;
+		char symbol='@' ;
+		boolean checkPassed= false;
+		
+		System.out.println(age);
+		System.out.println(weight);
+		System.out.println(studentid);
+		System.out.println(adharNo);
+		System.out.println(marks);
+		System.out.println(temp);
+		System.out.println(symbol);
+		System.out.println(checkPassed);
+	}
+}
