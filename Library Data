@@ -1,0 +1,21 @@
+
+public class Library {
+	
+	public static void main(String[] args) {
+		String bookName = " The Diary Of a Young Girl";
+	    String author = " Anne Freank" ;
+	    short publicationIn = 1947 ;
+	    long settingFrom = 19421944 ;
+	    int price = 190 ;
+	    short pageNumber = 10 ;
+	    boolean isNonFictionDiary = true;
+	      System.out.println("Details of book");
+	      System.out.println("Book name is = " + bookName);
+	      System.out.println("This Book is Journal by = " + author);
+	      System.out.println("Published in = " + publicationIn);
+	      System.out.println("Book Setting From = " + settingFrom);
+	      System.out.println("Price of Book RS = " + price);
+	      System.out.println("Page Number of Book = " + pageNumber);
+	      System.out.println("This Book is Non Fiction Diary = " + isNonFictionDiary);
+	}
+}
