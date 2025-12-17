@@ -1,0 +1,24 @@
+    // Specification of Vehicle Z900 Kawasaki
+public class VehicleData {
+
+	public static void main(String[] arg) {
+		String vehicleName = "Kawasaki" ;
+		String vModel = "standard BS6" ;
+		short fuelCapacity = 17 ;
+		int vWeight = 210 ;
+		double vPrice = 1243318;
+		float  inLacks = 9.99f;
+		long vInsurance = 36518 ; 
+		boolean variantColour = true ;
+		
+		 System.out.println("Specification of Vehicle");
+		 System.out.println("Vehicle Name is = " + vehicleName);
+		 System.out.println("Vehicle Model = " + vModel);
+		 System.out.println("Vehicle fuel capacity =" + fuelCapacity + "liters");
+		 System.out.println("Vehicle Weight = " + vWeight + "kg");
+		 System.out.println("Vehicle price Rs =" + vPrice );
+		 System.out.println("Vehicle in Lacks =" + inLacks +"Lacks");
+		 System.out.println("Vehicle Insurance Rs = " + vInsurance);
+		 System.out.println("Vehicle has a variant colour = " + variantColour);
+	}
+}
