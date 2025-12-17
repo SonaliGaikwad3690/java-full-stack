@@ -1,0 +1,23 @@
+
+public class Hospital {
+	
+	public static void main(String[] args) {
+		
+		String hospitalName = "Asha Kiran" ;
+		String patientName = " Rashi Khanna";
+		int patientAge = 24 ;
+		long adharNo = 41913527;
+		short roomNumber = 10 ;
+		long bedNumber = 1500 ;
+		boolean patientisSafe= true ;
+		
+		System.out.println("Patient Details");
+		System.out.println("Hospital Name = " + hospitalName );
+		System.out.println("Patient Name is = " + patientName );
+		System.out.println("Patient Age = " + patientAge );
+		System.out.println("Adhar Card No is = " + adharNo );
+		System.out.println("Patient Room No is = " + roomNumber );
+		System.out.println("Patient BedNois = " + bedNumber );
+		System.out.println("Patient is Safe = " + patientisSafe );
+	}
+}
