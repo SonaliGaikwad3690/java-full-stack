@@ -1,0 +1,24 @@
+
+public class EmployeeInfo {
+	
+	public static void main(String[] args) {
+		
+		String name = "Rashi Khanna";
+		short employeeID = 25 ;
+		byte dayoff = 9 ;
+		int age = 28 ;
+		long salary = 350000 ;
+		char gender = 'f';
+		boolean ispermanant = true;
+		
+		  System.out.println("Employee Details");
+		  System.out.println("Employee name = " + name);
+		  System.out.println("EmployeeID = " + employeeID);
+		  System.out.println("Employee dayoff = " + dayoff);
+		  System.out.println("Emplloyee age = " + age);
+		  System.out.println("Employee package = " +salary);
+		  System.out.println("Employee gender = " + gender);
+		  System.out.println("Employee status = " + ispermanant);
+	  }
+  }
+
