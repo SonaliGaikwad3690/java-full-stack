@@ -1,0 +1,22 @@
+
+public class OperatorDay1 {
+
+	 public static void main(String[] args) {
+		
+//		 Relational Operator 
+//		 < , > , <= , >= ,== , !=
+		 
+		 int a = 10 , b = 13 ;
+	//	 System.out.println( a+ " is Greater than "+ b + " - " + (a > b ));
+   //	 System.out.println(10 < 9);
+//		 
+//		 System.out.println(9 >= 10 );
+//		 System.out.println( 11 <= 10 );
+		 
+//		 System.out.println( a == b);  
+//		 System.out.println( 10 != 13); --> True
+		 
+		 
+	}
+	 
+}
