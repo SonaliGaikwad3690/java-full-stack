@@ -1,0 +1,31 @@
+
+public class OperatorDay2 {
+
+	public static void main(String[] args) {
+		
+//		Logical Operator 
+//		AND , OR , NOT 
+		
+//		System.out.println( true && true);  // true
+//		System.out.println( true && false); // false
+//		System.out.println( false && true); // false
+//		System.out.println( false && false); // false
+		
+//		System.out.println( 1 > 7 &&  10 == 7 );     //false 
+//	    System.out.println( 10 <= 7 &&  10 != 7);  //false
+//	    System.out.println( 10 > 7 &&  10 < 7);    // false
+//	    System.out.println( 10 == 10 &&  10 != 7); // true
+//	
+//	    System.out.println( true || true);  // true
+//		System.out.println( true || false); // false
+//		System.out.println( false|| true); // false
+//		System.out.println( false|| false); // false
+	
+		System.out.println( (1 > 7 ||  10 == 7 ) &&( 3>9 || 5<=9) );     // 
+		System.out.println(( 6 <= 7 ||  7 != 7) &&( 5<19 || 6>= 6 ));    //           
+	    System.out.println( (8 > 7 || 10 < 11) && (10!=9 || 8>9));     // 	    
+	    System.out.println( (10 == 10 ||  10 != 10)  && (6>5 || 8 >=0));  //
+	
+	
+	}	
+}
