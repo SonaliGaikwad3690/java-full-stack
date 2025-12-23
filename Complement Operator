@@ -1,0 +1,13 @@
+
+public class OperatorDay7 {
+	
+	 public static void main (String [] args) {
+		  
+//       ~  Complement Operator
+		 
+		 System.out.println( ~ 8 ); //-9
+		 System.out.println( ~ -20); // 19
+         System.out.println( ~ 25 ); // -26
+         System.out.println( ~ -30); // 29
+    }
+}
