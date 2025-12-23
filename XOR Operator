@@ -1,0 +1,26 @@
+
+public class OperatorDay6 {
+	public static void main(String[] args) {
+		
+     int decimal = 25 ;
+	 System.out.println(Integer.toBinaryString(decimal));
+
+//				int decimal = 19;
+		//
+//				System.out.println(Integer.toBinaryString(decimal));
+
+//				System.out.println(Integer.toBinaryString(122)); // 1111010
+//				System.out.println(Integer.toBinaryString(107)); // 0010001
+				// 1101011
+
+				System.out.println(122 ^ 17);
+				System.out.println(4 ^ 3);			
+		}	
+	}
+
+		  
+
+
+	
+	
+
