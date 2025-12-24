@@ -1,0 +1,59 @@
+
+public class Day2 {
+	
+	  public static void main(String[] args) {
+
+//			String clr = "Yellow";
+//
+//			if (clr == "Red") {
+//				System.out.println("STOP");
+//			} else if (clr == "red") {
+//				System.out.println("stop");
+//			} else if (clr == "Yellow") {
+//				System.out.println("Get ready");
+//			} else if (clr == "green") {
+//				System.out.println("go");
+//			} else if (clr == "Green") {
+//				System.out.println("GO");
+//			} else if (clr == "yellow") {
+//				System.out.println("GET READY");
+//			} else {
+//				System.out.println("Invalid CLR Name");
+//			}
+//		}
+//	}
+
+    if (true) {
+    	
+		System.out.println("codition 1");
+    }
+    if (1 > 0) {
+			System.out.println("condition 2");
+		} else {
+			System.out.println("eeeee");
+		}
+		if (10 < 8) {
+			System.out.println("nnnnn");
+		}
+	    else if (2 == 2) {
+		System.out.println("condition 3");
+	} else if (3 <= 3) {
+		System.out.println("condition 4");
+	} else {
+		System.out.println("temp");
+	}
+  }
+}
+
+//		  if (10 > 8) {
+//				System.out.println("nnnnn");
+//			}
+//		    else if (2 == 2) {
+//			System.out.println("condition 3");
+//		    } else {
+//				System.out.println("temp");
+			
+		
+	  
+   
+	
