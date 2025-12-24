@@ -1,0 +1,45 @@
+
+public class Day1 {
+	
+	public static void main(String[] args) {
+		
+//	 int number = 22 ;
+//	
+//	 if(  number >= 24 ) {  
+//		System.out.println("Even");
+//	}else {
+//		System.out.println( " Odd ");
+//  }	
+		
+//		if (90 <= 100) {
+//			System.out.println("Grade A");
+//		} else if (75<=89) {
+//			System.out.println("Grade B");
+//		} else if (50>=74) {
+//			System.out.println("Grade C");
+//	    } else if (35>=49) {
+//		    System.out.println("Grade D");
+//	    }  else {
+//	    	  System.out.println("below 35 Fail");
+//	    }
+//	  	   int myAge = 24 ;
+//	  	   int myWeight = 50 ;
+//		  if (myAge >= 20) {
+//			  System.out.println("try for the next satge");
+//		   if (myWeight >=55) {
+//			  System.out.println("u r Fit");
+//		  } else {
+//			  System.out.println("Opps Sorry...! ");
+//		  }
+//	  }         
+		        int age =18,weight =50 ;
+		      if (age <= 20) {
+		          System.out.println("Try for next Year");
+		      } if (weight <=45) {
+		    	      System.out.println("u r eligible to Doante Blood");
+		   }	   else {
+			   System.out.println("Sorry");
+		   }
+	}
+}
+        
