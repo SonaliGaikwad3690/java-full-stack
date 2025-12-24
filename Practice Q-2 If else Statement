@@ -1,0 +1,18 @@
+
+public class PracticeQ2 {
+
+	public static void main(String[] args) {
+		if (90 <= 100) {
+			System.out.println("Grade A");
+		} else if (75<=89) {
+			System.out.println("Grade B");
+		} else if (50>=74) {
+			System.out.println("Grade C");
+	    } else if (35>=49) {
+		    System.out.println("Grade D");
+	    }  else {
+	    	  System.out.println("below 35 Fail");
+      }
+		
+	}
+}
