@@ -1,0 +1,28 @@
+
+public class PracticeQ1 {
+	
+	public static void main(String[] args) {
+		
+//		int myAge = 18 ;
+//		if (myAge >= 17) {
+//			System.out.println("Adult");
+//    	} else {
+//    		System.out.println("Not Adult");
+//       }
+//		 
+//		int temp = 40 ;
+//		if (temp >=30) {
+//			System.out.println("Hot Day");
+//		} else  {
+//			System.out.println("Cold Day");
+//		 }
+		 
+		 int number = 30 ;
+		 if (number /= 10) {
+			 System.out.println("Divisible");
+		 } else {
+			 System.out.println("Not Divisible");
+		 }
+	}
+}
+
