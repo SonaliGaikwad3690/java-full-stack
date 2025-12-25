@@ -1,0 +1,29 @@
+
+public class SwitchDemo2 {
+
+	public static void main(String[] args) {
+
+		char grade = 'A';
+		switch (grade) {
+
+		case 'A':
+			System.out.println("Range -> 90 to 100  -> Excellent");
+//			break;
+		case 'B':
+			System.out.println("Range -> 80 to 90  -> Very Good");
+			break;
+		case 'C':
+			System.out.println("Range -> 70 to 80  -> Good");
+//			break;
+		case 'D':
+			System.out.println("Range -> 60 to 70  -> Average");
+//			break;
+		case 'F':
+			System.out.println("Fail -> Better Luck Next Time .... ! ");
+//			break;
+		default:
+			System.out.println("Invalid Input");
+		}
+
+	}
+}
