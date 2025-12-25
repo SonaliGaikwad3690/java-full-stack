@@ -1,0 +1,24 @@
+
+public class SwitchDemo {
+	
+	public static void main (String [] args) {
+		
+		String colour = "Green";
+		
+		        switch (colour) {
+		            case "Red":
+		                System.out.println("Stop!");
+		                break;
+		            case "Yellow":
+		                System.out.println("Ready!");
+		                break;
+		            case "Green":
+		                System.out.println("Go!");
+		                break;
+		            default:
+		                System.out.println("Invalid color");
+		        }
+		    }
+	}
+
+		
