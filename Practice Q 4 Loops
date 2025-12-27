@@ -1,0 +1,20 @@
+
+public class PracticeQ {
+   public static void main(String[] args) {
+//	 Table of 12 is as follows
+//	   int i = 1 ;  //Initialization
+//	   while (i<=10) {  //Condition
+//		   System.out.println(12*i);
+//		   i++ ; // updation
+//	 }   
+//  }
+//}
+//       To Print the Hello Words using While Loop
+//	   while loop // Condition is Complusary
+	   int i = 1 ; //Initialization 
+	   while (i<= 10) {
+		   System.out.println("Hello  = "  + i   );
+		   i++ ;
+		   }
+	   }
+}
