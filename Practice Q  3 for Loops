@@ -1,0 +1,31 @@
+
+public class SumOfNaturalNo {
+	public static void main(String[] args) {
+		 
+//      to print the sum of 1st 10 natural number
+//        int c = 0;
+//        for (int i =1; i <= 10; i++) {
+//     	c = c + i;
+//    }   System.out.println("The sum of first 10 natural numbers is as follows: " + c);
+//  }     
+//}
+//        to print the sum of even numbers from 1 to 100
+//	     int sum = 0 ;
+//	     for (int i = 1; i <= 100 ; i++) {
+//	    	 if(i%2 == 0) {
+//	    	 	 sum=sum + i ;
+//	     }
+//	   }
+//	     System.out.println("The Sum of Even Numbers From 1 to 100  is = " + sum);
+//	}    
+// }   
+//		To print the Sum of Odd numbers form 1 to 100
+		 int sum = 0;
+		 for (int i = 1 ; i<= 100  ; i++) {
+             if (i%2 == 1) {
+			 sum = sum+ i ;
+			 
+		 }
+		}	 System.out.println("The Sum of Odd Numbers From 1 to 100  is = " + sum);	 
+	 }
+}
