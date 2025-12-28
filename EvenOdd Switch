@@ -1,0 +1,20 @@
+
+public class EvenSwitch {
+	
+	public static void main(String[] args) {
+		
+//		check if a number is even or odd using switch case
+		int num = 11;
+		switch (num % 2) {
+		case 0 :
+			System.out.println("--> number is an Even Number = " + num);
+			break ;
+		case 1 :
+			System.out.println("--> number is an Odd Number = " + num);
+			break ;
+			default :
+			System.out.println("Invalid Input");	
+		}
+	}
+
+}
