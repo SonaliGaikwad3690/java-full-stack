@@ -1,0 +1,36 @@
+
+public class Switchcases {
+	
+	public static void main (String [] args) {
+//		 Here We have to create Calculator using The Switch case
+		int a= 5 ;
+		int b = 6;
+		int c =0;
+		int d = 0;
+		switch (1) {
+		case 1 :
+			d = a + b ;
+			System.out.println("The Addition of Two number is : " + d );
+			break ;
+		case 2 :
+			d = a - b ;
+			System.out.println("The Substraction of Two number is : " + d );
+			break ;
+		case 3 :
+			d = a* b ;
+			System.out.println("The multiplication of Two number is : " + d );
+			break ;
+		case 4 :
+			d =  a / b ;
+			System.out.println("The Division of Two number is : " + d );
+			break ;
+		case 5 :
+			d = a % b;
+			System.out.println("The mod of Two number is : " + d );
+			break ;
+			default :
+				System.out.println(" Adult");
+		}
+	} 
+
+}
