@@ -1,0 +1,23 @@
+
+public class IndustrySwitch {
+	
+     public static void main(String[] args) {
+	
+//    	 take industry ((Domestic, Commercial, Industrial) and print the electricity rate per 
+//    				unit using a switch case.
+    				String industryName = "Domestic";
+    				switch (industryName) {
+    				case"Domestic":
+    					System.out.println(" The Light Rate of Domestic use is 100Rs per Unit ");
+    					break ;
+    				case "Commercial ":
+    					System.out.println("The Light Rate of Domestic use is 200Rs per Unit ");	
+//    					break ;
+    				case "Industrial":
+    					System.out.println("The Light Rate of Domestic use is 300Rs per Unit");
+//    					break ;
+    					default :
+    						System.out.println("Adult");
+    	}
+	}
+}
