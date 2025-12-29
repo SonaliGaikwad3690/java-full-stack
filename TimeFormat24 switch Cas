@@ -1,0 +1,37 @@
+// Time Format 24 hours using Switch Case
+
+  public class TimeFormat24H {
+	  
+	  public static void main(String[] args) {
+		
+//		  Accept the Time in 24 Hours Format and Print :
+//		  0-11--> Good Morning 
+//		  12-16 --> Good Afternoon
+//		  17-20 --> Good Evening
+//		  21-23 --> Good Night
+		  
+		  int timeFormat = 21-23 ;
+		  
+		  switch (timeFormat) {
+		  
+		  case (0-11):
+			  System.out.println("Good Morning");
+		      break ;
+		      
+		  case (12-16):
+			  System.out.println("Good Afternoon");
+		      break;
+		      
+		  case (17-20) :
+			  System.out.println("Good Evening");
+		      break;
+		      
+		  case (21-23):
+			  System.out.println("Good Night");
+		      break;
+		      
+		   default:
+		      System.out.println("Invalid");
+    }
+  }
+}
