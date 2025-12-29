@@ -1,0 +1,34 @@
+
+public class MonthsSeason {
+	
+	public static void main(String[] args) {
+//		Accept a month Number (1-12) and check if it belongs to Summer,Rainy, or Winter Season
+		
+		int season = 7 ;
+		switch (season) {
+		case 3:
+		case 4:
+		case 5:
+		case 6:
+			System.out.println(" Season is Summer...!");
+		    break;
+		
+		case 7:
+		case 8:
+		case 9:
+		case 10:
+			System.out.println("Season is Rainy...!");
+		    break;
+		
+		case 11:
+		case 12:
+		case 1:
+		case 2:
+			System.out.println("Season is Winter..!");
+		    break;
+		
+		default:
+			System.out.println("Invalid..!");
+		}
+	}
+}
