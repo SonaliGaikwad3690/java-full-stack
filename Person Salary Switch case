@@ -1,0 +1,27 @@
+// Package Switch case
+public class PersonSalary {
+	
+	public static void main(String[] args) {
+		
+//		Accept a Person salary and apply tax
+//		Salary<50000-->No Tax
+//		50000 to 100000--> 10% Tax
+//		Above 100000-->20%Tax
+		
+		int pSalary = 3;
+		switch (pSalary) {
+		
+		case 1 :
+			System.out.println("Salary is less Than 50,000 --> No Tax " );
+//		    break;
+		case 2 :
+			System.out.println("Salary is between 50,000 to 1,00,000 --> 10% Tax");
+//			break ;
+		case 3:
+			System.out.println(" Salary is Above 1,00,000 --> 20% Tax");
+			break ;
+		default :
+				System.out.println("Adult");
+		}
+	}
+}
