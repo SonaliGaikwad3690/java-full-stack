@@ -1,0 +1,14 @@
+
+public class num1to50divby7 {
+
+	public static void main(String[] args) {
+		
+//		print the numbers from 1 to 50 but skip number divisible by 7
+		
+		for( int i= 1; i<=50; i++) {
+			if(i%7==0) {
+				continue;
+			}System.out.println(i);
+		}
+	}
+}
