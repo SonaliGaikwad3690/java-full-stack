@@ -1,0 +1,15 @@
+
+public class EvenNum1to100 {
+	public static void main(String[] args) {
+		
+//		Print Even Numbers from 1 to 100 but stop when you get first odd number
+//		Even Numbers are - 0 , 2 , 4 , 6 , 8 , 10 ,,,,100
+		
+		for (int i = 1; i<=100; i++) {
+			if (i%2==0) {
+				break;
+			} System.out.println(i);
+		}
+	}
+
+}
