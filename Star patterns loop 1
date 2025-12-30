@@ -1,0 +1,16 @@
+
+public class StarPattern1 {
+    public static void main(String[] args) {
+//		Star Square Pattern
+		
+		for (int i=1; i<=5; i++) {        // Rows
+			for(int j=1 ;j<=5; j++) {     // Column
+				System.out.print("* ");
+			}
+			System.out.println(" ");    //  For Space
+		}   
+	}
+
+}
+
+
