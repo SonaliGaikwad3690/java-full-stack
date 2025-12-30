@@ -1,0 +1,14 @@
+
+public class NumFrom1to50 {
+	public static void main(String[] args) {
+//		break and Continue Statements
+//		Print the numbers from 1 to 50 but stop when numbers becomes 25
+		for(int i =1 ;i<=50; i++) {
+			if(i==25) {
+				break;       //Condition is true so loop will be stop at 25
+			}
+				System.out.println(i);
+		}
+	}
+
+}
