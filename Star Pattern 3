@@ -1,0 +1,15 @@
+
+public class StarPattern3 {
+
+	public static void main(String[] args) {
+//		reverse right-angled triangle star pattern.
+		
+		for (int i =1; i<=5 ; i++) {   //For Rows
+			for(int j=5; j>=i; j--) {  //for column
+				System.out.print("* ");
+			}
+			System.out.println(" "); // for space
+		}
+	}
+}
+
