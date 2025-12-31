@@ -1,0 +1,32 @@
+
+public class Num1to100 {
+	
+	public static void main(String[] args) {
+		// here we have to print values from 1 to 100 using all three loops
+		System.out.println("Printing values using for loop are as follows: ");
+		for(int i =1; i <= 100; i++) {
+			
+			System.out.println(i);
+		}
+		
+		System.out.println();
+		System.out.println("The values between 1 to 100 using while loop as follows: ");
+		int a = 1;
+		while(a <= 100) {
+			System.out.println(a);
+			a++;
+		}
+		
+		System.out.println();
+		System.out.println("Printing values using do while loop are as follows: ");
+		int b = 1;
+		do {
+			System.out.println(b);
+			b++;
+		}while(b <= 100);
+		
+		
+		
+	}
+
+}
