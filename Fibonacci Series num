@@ -1,0 +1,19 @@
+
+public class FibonacciSeries {
+	
+	public static void main(String[] args) {
+		
+//		Fibonacci series numbers from 1 to 50
+		int a = 0 ;
+		int b = 1 ;
+		int c ;
+//		System.out.println( a + " " + b );
+		while (a <=50) {			
+			 c = a + b;
+			 System.out.println( a + " " );
+			 a = b ;
+			 b = c ;
+		} 
+	}
+
+}
