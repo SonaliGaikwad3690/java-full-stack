@@ -1,0 +1,25 @@
+
+public class Nearest100 {
+
+	public static void main(String[] args) {
+		
+//		Print the numbers nearest 100
+		
+		int a= 15;
+		int b =15;
+		if(a<=100) {
+			if(a==b){
+				System.out.println("Both The Numbers are Same");
+			}else {
+				if(a>b) {
+				System.out.println("a is nearest 100");
+			} 
+			else {
+				System.out.println("b is nearest 100");
+			   }
+			}
+		} else {
+		System.out.println(" Number between 1 to 100");
+	   }
+	}
+}
