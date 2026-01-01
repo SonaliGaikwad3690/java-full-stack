@@ -1,0 +1,17 @@
+//  Print the pattern
+public class StarPattren6 {
+
+	 public static void main(String[] args) {
+		
+		 for (int i=1 ; i<=5; i++) { // for rows
+//			inner loop for space print
+			  for (int j=1; j<=5-i; j++) { // for column 
+				 System.out.print(" ");
+			 } 
+			  for (int j=1; j<=i; j++) { // this loop using for printing the star *
+				  System.out.print(" * ");
+			  }
+			  System.out.println( );
+		 }
+	}
+}
