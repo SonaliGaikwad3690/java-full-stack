@@ -1,0 +1,18 @@
+
+public class NumPattern9 {
+
+	public static void main(String[] args) {
+		
+		for(int i=1; i<=5; i++) {
+			for(int j=1; j<=i; j++) {
+				int sum= i+j;        // for store the values
+				if (sum%2==0) {
+				System.out.print("1 "); //if sum is even then print the "1"
+			} else {
+				System.out.print("o "); //if sum is odd then print the "0"
+			}
+		 }
+			 System.out.println(" "); //for next line
+	  }
+   }
+}
