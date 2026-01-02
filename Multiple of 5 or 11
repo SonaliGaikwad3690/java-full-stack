@@ -1,0 +1,16 @@
+//   Check the Number is multiple of 5 or 11
+public class MulOf {
+	
+	public static void main(String[] args) {
+		
+		int a = 30;
+		if(a%5==0) {
+			System.out.println("This number is Multiple of 5 = " + a);
+		}else if(a%11==0) {
+			System.out.println("this numberis not multiple of 11 = " + a);
+		}else {
+			System.out.println("This number is not mul of 5 or 11");
+		}
+	}
+
+}
