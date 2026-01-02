@@ -1,0 +1,33 @@
+//Declaration and initialization of local variables for emplyoee details
+public class Emplyoee2 {
+
+	public static void main(String[] args) {
+		// Local variables
+		int empId = 23;
+		String name = "Satish sharma";
+		byte empAge = 24;
+		double salary = 25000.0;
+		boolean isWorking = true;
+		char gender = 'M';
+		String dob = "1 Feb 2025";
+		float experience = 2.5f;
+		boolean isPernmentEmp = false;
+		String companyName = "sai service";
+		String education = "B.E(Mechanics)";
+		long mobileNo = 8768456799L;
+
+		System.out.println("Name of Emplyoee =" + name);
+		System.out.println("Id of Employee=" + empId);
+		System.out.println("Age of Employee=" + empAge + "year old");
+		System.out.println("Is working =" + isWorking);
+		System.out.println("Gender of Employee=" + gender + "ale");
+		System.out.println("Date of joining=" + dob);
+		System.out.println("Experience of Emplyoee=" + experience + "years");
+		System.out.println("Is Emplyoee is pernment=" + isPernmentEmp);
+		System.out.println("Name of the company=" + companyName);
+		System.out.println("Eduction of Emplyoee=" + education);
+		System.out.println("Contact Number of Emplyoee=" + mobileNo);
+		System.out.println("Salary of Emplyoee=" + salary + "Rupees");
+	}
+
+}
