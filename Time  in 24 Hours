@@ -1,0 +1,25 @@
+
+public class Time24hrs {
+
+	public static void main(String[] args) {
+		int a=18;
+		if(a<24) {
+			if(a<12) {
+				System.out.println(" This Time is "+ a + " Am");
+			}else {
+				System.out.println("This Time is " + a + " Pm");
+			}
+			if(a>0 && a<=11) {
+				System.out.println("Morning");
+			}else if(a>12 && a<=16) {
+				System.out.println("Afternoon");
+			}else if(a>17 && a<=20) {
+				System.out.println("Evening");
+			}else if(a>21 && a<=23) {
+				System.out.println("Night");
+			}else {
+				System.out.println("Enter the Value Between 1 to 24...!");
+			}
+		}
+	}
+}
