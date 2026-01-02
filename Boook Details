@@ -1,0 +1,38 @@
+//Using datatypes declare book details in varriable
+public class Library {
+
+	public static void main(String[] args) {
+		String bookname="Think like a monk";
+		int publishyear=2020;
+		short page=352;
+		boolean isavailable=true;
+		double price=130.39;
+		String colour="blue";
+		char genderofwritter='m';
+		int booksold=2344;
+		float discount=25.50f;
+		long regno=123456789L;
+		String booktype="self help";
+		byte dateofpublish=3;
+		String month="may";
+		char language='E';
+		
+		System.out.println("Book detail");
+		System.out.println("Name of the book="+bookname);
+		System.out.println("Publish year="+publishyear);
+		System.out.println("Total page no="+page+"Page");
+		System.out.println("Is available="+isavailable);
+		System.out.println("Price="+price+"Rupees");
+		System.out.println("Colour="+colour);
+		System.out.println("Gender of writter="+genderofwritter);
+		System.out.println("How many books sold="+booksold);
+		System.out.println("Discount="+discount+"%");
+		System.out.println("Reg no.="+regno);
+		System.out.println("type of book="+booktype);
+		System.out.println("date of publish="+dateofpublish);
+		System.out.println("month of publish="+month);
+		System.out.println("Publish year="+publishyear);
+		System.out.println("language of book="+language+"nglish");
+			}
+
+}
