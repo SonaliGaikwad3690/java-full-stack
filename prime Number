@@ -1,0 +1,22 @@
+
+public class PrimeNum {
+    
+	public static void main(String[] args) {
+		
+	
+	  int num = 11;      // number to check
+      int count = 0;     // to count factors
+
+      for (int i = 1; i <= num; i++) {
+          if (num % i == 0) {
+              count++;  // increase count if factor found
+          }
+      }
+
+      if (count == 2) {
+          System.out.println(num + " is a Prime Number");
+      } else {
+          System.out.println(num + " is NOT a Prime Number");
+      }
+  }
+}
