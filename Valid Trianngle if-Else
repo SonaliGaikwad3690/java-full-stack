@@ -1,0 +1,21 @@
+
+public class ValidTriangle {
+// Accept three sides of a triangle and check whether it is valid or not (sum of any two sides > third side).
+	
+	public static void main(String[] args) {
+		
+		int side1= 2;
+		int side2= 2;
+		int side3= 2;
+	
+		int a = side1+side2;
+		int b = side2+side3;
+		int c = side3+side1;
+		
+		if(a>side3 && b>side1 && c>side2) {
+			System.out.println("Triangle is valid...!");
+		}else {
+			System.out.println("Triangle is not valid..!");
+		}
+	}
+}
