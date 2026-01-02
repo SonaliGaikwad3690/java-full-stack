@@ -1,0 +1,26 @@
+//Declaration and initialization of local variables for student details
+public class Student {
+
+	public static void main(String[] args) {
+
+		String studentName = "Sonali Gaikwad";
+		byte studentId = 24;
+		long contactNo = 7684975489L;
+		float marksin10 = 78.40f;
+		float marksin12 = 92.00f;
+		char gender = 'f';
+		boolean passed = true;
+		String regNo = "U04GG22S0066";
+
+		System.out.println("Student details");
+		System.out.println("Name of student=" + studentName);
+		System.out.println("Student ID=" + studentId);
+		System.out.println("Contact Number=" + contactNo);
+		System.out.println("Marks obtained in class 10=" + marksin10 + "%");
+		System.out.println("Marks obtained in class 12=" + marksin12 + "%");
+		System.out.println("Gender=" + gender + "emale");
+		System.out.println("Result=" + passed);
+		System.out.println("Reg.No=" + regNo);
+	}
+
+}
