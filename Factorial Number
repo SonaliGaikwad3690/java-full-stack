@@ -1,0 +1,25 @@
+
+public class FactorialNum {
+
+		public static void main(String[] args) {
+			
+			// printing factorial of the number using do while loop
+			
+			// 5 * 4 * 3 * 2 * 1
+			int a = 5;
+			int temp = 1;
+			do {
+				
+				temp = temp * a;
+				// basically it is like the result = result and operation that we want to do.
+				// using the result of last operation and performing operation on it.
+				a--;
+		
+			}while(a >= 1);
+			
+			System.out.println(temp);
+		}
+	}
+			
+
+
