@@ -1,0 +1,40 @@
+
+public class CostsellPrice {
+
+    public static void main(String[] args) {
+		
+		// to determine the cost and the selling price 
+		
+		int costPrise = 383;
+		int sellPrise = 383;
+		
+		// to determine the price the profit
+		
+		// it should give else part but its not giving
+		// what to do
+		
+		if( costPrise < 0 || sellPrise < 0) {
+			System.out.println("Enter the Positive integers and run the programm again.");
+			return;
+		}
+		else {
+		
+		if(sellPrise > costPrise) {
+			
+			int myProfit1 = sellPrise - costPrise;
+			System.out.println("The profit is : "+ myProfit1 + " Rs");
+		}
+		else if( costPrise == sellPrise) {
+			System.out.println("NO profit and no loss");
+		}
+		else if( costPrise > sellPrise) {
+			int Loss = 0;
+			Loss = costPrise - sellPrise;
+		
+			
+			System.out.println("The Loss is : "+ Loss +" Rs");
+		}
+		}
+	}
+
+}
