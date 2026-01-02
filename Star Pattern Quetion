@@ -1,0 +1,38 @@
+
+public class StarPattern7 {
+
+	public static void main(String[] args) {
+		
+//		for upper part
+		
+//		outer loop for print the Rows
+		for (int i=1; i<=3; i++){
+        
+//		   inner Loop for print the Column
+		   for (int j=i; j<=3; j++) {
+		 	 System.out.print(" ");
+		   }
+		        for(int j=1; j<=i; j++) {
+		            System.out.print("* ");
+		    }
+		        System.out.println(" ");
+	     }
+		
+//		       this loop  For print the Reverse pattern
+//		          for Lower part 
+	
+		    for(int i=3-1;i>=1; i--) {
+		      int j;
+		        for(j=3;j>=i; j--) {     // for print the space
+			    	System.out.print(" ");
+			}
+			
+			     for(int j1=1;j1<=i;j1++) {   //for print the star
+			          System.out.print("* ");
+			}
+			
+			System.out.println();  //for print the star next line 
+		}	
+		
+    }
+}
