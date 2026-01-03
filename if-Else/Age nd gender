@@ -1,0 +1,20 @@
+//  If-Else case
+public class AgeGender {
+	
+	public static void main(String[] args) {
+//		Accept the Age Gender 
+//		if Age > 60 and Gender ='F' --> "Senior Woman Citizen"
+//		if Age > 60 and Gender = 'M' --> "Senior Man Citizen"
+//		Else --> " Not a Senior Citizen"
+		
+		int age = 61 ;
+//		char gender = 'F';
+		if (age < 60) {
+			System.out.println("Senior Woman Citizen");
+		}	if (age > 60) {
+				System.out.println("Senior Man Citizen");
+			} else
+				System.out.println("Not a Senior Citizen");
+		
+	}
+}
