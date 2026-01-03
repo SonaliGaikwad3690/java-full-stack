@@ -1,0 +1,19 @@
+
+public class Button {
+
+	  public static void main(String[] args) {
+		
+//		   Print the Greeting
+		  
+		  int button = 3;
+		  if (button==1) {
+			  System.out.println("Hello");
+		  }else if(button==2) {
+			  System.out.println("Namstey");
+		  }else if(button==3) {
+			  System.out.println("Bonjour");
+		  }else {
+			  System.out.println("Invalid Input");
+		  }
+	}
+}
