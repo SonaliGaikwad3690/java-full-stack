@@ -1,0 +1,20 @@
+
+public class BitwiseOperator {
+
+	public static void main(String[] args) {
+		
+//		Bitwise Operator are Those Operators in java that perform operation bit by bit
+//		& , | , ^ , ~ , >> , << ,
+//		1 --> True      0 --> False
+//		1 & 1 --> 1
+//		1 & 0 --> 0
+//		0 & 1 --> 0
+//		0 &  0--> 0
+		
+		System.out.println(12 & 15); // Ans is(11000)--> 12
+		System.out.println(12 | 15); // Ans is (11110)--> 15
+		System.out.println(17 & 30); //Ans is (100000)--> 16
+		System.out.println(17 | 30); // Ans is (111110)--> 31
+		System.out.println(20 | 20); // ans is (101000)--> 20
+	}
+}
