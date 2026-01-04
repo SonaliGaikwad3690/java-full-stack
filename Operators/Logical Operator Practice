@@ -1,0 +1,42 @@
+
+public class LogicalOperatorTask {
+
+	 public static void main(String[] args) {
+		
+//		 Logical Operator are used to connect Two Condition return Boolean Values(True/False)
+//		 1 - AND &&
+//		 2 - OR ||
+//		 3 - NOT !
+//		       And Operator (&&) Truth Table -->
+//		 System.out.println(True && True);   // True
+//		 System.out.println(True && False);  // False
+//		 System.out.println(False && True);  // false
+//		 System.out.println(False && False);  // false
+		 
+//		 System.out.println(10 > 8 && 10 != 8);   // True
+//		 System.out.println(7 > 8 && 8 >= 8);     // False
+//		 System.out.println(22 >= 8 && 24 <= 8);  // False
+//		 System.out.println(10 >= 8 && 10 == 30); // False
+//		 System.out.println(10 <= 8 && 10 != 8);  // False
+//		 System.out.println(10 > 8 && 9 >= 8);   //  True
+		 
+		
+//				       OR Operator (||) Truth Table -->
+//		 System.out.println(True  && True);   // True
+//  	 System.out.println(True  && False);  // True
+//		 System.out.println(False && True);  // True
+//		 System.out.println(False && False);  // false
+				 
+	     System.out.println(25<=2  || 10>=5);           //  True
+		 System.out.println(2==2   || 10<=5 && 10!=20); //  True
+         System.out.println(39<=35 || 28!=5 && 20!=20);  //  False
+	     System.out.println(25!=20 || 55==5 && 2>=3);     //  True
+	     System.out.println(20>22  || 10>20);             //   False
+		        
+//		        NOT Operator (!)
+//		        True --> False (1 --> 0)
+//		        False --> True (0 --> 1)
+	     System.out.println(!(2==2 || 10<=5 && 10!=20 || 20!=20)); // False
+	     System.out.println(!(3<=5 && 5<10  && 20>=30 || 5 !=5));  // True
+	 }
+}
