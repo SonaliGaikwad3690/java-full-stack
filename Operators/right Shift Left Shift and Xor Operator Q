@@ -1,0 +1,15 @@
+
+public class RightLeftShift {
+
+	public static void main(String[] args) {
+		
+//		Right Shift Operator >>
+//		Left Shift Operator <<
+//		  10 >> 3
+		  System.out.println(10 >> 3);
+		  System.out.println(13 << 5);
+		  System.out.println(36 << 7);
+		  System.out.println(122 ^ 17);
+		  System.out.println(4 ^ 3);
+	}
+}
