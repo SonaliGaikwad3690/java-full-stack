@@ -1,0 +1,16 @@
+
+public class ArithmeticTask {
+
+	public static void main(String[] args) {
+		
+//		 Arithmetic Operator Task
+		
+		int a = 25;  // Declaration+ Initialization
+		int b = 22;
+		System.out.println("Addition of a + b = " +(a + b));
+		System.out.println("Sub of a - b = " + (a - b));
+		System.out.println("Mul of a * b = " +(a * b));
+		System.out.println("Division of a / b =" + (a / b));
+		System.out.println("Modulus of a % b = " + (a % b) );
+	}
+}
