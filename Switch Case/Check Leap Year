@@ -1,0 +1,16 @@
+
+public class LeapYear {
+
+	public static void main(String[] args) {
+		
+		int year =2001;
+		switch ((year % 400 == 0) || (year % 4 == 0 && year % 100 != 0) ? 1 : 0) {
+        case 1:
+            System.out.println(year + " is a Leap Year");
+            break;
+        case 0:
+            System.out.println(year + " is not a Leap Year");
+            break;
+    }
+	}
+}
