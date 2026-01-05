@@ -1,0 +1,16 @@
+// Find The Largest Number
+public class Largestnum {
+ public static void main(String[] args) {
+	
+	 int a = 5 ;
+	 int b = 20 ;
+	 int c = 15 ;
+	 if (a>b && a>c) {
+		 System.out.println("Largest Number is : " + a);
+	 }else if(b>a && b>c) {
+		 System.out.println("Largest Number is : " + b);
+	 }else{
+		System.out.println("Largest Number is : " + c); 
+	 }
+}
+}
