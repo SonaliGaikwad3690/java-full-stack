@@ -1,0 +1,12 @@
+ // To find the  Average of 3 Number
+public class calAvg {
+
+	public static void main(String[] args) {
+		
+		int n1= 60;
+		int n2=70;
+	    int n3=45;
+	    int avg =(n1+n2+n3)/3; // Average of 3 Numbers
+	    System.out.println("Average Of 3 Numbers =" + avg);
+	}
+}
