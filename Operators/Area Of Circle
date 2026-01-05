@@ -1,0 +1,9 @@
+// to Find the Area of circle
+public class AreaOfcircle {
+
+	public static void main(String[] args) {
+		float pi= 3.141f;
+		float r= 10.0f;
+	    System.out.println("Are Of circle = " + pi *r*r);	 
+	}
+}
