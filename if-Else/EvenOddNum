@@ -1,0 +1,13 @@
+
+public class EvenOddnum {
+
+	public static void main(String[] args) {
+		
+		int a =50;
+		if (a%2==0) {
+			System.out.println( a + " is Even Number");
+		}else {
+			System.out.println( " numeber is Odd Number");
+		}
+	}
+}
