@@ -1,0 +1,18 @@
+// W
+public class ProfitLoss {
+
+	public static void main(String[] args) {
+		int sp = 2500; //Selling Price
+		int cp = 2000; // Cost Price
+		
+		if (sp>cp) {
+			System.out.println("Profit");
+		}else if(cp>sp) {
+			System.out.println("Loss");
+		}else if(sp==cp){
+			System.out.println("No Profit & No Loss");
+		}else {
+			System.out.println("invalid");
+		}
+	}
+}
