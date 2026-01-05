@@ -1,0 +1,10 @@
+// Table of  Multiplication 7
+public class MulOf7 {
+
+	public static void main(String[] args) {
+		
+		   for(int i=1; i<=10; i++) {
+			System.out.println("The Table of Mul 7 *" + i+ " = " +  7*i);
+		}
+	}
+}
