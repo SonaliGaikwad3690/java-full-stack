@@ -1,0 +1,12 @@
+// WAP to ASSIC Value
+public class ASSICValue {
+
+	public static void main(String[] args) {
+		char ch ='r';
+		int count =0;
+		for(char i =0;i<ch;i++) {
+		count ++;
+		}
+		System.out.println("ASSIC Value = " + count);
+	}
+}
