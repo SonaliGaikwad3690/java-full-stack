@@ -1,0 +1,18 @@
+// write A program to accept marks of 5 subjects calculate total, Average, and Display Percentage
+public class MarksOf5 {
+ 
+	public static void main(String[] args) {
+		float math = 80.00f;
+		float chem = 79.00f;
+		float phy = 88.00f;
+		float hindi = 87.00f;
+		float eng = 90.00f;
+
+		float total = math + chem + phy + hindi + eng;
+		double average = total/5.0;
+		double percentage = (total/500.0)*100;
+ 		System.out.println( "Total= " + total);
+		System.out.println("Average = " + average );
+		System.out.println("percentage = " + percentage);
+	}
+}
