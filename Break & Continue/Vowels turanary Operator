@@ -1,0 +1,9 @@
+// using ternary Operator
+  public class Char {
+
+	  public static void main(String[] args) {
+		char ch ='j';
+		 String str = ch=='a'|| ch=='e'|| ch=='i'|| ch =='o'||ch=='u'? "vowel": "Constatst";
+		 System.out.println(str);
+	}
+}
