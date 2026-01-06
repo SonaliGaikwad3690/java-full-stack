@@ -1,0 +1,10 @@
+
+public class SumOfDigits {
+
+	public static void main(String[] args) {
+		int sum = 1;
+		while(sum<=10) {
+		sum = sum + 1;
+		} System.out.println("Sum of Digits = " + sum);  // prints final result only once
+	}
+}
