@@ -1,0 +1,12 @@
+// convert Days into Year ,Weeks,Days
+public class ConvertDaysYear {
+
+	public static void main(String[] args) {
+		int days =555;
+		int years=365;
+		int weeks=7;
+		System.out.println(days);
+		System.out.println(years);
+		System.out.println(weeks);
+	}
+}
