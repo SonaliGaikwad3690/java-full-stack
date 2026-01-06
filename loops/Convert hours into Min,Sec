@@ -1,0 +1,12 @@
+// convert into hours into minutes,seconds
+public class HrsMin {
+
+	public static void main(String[] args) {
+		
+		int hours = 2;
+		int min = hours*60;
+		int sec=3600*hours;
+		System.out.println(min);
+		System.out.println(sec);
+	}
+}
