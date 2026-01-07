@@ -1,0 +1,26 @@
+// series 1,10,100,1000,100,10,1
+public class GenerateSeries4 {
+
+	public static void main(String[] args) {
+	
+//		 Generate Series 1,2,3,4,5,4,3,2,1
+		 for(int i=1;i<6;i++) {
+			 
+			 System.out.print(i + " ");
+			 }
+		 for(int i = 4;i>=1;i--) {
+			 System.out.print(i + " ");
+		 }
+		 
+		 int total=1;
+		 for(int i=0;i<=4;i++) {
+			 System.out.print(total + " ");
+			 total=total*10;
+		 }
+		 total=total/100;
+		 for(int i=1;i<=3;i++) {
+			 System.out.print(total+ " ");
+			 total=total/10;
+		 }
+	}
+}
