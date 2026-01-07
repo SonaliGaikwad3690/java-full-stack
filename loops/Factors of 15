@@ -1,0 +1,21 @@
+// Factor of 15
+public class FactorOf15 {
+
+	public static void main(String[] args) {
+		
+//		int num = 15;
+//		int i =1;
+//		while (i<=15) {
+//			if(num%i==0) {
+//				System.out.println(i);
+//			}   i++;
+//		}
+//	     	 using for Loops
+		for(int i =1; i<=15;i++) {
+			int num = 15;
+			if(num%i==0) {
+				System.out.println(i);
+			}
+		}
+	}
+}
