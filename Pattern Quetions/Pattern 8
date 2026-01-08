@@ -1,0 +1,12 @@
+// Print the Star Pattern ****
+public class Pattern8 {
+
+	 public static void main(String[] args) {
+		
+		  for(char i='A'; i<='D';i++) { // For Print the A to D
+			 for(char j='A';j<=i;j++) { //  For Print the A to 'i'
+				 System.out.print(i + " ");
+			 }System.out.println(" ");
+		 }
+	 }
+}
