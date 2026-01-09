@@ -1,0 +1,17 @@
+// WAJP to accept number 
+public class SumOfD {
+
+	public static void main(String[] args) {
+		
+		int i=1234;
+		int sum=0;
+		while(i!=0) {
+			int digit=i%10;
+			System.out.println(digit);
+			sum=sum+digit;
+			
+	       i= i/10;
+		}
+		System.out.println( "Ans is = " + sum);
+	}
+}
