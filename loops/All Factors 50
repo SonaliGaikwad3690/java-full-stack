@@ -1,0 +1,14 @@
+// Print the All Factors of 50 number
+public class AllFactor50 {
+
+	public static void main(String[] args) {
+		
+		int num=50;
+		int i=1;
+		while(num>=i) {
+			if(num%i==0) {
+			System.out.println(i);
+		  }i++;
+		}
+	}
+}
