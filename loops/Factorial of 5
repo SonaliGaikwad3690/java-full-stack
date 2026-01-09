@@ -1,0 +1,21 @@
+
+public class Factorial5 {
+
+	 public static void main(String[] args) {
+		
+//		 int i=1;
+//		 while(i<=10) {
+//			 System.out.println(i);
+//			 i++;
+//		 }
+		 
+//		 int num=5;// 5*4*3*2*1
+		 int i=5;
+		 int fact=1;
+		 while(i>=1) {
+			 fact=fact*i;
+			 i--;
+		 } System.out.println(fact);
+		 
+	}
+}
