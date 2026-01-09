@@ -1,0 +1,24 @@
+// Write a Java Program to check the Armstrong Number (1)^3+(5)^3+(3)^3=153
+public class ArmstrongNum {
+
+	public static void main(String[] args) {
+		
+//		n--> 153
+//		digit= 3
+		
+		int count=0;
+		int num =153;
+		int or=num;
+		
+		while(num>0) {
+		 int digit=num%10;
+		 count=count +(digit*digit*digit);
+		 num=num/10;
+		}
+		if(or==count) {
+			System.out.println("This is Armstrong Number....!");
+		}else {
+			System.out.println(" Is not a Armtrong Number...!");
+		}
+	}
+}
