@@ -1,0 +1,20 @@
+// Check the Numbers is ArnmStrong or Not
+public class CheckArmStrong {
+
+	public static void main(String[] args) {
+		
+		int count=0;
+		int num=155;
+		int org=num;
+		while(num>0) {
+			int digit=num%10;
+		   count=count+ (digit*digit*digit);
+		   num=num/10;
+		   
+		}if(count==org) {
+		System.out.println("Yes");
+		}else {
+			System.out.println("Not");
+		}
+	}
+}
