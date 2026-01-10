@@ -1,0 +1,19 @@
+
+public class ChekNum {
+
+	public static void main(String[] args) {
+		
+		int i=15;
+		switch(i % 2) {
+		case 0:		
+		  System.out.println("This is an Even Num");
+		  break;
+		case 1:
+			System.out.println("  This is an Odd Num");
+			break;
+		default:
+			System.out.println("Default");
+			}
+		}
+	}
+
