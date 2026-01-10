@@ -1,0 +1,23 @@
+ //  Print the Reverse Numbers (Example : 56789)
+public class RevsNum {
+
+	public static void main(String[] args) {
+		
+		int num=56789;
+		int rev=0;
+		int rem=0;
+		int count =0;
+		
+//		for(int i=1;i<=num;i++) { --> This is For loop Statements
+		while(num>0) {  // This is While Loop I Used While Loop
+			 
+			rem=num%10;
+			rev=rev*10+rem;
+			num=num/10;
+			count++;
+			
+		}System.out.println( " Reverse Number = " + rev);
+		System.out.println ("Count = " + count);
+	}
+	
+}
