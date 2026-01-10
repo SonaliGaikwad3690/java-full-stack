@@ -1,0 +1,21 @@
+
+public class CountDigits {
+	
+	public static void main(String[] args) {
+		
+//		Count How many Digits are in (48793-->5) using while Loop
+
+		        int num = 48793;   // given number
+		        int count = 0;     // to count digits
+
+		        while (num > 0) {
+		            count++;       // increase count
+		            num = num / 10; // remove last digit
+		        }
+
+		        System.out.println("Number of digits = " + count);
+		    }
+		}
+		
+	
+
