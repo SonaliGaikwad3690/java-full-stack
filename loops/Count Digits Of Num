@@ -1,0 +1,17 @@
+
+public class CD {
+
+	public static void main(String[] args) {
+		int num=123456;
+		int i=1;
+		int count=0;
+		System.out.println("Count the Digits of Given Number - 123456");
+		while(i<=num) {
+			count=count+i;
+		    num=num/10;
+		}
+		  System.out.println( " Digits = " + count);
+	   }
+
+	}
+
