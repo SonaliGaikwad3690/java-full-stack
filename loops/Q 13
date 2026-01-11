@@ -1,0 +1,21 @@
+// Check the number is Palindrome Or not
+public class Q13 {
+
+	public static void main(String[] args) {
+		
+		int num= 2332;
+		int rem=0;
+		int rev=0;
+		int org=num;
+		while(num>0) {
+			rem=num%10;
+			rev=rev*10+rem;
+			num=num/10;
+		}
+		   if(org==rev) {
+		      System.out.println("Yes.. This is Palindrome Number...!");
+		}else {
+			System.out.println("Nop.. This is not A Palindrome Number...!");
+		}
+	}
+}
