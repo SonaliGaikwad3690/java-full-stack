@@ -1,0 +1,11 @@
+//   Print the Hours And Second minutes
+public class Q7 {
+	public static void main(String[] args) {
+
+	     int hrs=4;
+	     int min=hrs*60;
+	     int sec=3600 *hrs;
+        	 System.out.println(min);
+        	 System.out.println(sec);
+	}
+}
