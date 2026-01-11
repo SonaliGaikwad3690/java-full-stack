@@ -1,0 +1,13 @@
+// Generate Series From A to Z and Count 
+public class Q4 {
+
+	public static void main(String[] args) {
+		
+		int count=0;
+		for(char ch='A'; ch<='Z';ch++) {
+			System.out.print(ch + " ");
+			count++;
+		} 
+		  System.out.println( " Count The Alphabets = " + count);
+	}
+}
