@@ -1,0 +1,18 @@
+// Count the Digits in given Numebr
+public class Q6 {
+
+	public static void main(String[] args) {
+		
+		int num=126;
+		int count=0;
+		int sum=0;
+		while(num>0) {
+			int digit=num%10;
+			sum=sum+digit;
+	        count++;
+			num=num/10;
+			
+		}System.out.println ( "The count of Given Number = " + count);
+		System.out.println( "Sum Of The given Numebr = " + sum);
+	}
+}
