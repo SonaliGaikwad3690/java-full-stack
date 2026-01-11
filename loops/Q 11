@@ -1,0 +1,21 @@
+// Calculate The Power
+public class Q11 {
+	
+	public static void main(String[] args) {
+		
+		 int a = 2;
+		 int b=4;
+		 int power=1;
+		 int count=0;
+		 int sum=0;
+		 System.out.println("The Power of 2 is..!");
+		 for (int i=1;i<=b;i++) {
+			 power=power*a;
+			 count++;
+			 sum=sum+power;
+			 System.out.println(power);
+		 }System.out.println(count);
+		  System.out.println( "The sum of The = " + sum);
+	}
+
+}
