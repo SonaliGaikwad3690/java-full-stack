@@ -1,0 +1,16 @@
+// fibonnaccci Series from 1 to 10
+public class Q14 {
+
+	public static void main(String[] args) {
+		
+		int a=0, b=1;
+		
+		System.out.print( a + " " + b);
+		while(a<=10) {
+			int c=a+b;
+			System.out.print( " " + c + " ");
+			a=b;
+			b=c;
+		}
+	}
+}
