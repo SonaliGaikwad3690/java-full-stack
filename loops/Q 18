@@ -1,0 +1,20 @@
+// The Count of Odd number from 1 to 20 
+public class Q18 {
+
+	public static void main(String[] args) {
+		
+		int num=0;
+		int count=0;
+		int sum =0;
+		System.out.println("All Odd numbers from 1 to 20 is as follows ");
+		while(num<=20) {
+			if(num%2==1) {
+				System.out.println(num);
+				count++;
+				sum=sum+num;
+			}num++;
+			
+	  }System.out.println( "the count of Odd number from 1 to 20 = " + count);
+	  System.out.println("the sum of Odd number from 1 to 20 = " + sum);
+	}
+}
