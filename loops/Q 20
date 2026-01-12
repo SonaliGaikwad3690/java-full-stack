@@ -1,0 +1,18 @@
+// Power of number
+public class Q20 {
+
+	public static void main(String[] args) {
+		
+		int a=5, b=3;
+		int i=1;
+		int result=1;
+		int count =0;
+		while(i<=3) {
+			result=result*a;
+			count++;
+			i++;
+		}
+		System.out.println( "The Power Of Given Numebr = " + result);
+		 System.out.println("Count the Digits of given Result = " + count);
+	}
+}
