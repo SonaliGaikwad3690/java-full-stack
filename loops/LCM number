@@ -1,0 +1,28 @@
+
+public class LcmNum {
+
+	public static void main(String[] args) {
+		
+		int num1 =12;
+		int num2= 18;
+		
+		int div=2;
+		int hcf=1;
+		
+		while(div<=num1 && div<=num2) {
+			
+		if(num1%div==0 && num2%div==0 ) {
+			num1=num1/div;
+			num2=num2/div;
+			hcf=hcf*div;
+			
+		}   else {
+			   div++;	
+		    }
+		}
+		int lcm=(num1*num2)*hcf;
+		   System.out.println( lcm); 
+		   System.out.println(hcf);
+	}
+	}
+
