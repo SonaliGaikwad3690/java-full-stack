@@ -1,0 +1,19 @@
+// print the sum of even numbers from 0 to 50 using While loop
+public class Q16 {
+
+	public static void main(String[] args) {
+		
+		int sum=0;
+		int i=0;
+		int count =0;
+		while(i<=50) {
+			if(i%2==0) {
+				count++;
+			sum=sum+i; 
+			
+			}i++;
+			
+		} System.out.println(" Sum of even numbers from 0 to 50 =  " + sum);
+		System.out.println(" The Count Of  0 to 50 = " + count);
+	}
+}
