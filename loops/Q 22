@@ -1,0 +1,12 @@
+// Print the Alphabets From A to Z
+public class Q22 {
+
+	public static void main(String[] args) {
+		int count=0;
+	     for(char ch ='A'; ch<='Z' ; ch++) {
+	    	 count++;
+		    System.out.print(ch + " ");
+		   
+	    } System.out.println( "The Count From 'A' to 'Z' = " + count);
+	}
+}
