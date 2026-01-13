@@ -1,0 +1,19 @@
+//  All Factors of 100 
+public class Q28 {
+
+	public static void main(String[] args) {
+		
+		int num=100;
+		int count=0;
+		int sum=0;
+		System.out.println("All Factors of 100 are as follows");
+		for(int i=1;i<=100;i++) {
+			if(num%i==0) {
+				System.out.println( i + " ");
+				count++;
+				sum=sum+i;
+			}
+		}   System.out.println( "The Count Of factors = " + count+ " ");
+	    	System.out.println(sum);
+	}
+}
