@@ -1,0 +1,21 @@
+// Generate Series 1, 10, 100,1000 100 10, 1
+public class Q23 {
+
+	public static void main(String[] args) {
+		
+		int total=1;
+		int i=1;
+		while(i<=4) {
+		    i++;
+		    System.out.println(total + " ");
+		    total= total*10; 
+		}
+	    
+		 total=total/10;
+		for(int i1=1;i1<=4;i1++) {
+			System.out.println(total + " ");
+			total=total/10;
+		
+		}
+	}
+}
