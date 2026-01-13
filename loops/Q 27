@@ -1,0 +1,30 @@
+// Generate Series 3,6,9,12,15,18,21,24,27,30
+public class Q27 {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Series of 3 is ");
+//		for(int i=1;i<=10;i++) {
+//			System.out.println(  " 3 * " + i  + " = " + 3 * i + " ");
+//		}
+//		
+//		for(int i=3;i<=30;i+=3) {
+//			System.out.print(  i + " ");
+//		}
+		
+//		for(int i=1;i<=30;i++) {
+//			if(i%3==0) {
+//			System.out.print(i + " ");
+//			}
+//		
+        int count=0;
+        int sum=0;
+		for(int i=1;i<=10;i++) {
+			System.out.print(i+i+i + " ");
+			sum=sum+i;
+			count++;
+		}
+		System.out.println( "The Count of Series = " + count);
+		System.out.println(sum+ " ");
+	}
+}
