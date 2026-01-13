@@ -1,0 +1,14 @@
+//  print the Number From 1 to 50 
+public class Q30 {
+
+	public static void main(String[] args) {
+		
+		for(int i=1;i<=50;i++) {
+			
+			if(i==25 || i==30) {  
+			  continue;
+			} 
+		      System.out.println(i + " ");
+		}
+	}
+}
