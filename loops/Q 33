@@ -1,0 +1,16 @@
+// Print the power of 4
+public class Q33 {
+ public static void main(String[] args) {
+	
+	 int a=4,b=3;
+	 int power=1;
+	 int count=0;
+	 System.out.println("Power of 4 is ");
+	 for(int i=1;i<=3;i++) {
+		 power=power*a;
+		 count++;
+		 System.out.println(power);
+	 } System.out.println("count = " + count);
+	 
+  }
+}
