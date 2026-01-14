@@ -1,0 +1,21 @@
+//  print the Factors of 15  and count the Digits
+public class Q32 {
+
+	public static void main(String[] args) {
+		
+		int num=15;
+		int i=1;
+		int count=0;
+		int sum=0;
+		while(num>=i) {
+			if(num%i==0) {
+				System.out.println(i + " ");
+				count++;
+				 sum=sum+i;
+			}i++;
+		}
+		System.out.println( "count the Digits = " + count );
+		System.out.println("sum = " + sum);
+		
+	}
+}
