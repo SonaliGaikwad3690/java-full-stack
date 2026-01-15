@@ -1,0 +1,30 @@
+
+public class EmployeeMainClass {
+
+	public static void main(String[] args) {
+		
+		Employee saurabh = new Employee ();
+		saurabh.employeeWorking();
+		saurabh.employeeTeaching();
+		saurabh.employeeSpeaking();
+		
+		System.out.println("---");
+		Employee ajay = new Employee();
+		ajay.employeeWorking();
+		ajay.employeeSpeaking();
+		ajay.employeeTeaching();
+		
+		System.out.println("---");
+		Employee om = new Employee();
+		om.employeeWorking();
+		om.employeeSpeaking();
+		om.employeeTeaching();
+		
+		System.out.println("---");
+		Employee sonal = new Employee();
+		sonal.employeeWorking();
+		sonal.employeeTeaching();
+		sonal.employeeSpeaking();
+		
+	}
+}
