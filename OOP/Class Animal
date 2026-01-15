@@ -1,0 +1,18 @@
+
+public class Animal {
+
+	String animalColour;
+	int animalAge;
+	String animalName;
+	
+	void animalRunning(){
+		System.out.println("Animal is Running..! ");
+	}
+	void animalEating() {
+		System.out.println("Animal is Eating..!");
+	}
+	void animalSleeping() {
+		System.out.println("Animal is Sleeping ..!");
+	}
+	
+}
