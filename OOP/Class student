@@ -1,0 +1,18 @@
+
+public class Student {
+
+	String studentName;
+	int studentAge;
+	int studentRollno;
+	
+	void studentRunning(){
+		System.out.println("Student is Running..! ");
+	}
+	   void studentEating() {
+		System.out.println("Student is Eating..!");
+	}
+	   void studentPlaying() {
+		System.out.println("Student is Playaing ..!");
+	
+	}
+}
