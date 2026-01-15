@@ -1,0 +1,17 @@
+
+public class Employee {
+
+	   String employeeName;
+	   int employeeSalary;
+	   String employeeCity;
+	   
+	   void employeeWorking() {
+		   System.out.println("Emplyee is Working...!");
+	   }
+	    void employeeSpeaking() {
+	    	System.out.println("Employee is Speaking...!");
+	    }
+	    void employeeTeaching() {
+	    	System.out.println("Employee is Teaching...!");
+	    }
+}
