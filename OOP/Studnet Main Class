@@ -1,0 +1,36 @@
+
+public class StudentMainClass {
+
+	public static void main(String[] args) {
+		
+		Student sonal = new Student () ;
+			sonal.studentRunning();
+			sonal.studentEating();
+			sonal.studentPlaying();
+			
+			System.out.println("---");
+			Student rashi = new Student();
+			rashi.studentRunning();
+			rashi.studentEating();
+			rashi.studentPlaying();
+			
+			System.out.println("---");
+			Student divyaa = new Student();
+			divyaa.studentRunning();
+			divyaa.studentEating();
+			divyaa.studentPlaying();
+			
+			System.out.println("---");
+			Student kavya = new Student();
+			kavya.studentRunning();
+			kavya.studentEating();
+			kavya.studentPlaying();
+			
+			System.out.println("---");
+			Student ramya = new Student();
+			ramya.studentRunning();
+			ramya.studentEating();
+			ramya.studentPlaying();
+		
+	}
+}
