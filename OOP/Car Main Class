@@ -1,0 +1,28 @@
+
+public class CarMainClass {
+
+	public static void main(String[] args) {
+		
+//		Object Creation in Always written in Main Method
+//		Syntax for --> Objects Creation
+//		Class refName = new Class();
+		
+		Car bmw=new Car();
+		bmw.carRunning();
+		bmw.carStaring();
+		bmw.carWheels();
+		
+		System.out.println("--------");
+		Car audi = new Car();
+		audi.carRunning();
+		audi.carStaring();
+		audi.carWheels();
+		
+		System.out.println("-------");
+		Car swift = new Car();
+		swift.carRunning();
+		swift.carStaring();
+		swift.carWheels();
+		
+	}
+}
