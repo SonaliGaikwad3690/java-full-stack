@@ -1,0 +1,35 @@
+
+public class VehicleMainClass {
+
+	public static void main(String[] args) {
+		
+		Vehicle bus =new Vehicle();
+		bus.vehicleWheels();
+		bus.vehicleStaring();
+		bus.vehicleEngine();
+		
+		System.out.println("---");
+		Vehicle truck = new Vehicle();
+		truck.vehicleWheels();
+		truck.vehicleStaring();
+		truck.vehicleEngine();
+		
+		System.out.println("---");
+		Vehicle motorCycle = new Vehicle();
+		motorCycle.vehicleWheels();
+		motorCycle.vehicleStaring();
+		motorCycle.vehicleEngine();
+		
+		System.out.println("---");
+		Vehicle van = new Vehicle();
+		van.vehicleWheels();
+		van.vehicleStaring();
+		van.vehicleEngine();
+		
+		System.out.println("---");
+		Vehicle taxi = new Vehicle();
+		taxi.vehicleEngine();
+		taxi.vehicleWheels();
+		taxi.vehicleStaring();
+	}
+}
