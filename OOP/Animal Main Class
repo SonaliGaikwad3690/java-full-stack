@@ -1,0 +1,44 @@
+
+public class elephantMainClass {
+
+	public static void main(String[] args) {
+		
+		Animal deer = new Animal();
+		deer.animalRunning();
+		deer.animalEating();
+		deer.animalSleeping();
+		
+		System.out.println("---");
+		Animal fox = new Animal();
+		fox.animalRunning();
+		fox.animalEating();
+		fox.animalSleeping();
+		
+		System.out.println("---");
+		Animal lion = new Animal();
+		lion.animalEating();
+		lion.animalRunning();
+		lion.animalSleeping();
+		
+		System.out.println("---");
+		Animal tigher = new Animal();
+		tigher.animalEating();
+		tigher.animalRunning();
+		tigher.animalSleeping();
+		
+		System.out.println("---");
+		Animal elephant = new Animal();
+		elephant.animalEating();
+		elephant.animalRunning();
+		elephant.animalSleeping();
+				
+		System.out.println("---");
+		Animal cheetah = new Animal();
+		cheetah.animalEating();
+		cheetah.animalRunning();
+		cheetah.animalSleeping();
+		
+		}
+		
+	}
+
