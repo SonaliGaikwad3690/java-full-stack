@@ -1,0 +1,17 @@
+
+public class Vehicle {
+
+	  String vehicleName;
+	  int vehicleModel;
+	  String vehicleclr;
+	  
+	  void vehicleStaring() {
+		  System.out.println("Vehicle is Staring..!");
+	  }
+	  void vehicleWheels() {
+		  System.out.println("Wheels are Moving ...!");
+	  }
+	  void vehicleEngine() {
+		  System.out.println("Engine is Working..!");
+	  }
+}
