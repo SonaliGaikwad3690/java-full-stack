@@ -1,0 +1,16 @@
+// Factors of 60
+public class Q43 {
+
+	public static void main(String[] args) {
+		 int num=60;
+		 int i=1;
+		 int count=0;
+		 while(num>=i) {
+			 if(num%i==0) {
+				 System.out.println(i + " ");
+				 count++;
+			 }i++;
+			 
+		 }System.out.println("The count of 60 Factors= " + count);
+	}
+}
