@@ -1,0 +1,18 @@
+// Print and Count the Odd Numbers
+public class Q44 {
+
+	public static void main(String[] args) {
+		
+		int num=30;
+		int count=0;
+		int i=0;
+		int sum=0;
+		while(num>=i) {
+			if(i%2==1) {
+				System.out.println(i + " ");
+				sum=sum+i;
+			}i++;
+		}System.out.println("Count the Odd numebrs = " + count);
+		System.out.println("Sum of the Odd Numbers = " + sum);
+	}
+}
