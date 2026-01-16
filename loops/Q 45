@@ -1,0 +1,19 @@
+// Reverse  numbers 101123
+public class Q45 {
+
+	public static void main(String[] args) {
+		
+		int num=101123;
+		int rem=0;
+		int rev=0;
+		int count=0;
+		for(int i=1;i<=num; i++) {
+			rem=num%10;
+			rev=rev*10+rem;
+			num=num/10;
+			count++;
+		}System.out.println( "Reverse number is = " + rev);
+		System.out.println("The Count of the Reverse number = " + count);
+	}
+	
+}
