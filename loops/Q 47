@@ -1,0 +1,14 @@
+// 
+public class Q47 {
+	
+	public static void main(String[] args) {
+
+	     int a = 6; 
+	     int b = 2;
+	     int power =1;
+	     for(int i=1;i<=b;i++) {
+	    	 power = power * a;
+	     }
+	       System.out.println(" Power of 6 = " + power); 
+	}
+}
