@@ -1,0 +1,16 @@
+
+public class BikeMain {
+
+	
+   public static void main(String[] args) {
+	Bike mt = new Bike ();
+	String p = mt.bikeName = "MT15";
+	double q = mt.price = 25000000;
+	int r = mt.engine = 245;
+     
+	System.out.println("Bike Name = " + p);
+	System.out.println("Bike Price = " + q);
+	System.out.println("Bike Engine = " + r);
+    }
+}
+ 
