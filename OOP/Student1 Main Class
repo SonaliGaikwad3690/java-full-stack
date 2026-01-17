@@ -1,0 +1,14 @@
+
+public class Student1MainClass {
+
+	public static void main(String[] args) {
+		
+		Student1 s1 = new Student1();
+		String a = s1.name="Sonal Gaikwad";
+		int b = s1.marks=88;
+		int c= s1.rollNo=12;
+		System.out.println("Name of Student = " + a);
+		System.out.println("Marks of Student= " + b);
+		System.out.println("Roll No of Student = " + c);
+	}
+}
