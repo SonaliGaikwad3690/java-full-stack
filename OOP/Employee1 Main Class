@@ -1,0 +1,25 @@
+
+public class Employee1Main {
+
+	public static void main(String[] args) {
+		
+		Employee1 emp1 = new Employee1();
+		String a = emp1.emName= "Saurabh";
+		int b = emp1.emId = 350;
+		double c = emp1.emSalary = 500000;
+		System.out.println("Employee Name = " + a);
+		System.out.println("Employee ID = " + b);
+		System.out.println("Employee Salary = " + c);
+		System.out.println("-----");
+		
+		
+		Employee1 emp2 = new Employee1();
+		String x = emp2.emName= "Sahil";
+		int y = emp2.emId = 330;
+		double z = emp2.emSalary = 600000;
+		System.out.println("Employee Name = " + x);
+		System.out.println("Employee ID = " + y);
+		System.out.println("Employee Salary = " + z);
+		System.out.println("-----");
+	}
+}
