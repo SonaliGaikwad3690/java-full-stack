@@ -1,0 +1,10 @@
+
+public class Student1{
+
+//	Variables
+	  int rollNo ;
+	  String name;
+	  int marks;
+	  
+	  
+}
