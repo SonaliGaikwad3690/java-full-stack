@@ -1,0 +1,8 @@
+
+public class Book {
+
+	
+	  int bookID;
+	  String title;
+	  String author;
+}
