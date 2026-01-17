@@ -1,0 +1,26 @@
+
+public class BookMainClass {
+
+	public static void main(String[] args) {
+		
+		Book b1 = new Book();
+		int a = b1.bookID = 124;
+		String b = b1.title = "Think Like Monk";
+		String c = b1.author = "Jay Shetty";
+		
+		System.out.println("Book ID = " + a );
+		System.out.println("Book Title = " + b);
+		System.out.println("Book author = " + c);
+		
+		Book b2 = new Book();
+		int x = b2.bookID = 134;
+		String y = b2.title = "You Can Fly";
+		String z = b2.author = "A.P.J Abdul Kalam";
+		
+		System.out.println("-----");
+		System.out.println("Book ID = " + x );
+		System.out.println("Book Title = " + y);
+		System.out.println("Book author = " + z);
+		
+	}
+}
