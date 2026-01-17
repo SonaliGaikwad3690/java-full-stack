@@ -1,0 +1,9 @@
+
+public class Bike {
+
+//	 Variables 
+	
+	String bikeName ;
+	int engine;
+	double price ;
+}
