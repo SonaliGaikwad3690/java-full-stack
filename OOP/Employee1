@@ -1,0 +1,11 @@
+
+public class Employee1 {
+
+	// variables 
+	 
+	 String emName ;
+	 int emId ;
+     double emSalary;
+}
+
+   
