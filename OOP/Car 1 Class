@@ -1,0 +1,17 @@
+
+public class Car {
+
+	String carColour;
+	int modelYr;
+	String carName;
+	
+	void carRunning() {
+		System.out.println("car is running");
+	}
+	void carStaring () {
+		System.out.println("Staring Activity");
+	}
+	void carWheels () {
+		System.out.println(" Wheeels are Moving");
+	}
+}
