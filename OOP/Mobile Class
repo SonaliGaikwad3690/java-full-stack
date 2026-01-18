@@ -1,0 +1,8 @@
+
+public class Mobile {
+  
+//	    Variables For Mobile
+	    String  mbcompany ;
+	    String mbcolour ;
+	    double mbcost ;
+}
