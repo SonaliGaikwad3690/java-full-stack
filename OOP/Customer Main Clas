@@ -1,0 +1,15 @@
+
+public class CustomerMain {
+
+	public static void main(String[] args) {
+		
+		Customer cm = new Customer ();
+		String x = cm.cmName = " Saurabh Gaikwad" ;
+		int y = cm.cmID = 234;
+	    long z = cm.cmNumber = 7057975788L;
+	    
+	    System.out.println("customer Name = " + x);
+	    System.out.println("customer ID = " + y);
+	    System.out.println("customer Nubmer = " + z);
+	}
+}
