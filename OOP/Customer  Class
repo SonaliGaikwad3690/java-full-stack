@@ -1,0 +1,10 @@
+
+public class Customer {
+
+//	  Variables For Customer 
+	
+	   int cmID;
+	   String cmName;
+	   long cmNumber;
+	   
+}
