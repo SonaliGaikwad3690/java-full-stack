@@ -1,0 +1,26 @@
+
+public class CollegeMain {
+
+	public static void main(String[] args) {
+		
+		College c1 = new College();
+		String a = c1.clgName = "NCER";
+		String b = c1.clgCity = "Talegaon" ;
+		int c = c1.clgRate = 5;
+		
+		System.out.println("College Name = " + a);
+		System.out.println("College City = " + b);
+		System.out.println("College Rate = " + c);
+		
+		System.out.println("-------");
+		College c2 = new College();
+		String x = c2.clgName = "NMIT";
+		String y = c2.clgCity = "Talegaon" ;
+		int z = c2.clgRate = 5;
+		
+		System.out.println("College Name = " + x);
+		System.out.println("College City = " + y);
+		System.out.println("College Rate = " + z);
+		
+	}
+}
