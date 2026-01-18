@@ -1,0 +1,13 @@
+
+public class College {
+
+	
+//      variable
+	
+	   String clgName;
+	   String clgCity;
+	   int clgRate ;
+	   
+}
+
+   
