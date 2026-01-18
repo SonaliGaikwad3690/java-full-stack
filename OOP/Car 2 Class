@@ -1,0 +1,7 @@
+
+public class Car2 {
+
+	   String brand;
+	   String model;
+	   double price;
+}
