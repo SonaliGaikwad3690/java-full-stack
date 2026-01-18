@@ -1,0 +1,27 @@
+
+public class Car2Main {
+
+	public static void main(String[] args) {
+		
+		Car1 c1 = new Car1();
+		String p = c1.brand = "Jeep";
+		String q = c1.model = "Meridian";
+		double r = c1.price = 22.33;
+		
+		System.out.println("Car Brand = " + p );
+		System.out.println("Car Model = " + q);
+		System.out.println("Car Price = " + r);
+		System.out.println("-----");
+		
+		Car1 c2 = new Car1();
+		String a = c2.brand = "TaTa Motors";
+		String b = c2.model = "Punch";
+		double c = c2.price = 5.69;
+		
+		System.out.println("Car Brand = " + a );
+		System.out.println("Car Model = " + b);
+		System.out.println("Car Price = " + c);
+		System.out.println("-----");
+		
+	}
+}
