@@ -1,0 +1,26 @@
+
+public class MobileMain {
+
+	public static void main(String[] args) {
+		
+		Mobile m1 = new Mobile();
+		String x = m1.mbcompany =" RealMe" ;
+		String y = m1.mbcolour ="White" ;
+		double z = m1.mbcost = 250000;
+		
+		System.out.println("Mobile Company = " + x);
+		System.out.println("Mobile Colour = " + y);
+		System.out.println("Mobile cost = " + z);
+		
+		Mobile m2 = new Mobile();
+		String p = m2.mbcompany =" Moto" ;
+		String q = m2.mbcolour ="Black" ;
+		double r = m2.mbcost = 350000;
+		
+		System.out.println("--------");
+		System.out.println("Mobile Company = " + p);
+		System.out.println("Mobile Colour = " + q);
+		System.out.println("Mobile cost = " + r);
+
+	}
+}
