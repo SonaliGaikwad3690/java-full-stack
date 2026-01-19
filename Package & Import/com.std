@@ -1,0 +1,8 @@
+package com.std;
+
+public class Sonal {
+
+	public void S2() {
+		System.out.println("This is Sonal From std Package...!");
+	}
+}
