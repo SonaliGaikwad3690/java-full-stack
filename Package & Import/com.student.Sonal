@@ -1,0 +1,14 @@
+package com.main;
+
+import com.student.Sonal;
+
+public class SonalMain {
+
+	public static void main(String[] args) {
+		
+		Sonal g = new Sonal ();
+		g.S1();
+		com.std.Sonal g1 = new com.std.Sonal();
+		g1.S2();
+	}
+}
