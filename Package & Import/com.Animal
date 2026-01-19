@@ -1,0 +1,8 @@
+package com.animal;
+
+public class Dog {
+
+	public void M2() {
+		System.out.println("This is Dog from Animal Package...!");
+	}
+}
