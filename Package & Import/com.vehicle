@@ -1,0 +1,9 @@
+package com.vehicle;
+
+public class MT {
+
+	public void M2 () {
+		
+		System.out.println("This is MT From Vehicle Package....! ");
+	}
+}
