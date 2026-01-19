@@ -1,0 +1,9 @@
+package com.student;
+
+public class Sonal {
+
+	public void S1() {
+		System.out.println("This is Sonal From student Package...!");
+	}
+	
+}
