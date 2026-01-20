@@ -1,0 +1,12 @@
+package com.tka;
+
+public class SignalMainClass {
+
+	public static void main(String[] args) {
+		
+		Signal s = new Signal ();
+		s.red();
+		s.yellow();
+		s.green();
+	}
+}
