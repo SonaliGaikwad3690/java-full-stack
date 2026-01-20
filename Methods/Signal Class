@@ -1,0 +1,15 @@
+package com.tka;
+
+public class Signal {
+
+	public void red  () {
+		System.out.println("Stop...!");
+	}
+	public void yellow  () {
+		System.out.println("Wait...!");
+	}
+	public void green  () {
+		System.out.println("Go...!");
+	}
+	
+}
