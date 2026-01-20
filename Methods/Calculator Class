@@ -1,0 +1,28 @@
+package com.tka;
+
+public class Calculator {
+
+	int a = 5;
+	int b = 3;
+	public void myAddition () {
+		System.out.println("The Additon of " + a + " ," + b + " = " + (a + b));
+	}
+	
+	int a1 = 5;
+	int b1 = 3;
+	public void mySubstraction () {
+		System.out.println("The Substraction of " + a1 + " , " + b1 + " = " + (a - b));
+	}
+	
+	int a2 = 5;
+	int b2 = 3;
+	public void myMultiplication () {
+	System.out.println("The Multipliction of " + a2 + ", " + b2 + " = " + (a * b));
+	}
+	
+	int a3= 5;
+	int b3 = 3;
+	public void myDivision () {
+	System.out.println("The Division of " + a3 + ", " + b3 + " = " + (a / b));
+	}
+}
