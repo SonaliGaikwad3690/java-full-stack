@@ -1,0 +1,14 @@
+
+public class Q52 {
+
+	public static void main(String[] args) {
+		
+		int num=20;
+		int i =1;
+		while(num>=1) {
+			if(num%i==0) {
+		    System.out.println(i +" ");
+			}i++;
+		}
+	}
+}
