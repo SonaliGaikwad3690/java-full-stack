@@ -1,0 +1,14 @@
+
+public class Q49 {
+
+	public static void main(String[] args) {
+	
+	   int num=30;
+	   int i=1;
+	     while(num>=i) {
+		   if (i%2!=0) {
+			System.out.println(i + " ");
+	     	}i++;
+	   }
+	}
+}
