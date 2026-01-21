@@ -1,0 +1,16 @@
+package com.tka;
+
+public class FactorialNum {
+
+//Write a method that prints factorial of a number.
+	
+	public void printFactorialNumber() {
+
+		int num = 3;
+		int fact = 1;
+		for (int i = 1; i <= num; i++) {
+			fact = fact * i;
+		}
+		System.out.println("Factorial number of " + num + " is " + fact);
+	}
+}
