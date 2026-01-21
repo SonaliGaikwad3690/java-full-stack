@@ -1,0 +1,26 @@
+package com.tka;
+
+public class SumOfPrime {
+
+	public static void main(String[] args) {
+
+		int sum = 0;
+		System.out.println("Prime Numbers From 1 to 50...!");
+		for (int i = 1; i <= 50; i++) {
+			int count = 0;
+
+			for (int j = 1; j <= i; j++) {
+				if (i % j == 0) {
+					count++;
+
+				}
+
+			}
+			if (count == 2) {
+				System.out.println(i + " ");
+				sum = sum + i;
+			}
+		}
+		System.out.println("Sum of The Prime Numebr from 1 to 50 = " + sum);
+	}
+}
