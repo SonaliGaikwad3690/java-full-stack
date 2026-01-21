@@ -1,0 +1,34 @@
+package com.tka;
+
+public class Datatypes {
+
+	public byte m1 () {
+		return 12;
+		
+	}
+	public short m2 () {
+		return 132;
+		
+	}
+	public int  m3 () {
+		return 1332;	
+	}
+	public float m4 () {
+		return 13.32f;
+	}
+	public double m5 () {
+		return 133.32;
+	}
+	public long m6 () {
+		return 1348793729;
+	}
+	public char m7 () {
+		return '@';
+	}
+	public boolean m8 () {
+		return true;
+	}
+	public String m9 () {
+		return "Sonal";
+	}
+}
