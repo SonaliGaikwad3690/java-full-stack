@@ -1,0 +1,19 @@
+package com.tka;
+
+public class MainDatatypes {
+
+	public static void main(String[] args) {
+		
+		Datatypes d = new Datatypes();
+			System.out.println(d.m1());
+			System.out.println(d.m2());
+			System.out.println(d.m3());
+			System.out.println(d.m4());
+			System.out.println(d.m5());
+			System.out.println(d.m6());
+			System.out.println(d.m7());
+			System.out.println(d.m8());
+			System.out.println(d.m9());
+		
+	}
+}
