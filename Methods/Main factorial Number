@@ -1,0 +1,11 @@
+package com.tka;
+
+public class MainFactorial {
+
+	public static void main(String[] args) {
+		
+		FactorialNum fact = new FactorialNum();
+		fact.printFactorialNumber();
+		
+	}
+}
