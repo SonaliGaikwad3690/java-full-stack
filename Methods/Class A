@@ -1,0 +1,20 @@
+package com.tka;
+
+public class A {
+
+	public int myAddition() {
+		int a=5;
+		int b =5;
+		int c=a + b ;
+		return c;
+		
+	}
+	
+	public String myFullName() {
+		String  a= "Sonal";
+		 String b = "Gaikwad";
+		 String c = a + " " +  b;
+		return c;
+	}
+	
+}
