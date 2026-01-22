@@ -1,0 +1,14 @@
+
+public class Factors {
+
+	public void factors() {
+		
+		int num=10;
+		int i=1;
+		while(num>=i) {
+			if(num%i==0) {
+				System.out.println(i+ " ");
+			}i++;
+		}
+	}
+}
