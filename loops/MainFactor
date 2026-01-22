@@ -1,0 +1,8 @@
+
+public class Mainfactor {
+
+	public static void main(String[] args) {
+		Factors fact =new Factors ();
+		fact.factors();
+	}
+}
