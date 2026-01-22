@@ -1,0 +1,22 @@
+
+public class Q61 {
+
+	public static void main(String[] args) {
+		
+		int num = 2552;
+		int rem  =0;
+		int rev = 0;
+		int i =1;
+		int org = num;
+		while(num>=i) {
+			rem = num%10;
+			rev=rev*10+rem;
+			num=num/10;
+		}i++;
+	    if(org==rev) {
+			System.out.println("Yes This is a Palondrome Number...!");
+		}else {
+			System.out.println("No This is Not A Palindrome Number...!");
+		}
+	}
+}
