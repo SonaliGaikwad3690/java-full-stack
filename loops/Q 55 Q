@@ -1,0 +1,23 @@
+
+public class Q55 {
+
+	public static void main(String[] args) {
+		
+		int num = 24442;
+		int org=num;
+		int i =1;
+		int rem=0;
+		int rev=0;
+		while(i<=num) {
+			rem=num%10;
+			rev=rev*10 + rem;
+			num=num/10;
+		}
+		if(rev==org){
+			System.out.println("Yes This is palindrome Number ");
+			
+		}else {
+			System.out.println("no This is Not a palindrome Number ");
+		}
+	}
+}
