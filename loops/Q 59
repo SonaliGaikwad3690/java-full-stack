@@ -1,0 +1,22 @@
+
+public class Q59 {
+
+	public static void main(String[] args) {
+		
+		int num =152;
+		int digit=0;
+		int count=0;
+		int org=num;
+		while(num>0) {
+			digit=num%10;
+			count = count + (digit* digit * digit);
+			num=num/10;
+		}
+		if(org==count) {
+			System.out.println("Yes Armstrong Number..!");
+		}else {
+			System.out.println("This is Not a Armstrong Number..!");
+		}
+				
+	}
+}
