@@ -1,0 +1,10 @@
+package com.java;
+
+public class MainFactors {
+
+	public static void main(String[] args) {
+		
+		Factors fact = new Factors ();
+		System.out.println(fact.Factors());
+	}
+}
