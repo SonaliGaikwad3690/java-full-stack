@@ -1,0 +1,15 @@
+
+public class Q54 {
+
+	public static void main(String[] args) {
+		 
+		int num = 35;
+		int i=1;
+		while(num>i) {
+			if(num%i==0) {
+				System.out.println(i + " ");
+			}  
+			  i++;
+		}
+	}
+}
