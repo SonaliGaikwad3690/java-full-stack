@@ -1,0 +1,20 @@
+
+public class Q65 {
+
+	public static void main(String[] args) {
+		
+		int num =8998;
+		int rem=0;
+		int rev =0;
+		int org=num;
+		for(int i=1; i<=num ;i++) {
+			rem=num%10;
+			rev=rev*10+rem;
+			num=num/10;
+		}if(org==rev) {
+			System.out.println(" 8998 is a palindrome Number...!");
+		}else {
+			System.out.println(" 8998 is Not a palindrome Number...!");
+		}
+	}
+}
