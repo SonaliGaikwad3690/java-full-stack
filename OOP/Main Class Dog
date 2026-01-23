@@ -1,0 +1,15 @@
+package com.animal;
+
+import com.animal.Dog;
+
+ public class MainClass {
+
+	   public static void main(String[] args) {
+		
+		Dog d= new Dog();
+		d.M2();
+		com.pets.Dog d1 = new com.pets.Dog();
+		d1.M1();
+	}
+}
+
