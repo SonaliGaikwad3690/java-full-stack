@@ -1,0 +1,15 @@
+package com.withReturnType;
+
+public class DigitSum {
+
+	public int addDigit() {
+		int num = 1234;
+		int sum = 0;
+		for (int i = num; i > 0; i--) {
+			int digit = num % 10;
+			sum = sum + digit;
+			num = num / 10;
+		}
+		return sum;
+	}
+}
