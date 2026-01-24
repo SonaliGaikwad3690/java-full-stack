@@ -1,0 +1,9 @@
+package com.withReturnType;
+
+public class MainDigit {
+ public static void main(String[] args) {
+
+	 DigitSum d = new DigitSum();
+	 System.out.println(d.addDigit());
+}
+}
