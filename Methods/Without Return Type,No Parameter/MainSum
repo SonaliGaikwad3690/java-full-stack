@@ -1,0 +1,13 @@
+
+package com.withoutreturntype;
+
+public class SumMain {
+
+	public static void main(String[] args) {
+		Sum s1 = new Sum();
+		s1.printSum();
+		// System.out.println(s1.printSum());//we can not write like this because
+		// method does not return any value
+	}
+
+}
