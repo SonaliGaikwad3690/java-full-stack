@@ -1,0 +1,10 @@
+
+package com.withoutreturntype;
+
+//Write a method that prints the sum of two numbers.
+public class Sum {
+	public void printSum() {
+		int a = 6, b = 8;
+		System.out.println("Sum " + (a + b));
+	}
+}
