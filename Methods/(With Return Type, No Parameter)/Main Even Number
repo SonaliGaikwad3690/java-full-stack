@@ -1,0 +1,10 @@
+package com.withReturnType;
+
+public class MainEven {
+
+	public static void main(String[] args) {
+		EvenNum num = new EvenNum();
+		System.out.println(num.checkEven());
+		// so here if num is even it will print true otherwise false
+	}
+}
