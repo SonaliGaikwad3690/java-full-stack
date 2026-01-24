@@ -1,0 +1,10 @@
+
+package com.withoutreturntype;
+
+//. No Parameter WITHOUT Return Type
+//Write a method that prints your name.
+public class Name {
+	public void printName() {
+		System.out.println("Sonal Gaikwad");
+	}
+}
