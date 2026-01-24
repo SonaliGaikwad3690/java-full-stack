@@ -1,0 +1,19 @@
+package com.withReturnType;
+
+public class EvenNum {
+
+//write a method that return true if a fixed number is even
+   
+	public boolean checkEven() {//why boolean because we are returning
+		//value in true/false it comes in boolean data Ftype 
+		//return type and return should always match
+		int num = 12;
+		if (num % 2 == 0) {
+			return true;
+		}else {
+			return false;
+		}
+		
+	}
+
+}
