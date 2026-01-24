@@ -1,0 +1,13 @@
+
+package com.withoutreturntype;
+
+public class NameMain {
+
+	public static void main(String[] args) {
+		// calling method
+		// create object
+		Name obj = new Name();
+		obj.printName();
+	}
+
+}
