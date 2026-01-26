@@ -1,0 +1,14 @@
+package com.withoutReturnType;
+
+public class Factors {
+
+	public void numFactors() {
+		int num =10; 
+		int i=1;
+		while(num>=i) {
+		if(10%i==0) {
+			System.out.println(" factors Of 10 = " + i);
+		}i++;
+		}
+	}
+}
