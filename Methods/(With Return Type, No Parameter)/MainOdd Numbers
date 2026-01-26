@@ -1,0 +1,10 @@
+package com.withReturnType;
+
+public class MainOddNum {
+
+	public static void main(String[] args) {
+		
+		Odd n = new Odd ();
+		System.out.println(n.OddNum());
+	}
+}
