@@ -1,0 +1,15 @@
+package com.withReturnType;
+
+public class OddNum {
+
+	public int countOdd(){
+		int count=0;
+		for(int i=1;i<=10;i++) {
+			if(i%2==1) {
+				count++;
+			}
+		}
+		return count;
+		
+	}
+}
