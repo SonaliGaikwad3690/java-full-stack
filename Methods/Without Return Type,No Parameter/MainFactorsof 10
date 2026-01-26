@@ -1,0 +1,10 @@
+package com.withoutReturnType;
+
+public class MainFactors {
+
+	public static void main(String[] args) {
+		
+		Factors fact = new Factors();
+		fact.numFactors();
+	}
+}
