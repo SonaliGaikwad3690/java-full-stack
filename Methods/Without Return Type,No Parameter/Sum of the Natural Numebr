@@ -1,0 +1,12 @@
+package com.withoutReturnType;
+
+public class NaturalNum {
+
+	public void addNaturalNum() {
+		int sum=0;
+		for(int i =1 ; i<=10; i++) {
+			sum=sum+i;
+		}
+		System.out.println("Sum of the Fierst Natural number = " + sum );
+	}
+}
