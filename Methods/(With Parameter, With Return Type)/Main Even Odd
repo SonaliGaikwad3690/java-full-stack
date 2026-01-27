@@ -1,0 +1,10 @@
+package com.withParameterWithReturnType;
+
+public class MainEvenOdd {
+
+	public static void main(String[] args) {
+		
+		EvenOdd n = new EvenOdd();
+		n.checkEvenOdd(36);
+	}
+}
