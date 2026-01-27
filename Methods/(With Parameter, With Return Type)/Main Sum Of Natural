@@ -1,0 +1,10 @@
+package com.withParameterWithReturnType;
+
+public class MainNatural {
+
+	public static void main(String[] args) {
+		
+		SumNaturalNum n =new SumNaturalNum () ;
+		System.out.println(n.addNaturalnum(10));
+	}
+}
