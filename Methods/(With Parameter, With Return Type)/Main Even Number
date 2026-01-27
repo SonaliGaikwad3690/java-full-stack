@@ -1,0 +1,9 @@
+package com.withParameterWithReturnType;
+
+public class MainEven {
+
+	public static void main(String[] args) {
+		EvenNum e =new EvenNum();
+		e.printEvenNum(10);
+	}
+}
