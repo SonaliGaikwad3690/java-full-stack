@@ -1,0 +1,10 @@
+package com.withParameterWithReturnType;
+
+public class MainName {
+
+	public static void main(String[] args) {
+		
+		FullName n = new FullName();
+		n.myNAme(null);
+	}
+}
