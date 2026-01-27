@@ -1,0 +1,11 @@
+package com.withParameterWithReturnType;
+
+public class FullName {
+
+	public String myNAme (String Name) {
+		String name = "Sonal Gaikwad";
+		System.out.println(name);
+		return Name;
+		
+	}
+}
