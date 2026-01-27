@@ -1,0 +1,17 @@
+package com.withParameterWithReturnType;
+
+public class EvenOdd {
+
+	public int checkEvenOdd(int num) {
+
+		if (num % 2 == 0) {
+
+			System.out.println(num + " Number is an Even Number...!");
+		} else {
+
+			System.out.println(num + " Number is an Odd number");
+		}
+
+		return num;
+	}
+}
