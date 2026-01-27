@@ -1,0 +1,12 @@
+package com.withParameterWithoutReturnType;
+
+public class NaturalNum {
+
+public void printThenumber(int n) {
+		
+		for(int i =1;i<=n;i++){
+			System.out.println(i);
+		}
+	}
+}
+
