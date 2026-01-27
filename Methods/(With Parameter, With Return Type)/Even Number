@@ -1,0 +1,17 @@
+package com.withParameterWithReturnType;
+
+public class EvenNum {
+
+	public int printEvenNum(int n) {
+		int count = 0;
+		for (int i = 1; i <= n; i++) {
+			if (i % 2 == 0) {
+//				System.out.println(i + " "); // for printing the Even numbers
+				count++;
+			}
+		}
+		System.out.println(count);
+
+		return count;
+	}
+}
