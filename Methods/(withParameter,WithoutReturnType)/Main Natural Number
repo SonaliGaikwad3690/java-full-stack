@@ -1,0 +1,10 @@
+package com.withParameterWithoutReturnType;
+
+public class MainFullName {
+
+	public static void main(String[] args) {
+		 
+		NaturalNum fn = new NaturalNum();
+		fn.printThenumber(10);
+	}
+}
