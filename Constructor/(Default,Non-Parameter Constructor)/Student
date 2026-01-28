@@ -1,0 +1,10 @@
+package com.DefaultConstructor;
+
+public class StudentS {
+	
+	StudentS(){
+		String print = " Welcome Studnet";
+		System.out.println(print);
+	}
+
+}
