@@ -1,0 +1,25 @@
+package com.ParameterisedConstructor;
+
+public class Student {
+
+	int id;
+	String name;
+	Student(int id , String name){
+		this.id = id;
+		this.name = name;
+	}
+	
+	 public void display() {
+		 System.out.println("Student Id = " + id);
+		 System.out.println("Student Name = " + name);
+
+	 }
+	 
+	 public static void main(String[] args) {
+	        // Creating object and passing values to constructor
+	        Student s = new Student(101, "Sonal");
+
+	        // Calling display method
+	        s.display();
+	    }
+}
