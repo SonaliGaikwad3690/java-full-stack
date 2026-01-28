@@ -1,0 +1,9 @@
+package com.DefaultConstructor;
+
+public class Vehicle {
+
+	Vehicle(){
+		String vName = "MT15";
+		System.out.println("Vehicle Name = " + vName);
+	}
+}
