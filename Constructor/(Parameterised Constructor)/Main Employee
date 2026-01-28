@@ -1,0 +1,13 @@
+package com.ParameterisedConstructor;
+
+public class EmployeeDashBoard {
+
+	public static void main(String[] args) {
+		
+		Employee e = new Employee(124, "Goa", "Girish" , 400000 , 237475868);
+		e.displayInfo();
+		
+		Employee e1 = new Employee(124, "pune", "Sham" , 450000 , 233475868);
+		e1.displayInfo();
+	}
+}
