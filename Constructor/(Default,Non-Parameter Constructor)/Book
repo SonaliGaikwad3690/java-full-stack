@@ -1,0 +1,9 @@
+package com.DefaultConstructor;
+
+public class Book {
+
+	Book(){
+		int price= 350;
+		System.out.println("Book Price = " + price);
+	}
+}
