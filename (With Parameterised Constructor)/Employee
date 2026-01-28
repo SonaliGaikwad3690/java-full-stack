@@ -1,0 +1,26 @@
+package com.ParameterisedConstructor;
+
+public class Employee {
+
+	int empId ;
+	String city;
+	String name;
+	double salary ;
+	long mobNo;
+	Employee( int empId,String city,String name,double salary,long mobNo) {
+		this.empId = empId;
+		this.city = city;
+		this.name = name;
+		this.salary = salary;
+		this.mobNo = mobNo;
+	}	
+	
+   public void displayInfo() {
+		System.out.println("Employee Id = " + empId);
+		System.out.println("Employee City = " + city);
+		System.out.println("Employee Name = " + name);
+		System.out.println("Employee Salary = " + salary);
+		System.out.println("Employee Mobile No = " + mobNo);
+		System.err.println("-------------");
+	}
+ }
