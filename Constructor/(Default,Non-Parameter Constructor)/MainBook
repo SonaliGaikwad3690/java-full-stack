@@ -1,0 +1,9 @@
+package com.DefaultConstructor;
+
+public class MainBook {
+
+	public static void main(String[] args) {
+		
+		Book b = new Book();
+	}
+}
