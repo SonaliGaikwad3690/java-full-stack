@@ -1,0 +1,13 @@
+package com.Encapsulation;
+
+public class MainBamance {
+
+	public static void main(String[] args) {
+		
+		BankAccount bal = new BankAccount();
+		bal.deposit(35000);
+		bal.withdraw(30000);
+		System.out.println(bal.getBalance());
+		System.out.println(bal.getBalance());
+	}
+}
