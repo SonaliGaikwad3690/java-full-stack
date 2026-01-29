@@ -1,0 +1,27 @@
+package com.ParameterisedConstructor;
+//   Create a class Account with default constructor set balance = 1000,
+//   parameterized constructor set balance 
+//   based on the user input, display both account balance.
+
+public class Account {
+
+	double balance;
+
+//	 Default Constructor
+	Account() {
+		balance = 1000;
+//		System.out.println(balance);
+	}
+
+//	 Parameterized Constructor
+	Account(double balance) {
+		this.balance = balance;
+	}
+
+//	  Method
+	public void balance() {
+		System.out.println("Account Balance = " + balance);
+
+	}
+
+}
