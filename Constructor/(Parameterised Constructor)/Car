@@ -1,0 +1,31 @@
+package com.ParameterisedConstructor;
+// Write Write a program to create a class With: No parameterized constructor that takes car start
+//and parameterized constructor that takes model name and price. Create both objects.
+
+ public class Car {
+
+	 String model;
+	   int price;
+//	  Non- Parameterized Constructor  
+	 Car (){
+		 
+		 System.out.println("Car Staretd");
+		 
+	 }
+//     Parameterized Constructor 
+	  Car(String model,int price){
+		  this.model= model;
+		   this.price= price;
+	  }
+	 
+	   public void display () {
+		   System.out.println( "The Model Name of Car = " + model);
+		   System.out.println( "The Price of Car = " + price);
+	   }
+	   public static void main(String[] args) {
+//		  Object Creation 
+		   Car c = new Car();
+		   Car c1 = new Car ("Tata" , 9798476);
+		   c.display();
+	}
+}
