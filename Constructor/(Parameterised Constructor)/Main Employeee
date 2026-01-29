@@ -1,0 +1,12 @@
+package com.ParameterisedConstructor;
+
+public class MainEmployeee {
+
+	public static void main(String[] args) {
+		Employeee e1 = new Employeee (123, "Sonal");
+		Employeee e2 = new Employeee (122, "Rashi");
+		e1.display();
+		e2.display();
+		
+	}
+}
