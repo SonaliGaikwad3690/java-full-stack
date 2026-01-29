@@ -1,0 +1,31 @@
+package com.Encapsulation;
+
+public class BankAccount {
+
+	private double balance;
+
+	// deposit method
+	public void deposit(double amount) {
+		if (amount > 0) {
+			balance = balance + amount;
+			System.out.println("Deposited: " + amount);
+		} else {
+			System.out.println("Invalid deposit amount");
+		}
+	}
+
+	// withdraw method
+	public void withdraw(double amount) {
+		if (amount > 0 && amount <= balance) {
+			balance = balance - amount;
+			System.out.println("Withdrawn: " + amount);
+		} else {
+			System.out.println("Insufficient balance or invalid amount");
+		}
+	}
+
+	// get balance method
+	public double getBalance() {
+		return balance;
+	}
+}
