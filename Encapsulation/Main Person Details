@@ -1,0 +1,13 @@
+package com.Encapsulation;
+
+public class PersonDetails {
+
+	public static void main(String[] args) {
+		
+		Person p = new Person ();
+		p.setName("Sonal");
+		p.setAge(24);
+		System.out.println( "The Person Name = " + p.getName());
+		System.out.println( "The Person Age = " + p.getAge());
+	}
+}
