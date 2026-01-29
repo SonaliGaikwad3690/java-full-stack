@@ -1,0 +1,13 @@
+package com.ParameterisedConstructor;
+
+public class MainAccount {
+
+	 public static void main(String[] args) {
+			
+		 Account acc1 = new Account ();
+		 Account acc2 = new Account (2000);
+		  acc1.balance();
+	      acc2.balance();
+	 }
+	
+}
