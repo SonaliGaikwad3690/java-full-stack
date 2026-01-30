@@ -1,0 +1,20 @@
+package com.Scanner;
+
+import java.util.Scanner;
+
+public class CountDigits {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Number");
+		int n = sc.nextInt();
+		int count = 0;
+		for(int i=1; i<=n; i++) {
+			count++;
+			System.out.println(i);
+		}System.out.println("Count of 1 to 10 is = " +  count);
+		sc.close();
+	}
+
+}
