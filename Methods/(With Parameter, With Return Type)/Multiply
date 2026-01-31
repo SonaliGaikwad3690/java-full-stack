@@ -1,0 +1,15 @@
+package com.withParameterWithReturnType;
+
+public class Multiply {
+
+	public String display (int a , int b) {
+		int c = a * b ;
+		return "Multiply of " + a +  " * " + b +  " = " + c;
+		
+	}
+	
+	public static void main(String[] args) {
+		Multiply mul = new Multiply ();
+		System.out.println(mul.display(5, 2));
+	}
+}
