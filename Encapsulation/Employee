@@ -1,0 +1,27 @@
+package com.Encapsulation;
+
+public class Employee {
+
+	private double salary;
+	
+	public double getSalray() {
+		return salary;
+	}
+	
+	public void setSalary(double salary) {
+		if(salary>0) {
+		this.salary = salary ;
+		}else {
+			System.out.println("Error = Salary must be grater than 0 ");
+		}
+	}
+	
+//	 Main Method Object Creation
+	public static void main(String[] args) {
+		
+		Employee emp = new Employee();
+		emp.setSalary(250000); // valid
+		System.out.println("Salary " + emp.getSalray());
+		emp.setSalary(-5000); // invalid
+	}
+}
