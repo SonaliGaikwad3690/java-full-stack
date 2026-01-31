@@ -1,0 +1,13 @@
+package com.WithoutParameterwithoutReturnType;
+// Print the message " Welcome in java " (no return type , no parameter )
+public class Message {
+
+	public void Message() {
+		System.out.println("Welcome to Java");
+	}
+	
+	public static void main(String[] args) {
+		Message msg = new Message ();
+		msg.Message();
+	}
+}
