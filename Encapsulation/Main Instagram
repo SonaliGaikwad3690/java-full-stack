@@ -1,0 +1,13 @@
+package com.Encapsulation;
+
+public class MainInstagram {
+
+	public static void main(String[] args) {
+		
+		Instagram insta = new Instagram();
+		insta.setUserName("sonaligwaikwad");
+		insta.setPassword("sonal@123");
+		System.out.println(insta.getUserName());
+		System.out.println(insta.getPassword());
+	}
+}
