@@ -1,0 +1,33 @@
+package com.Encapsulation;
+
+public class Student {
+
+	private int id ;
+	private String name;
+	
+	public int getId() {
+		return id;
+		
+	}
+	public void setId(int id) {
+		this.id = id ;
+	}
+private String getName() {
+		
+		return name;
+	}
+	private void setName(String name) {
+		this.name = name ;
+		
+	}
+	
+	public static void main(String[] args) {
+		Student std = new Student ();
+		std.setId(123);
+		std.setName("Sonal");
+		System.out.println(std.getId());
+		System.out.println(std.getName());
+	}
+	
+	
+}
