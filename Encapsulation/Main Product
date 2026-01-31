@@ -1,0 +1,16 @@
+package com.Encapsulation;
+
+public class CalculateFinalPrice {
+
+	public static void main(String[] args) {
+		
+		Product p = new Product ();
+		p.setproductName("mobile");
+		p.setProductPrice(10000);
+		p.setDiscountPercent(10);
+		System.out.println("Product Name = " + p.getProductName());
+		System.out.println("Product Price = " + p.getProductPrice());
+		System.out.println("Product DiscountPercent = " + p.getDiscountPercent());
+		System.out.println("Product Discount Ammount = " + p.discountAmount());
+	}
+}
