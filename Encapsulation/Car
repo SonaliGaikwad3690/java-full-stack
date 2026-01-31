@@ -1,0 +1,25 @@
+package com.Encapsulation;
+
+public class Car {
+
+	private String brand;
+	private double price;
+
+	public String getBrand() {
+		return brand;
+	}
+
+	public void setPrice(double price) {
+		this.price = price;
+	}
+
+	public double getPrice() {
+		return price;
+	}
+
+	public void setbrand(String brand) {
+		this.brand = brand;
+	}
+	
+	
+}
