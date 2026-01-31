@@ -1,0 +1,48 @@
+package com.Encapsulation;
+
+public class Product {
+
+	private String productName;
+	private double productPrice;
+	private double discountPercent;
+
+	public void setproductName(String productName) {
+		this.productName = productName;
+	}
+
+	public String getProductName() {
+		return productName;
+	}
+
+	public void setProductPrice(double productPrice) {
+		if (productPrice > 0) {
+			this.productPrice = productPrice;
+		} else {
+			System.out.println("Price must be Greater than 0");
+		}
+	}
+
+	public double getProductPrice() {
+		return productPrice;
+	}
+
+	public void setDiscountPercent(double discountPercent) {
+		if (productPrice >= 0 && productPrice >= 100) {
+			this.discountPercent = discountPercent;
+
+		} else {
+			System.out.println("Discount must be betwen 0 & 100 ");
+		}
+	}
+
+	public double getDiscountPercent() {
+
+		return discountPercent;
+	}
+	
+	public double discountAmount() {
+		
+		return  productPrice*discountPercent/100;
+		
+	}
+}
