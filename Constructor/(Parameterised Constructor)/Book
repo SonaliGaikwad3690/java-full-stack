@@ -1,0 +1,16 @@
+package com.ParameterisedConstructor;
+
+public class Book {
+
+	String title;
+	double price ;
+	Book(String title , double price){
+		this.title = title;
+		this.price = price;
+	}
+	
+	public void bookInfo() {
+		System.out.println("Book title = " + title);
+		System.out.println("Book price = " + price);
+	}
+}
