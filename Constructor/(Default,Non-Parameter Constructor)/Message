@@ -1,0 +1,14 @@
+package com.DefaultConstructor;
+
+public class PrintMessage {
+
+	PrintMessage(){
+		System.out.println("Object is Created...!");
+	}
+	
+	public static void main(String[] args) {
+		
+		new PrintMessage();
+		
+	}
+}
