@@ -1,0 +1,9 @@
+package com.ParameterisedConstructor;
+
+public class MainBook {
+
+	public static void main(String[] args) {
+		Book b = new Book("An Easy & Proven Way to Build Good Habits" , 350);
+		b.bookInfo();	
+	}
+}
