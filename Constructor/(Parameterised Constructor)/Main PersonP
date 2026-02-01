@@ -1,0 +1,13 @@
+package com.ParameterisedConstructor;
+
+public class MainPersonP {
+
+	public static void main(String[] args) {
+		
+		PersonP p = new PersonP("Sonal", 24);
+		p.display();
+		
+		PersonP p1 = new PersonP(p);
+		p1.display();
+	}
+}
