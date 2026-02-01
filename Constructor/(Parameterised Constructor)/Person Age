@@ -1,0 +1,21 @@
+package com.ParameterisedConstructor;
+
+public class Person {
+
+	int age;
+
+	Person() {
+		age = 18;
+		// System.out.println("Person age From Constructor");
+	}
+
+	Person(int age) {
+		this.age = age;
+	}
+
+	public void displayAge() {
+
+		System.out.println(" Person Age From User = " + age);
+	}
+
+}
