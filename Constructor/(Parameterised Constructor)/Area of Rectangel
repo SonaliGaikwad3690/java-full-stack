@@ -1,0 +1,16 @@
+package com.ParameterisedConstructor;
+
+public class Rectangl {
+
+	int length ;
+	int width ;
+	int area;
+	Rectangl (int length , int width){
+		this.length = length ;
+		this.width = width;
+		 area = length * width;
+	}
+	public void diplayArea() {
+		System.out.println("Area of Rectangle = " + area );
+	}
+}
