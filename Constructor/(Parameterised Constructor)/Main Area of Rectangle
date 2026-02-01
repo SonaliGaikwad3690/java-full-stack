@@ -1,0 +1,10 @@
+package com.ParameterisedConstructor;
+
+public class MainRectangleArea {
+
+	public static void main(String[] args) {
+		
+		Rectangl a = new Rectangl (10, 5);
+		a.diplayArea();
+	}
+}
