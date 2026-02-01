@@ -1,0 +1,20 @@
+package com.withParameterWithReturnType;
+
+public class CheckEvenOdd {
+
+	public boolean isEven (int n) {
+		if(n%2==0) {
+		System.out.println(n + " is an Even Number...!");
+		return true;
+		}
+		else {
+			System.out.println(n + " is an Odd Number...!");
+		}
+		return false;
+	}
+}
+	
+
+	
+	
+
