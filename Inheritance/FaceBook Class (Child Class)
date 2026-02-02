@@ -1,0 +1,13 @@
+package com.Inheritance;
+
+public class FaceBook extends Meta {
+
+	public void addPost() {
+		System.out.println("Add UR post on FaceBook ...! ");
+	}
+
+	public void addComment() {
+		System.out.println("Add UR Comments on FaceBook ...! ");
+	}
+
+}
