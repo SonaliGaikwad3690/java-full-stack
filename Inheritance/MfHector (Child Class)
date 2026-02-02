@@ -1,0 +1,11 @@
+package com.Inheritance;
+
+public class MgHector extends Car {
+
+	String internetSpeed;
+
+	public void inbuildFunction() {
+		System.out.println("Internet inside special feature of MG hector Car");
+	}
+
+}
