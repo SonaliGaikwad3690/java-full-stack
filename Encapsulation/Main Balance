@@ -1,0 +1,12 @@
+package com.Encapsulation;
+
+public class GetBalance {
+
+	public static void main(String[] args) {
+		
+		Balance b = new Balance();
+		b.deposite(1000);
+		b.withdraw(600);
+		System.out.println("Currnet Balance = " + b.getBalance());
+	}
+}
