@@ -1,0 +1,28 @@
+package com.Encapsulation;
+
+public class Balance {
+
+	int balance;
+	public void deposite (int amount) {
+		balance += amount;
+		if(amount>0) {
+			System.out.println("Amount Deposited Successfully");
+		}else {
+			System.out.println("Invalid");
+		}
+		
+	}
+	public void withdraw(int amount) {
+		
+		if(amount>0 && amount<=balance) {
+			balance  -= amount;
+			System.out.println("Amount Withdraw Sucessfully...!");
+		}else {
+			System.out.println("Insufficinet Balance...!");
+		}
+	}
+	
+	public int getBalance() {
+		return balance;
+	}
+}
