@@ -1,0 +1,38 @@
+
+package com.Inheritance;
+
+public class MainCar {
+
+	public static void main(String[] args) {
+		System.err.println("The Detils of BMW...!");
+		Bmw b = new Bmw();
+		String bmwColor = b.color = "The Color of BMW is Blue";
+		String bmwModel = b.model = "The Model Of BMW is BMW Q7";
+		double bmwPrice = b.price = 6000000;
+		System.out.println(bmwColor);
+		System.out.println(bmwModel);
+		System.out.println("the Price of BMW is "  + bmwPrice);
+		b.myEngine();
+		b.myStering();
+		b.autoPark();
+		int maxBmwSpeed = b.maxSpeed = 250;
+		System.out.println("Max Speed of BMW " + maxBmwSpeed);
+		System.err.println("----------------------");
+		System.err.println("Details Of MgHector....!");
+
+		MgHector mg = new MgHector();
+		String MgColor = mg.color = "MgHector Color is a Black";
+		String MgModel = mg.model = "The Model Of MgHEctor is MG Q7";
+		double MgPrice = mg.price = 6000000;
+		System.out.println(MgColor);
+		System.out.println(MgModel);
+		System.out.println("The Price of MgHector is " + MgPrice);
+		mg.myEngine();
+		mg.myStering();
+		mg.inbuildFunction();
+		int MgHector = mg.internetSpeed = 200;
+		System.out.println("Internet Speed of MgHetcor = " + MgHector);
+
+	}
+}
+
