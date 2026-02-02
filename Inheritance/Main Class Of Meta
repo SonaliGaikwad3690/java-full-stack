@@ -1,0 +1,22 @@
+package com.Inheritance;
+
+public class MainMeta {
+
+	public static void main(String[] args) {
+		System.err.println("Instagram Welcome Page..!");
+		Instagram insta = new Instagram();
+		insta.myRegister();
+		insta.myLogin();
+		insta.addStroy();
+		insta.uploadReels();
+		insta.myLogout();
+		System.err.println("---------------");
+		System.err.println("FaceBook Welcome Page...!");
+		FaceBook fb = new FaceBook();
+		fb.myRegister();
+		fb.myLogin();
+		fb.addComment();
+		fb.addPost();
+		fb.myLogout();
+	}
+}
