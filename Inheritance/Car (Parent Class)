@@ -1,0 +1,19 @@
+package com.Inheritance;
+
+public class Car {
+
+	
+		String color;
+		String model;
+		double price;
+
+		public void myEngine() {
+			System.out.println("this is car Engine method of car class ");
+		}
+
+		public void myStering() {
+			System.out.println("this is car Stering method of car class ");
+		}
+
+	}
+
