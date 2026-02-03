@@ -1,0 +1,25 @@
+package com.Scanner;
+
+import java.util.Scanner;
+
+public class Subject {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter a  Maths Marks");
+		int a = sc.nextInt();
+		System.out.println("Enter a  Physics Marks");
+		int b = sc.nextInt();
+		System.out.println("Enter a  Chemistry Marks");
+		int c = sc.nextInt();
+		System.out.println("Enter a  Hindi Marks");
+		int d = sc.nextInt();
+		System.out.println("Enter a  English Marks");
+		int e = sc.nextInt();
+		int total = a + b + c + d + e;
+		System.out.println("Total = " + total);
+		double percentage = (total / 500.0) * 100;
+		System.out.println(percentage);
+         sc.close();
+	}
+}
