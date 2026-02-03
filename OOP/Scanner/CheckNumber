@@ -1,0 +1,22 @@
+package com.Scanner;
+
+import java.util.Scanner;
+
+//Take a number and check if it is positive, negative, or zero.
+public class CheckNumber {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter number to check weather it is +,- or zero");
+		int a = sc.nextInt();
+		if (a > 0) {
+			System.out.println(a + " is positive number");
+		} else if (a < 0) {
+			System.out.println(a + "is negative number");
+		} else {
+			System.out.println(a + " is zero");
+		}
+		sc.close();
+	}
+
+}
