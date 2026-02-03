@@ -1,0 +1,27 @@
+package com.Scanner;
+
+import java.util.Scanner;
+
+public class FibonacciSeries {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter a range for upto which you wann fibonacci series");
+		int n1 = sc.nextInt();
+		int a = 0;
+		int b = 1;
+		System.out.println(a);
+		System.out.println(b);
+		int n2 = 1;
+		while (n2 <= n1) {
+			int c = a + b;
+			System.out.println(c);
+			a = b;
+			b = c;
+			n2++;
+		}
+		sc.close();
+
+	}
+
+}
