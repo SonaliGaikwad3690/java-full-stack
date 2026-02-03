@@ -1,0 +1,23 @@
+package com.Scanner;
+
+import java.util.Scanner;
+
+//Take employee name, id, and salary and print employee details.
+public class Emplyoee {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter emplyoee name");
+		String a = sc.nextLine();
+		System.out.println("Enter employee id");
+		int b = sc.nextInt();
+		System.out.println("Enter emplyoee salary");
+		double c = sc.nextDouble();
+		System.out.println("Emplyoee name =" + a);
+		System.out.println("Emplyoee Id =" + b);
+		System.out.println("Emplyoee Salary =" + c);
+		sc.close();
+
+	}
+
+}
