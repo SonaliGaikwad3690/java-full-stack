@@ -1,0 +1,25 @@
+package com.Scanner;
+
+import java.util.Scanner;
+
+//   Take three numbers and print the largest number.
+public class Largest {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("First Number..!");
+		int a = sc.nextInt();
+		System.out.println("Second Number..!");
+		int b = sc.nextInt();
+		System.out.println("Third Number..!");
+		int c = sc.nextInt();
+
+		if (a > b && a > c) {
+			System.out.println(a + " is a Largest Number...!");
+		} else if (b > a && b > c) {
+			System.out.println(b + " is a Largest Number...!");
+		}else {
+			System.out.println(c + " is a Largest Number...!");
+		}
+	}
+}
