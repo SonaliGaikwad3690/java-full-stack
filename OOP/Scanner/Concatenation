@@ -1,0 +1,18 @@
+package com.Scanner;
+
+import java.util.Scanner;
+
+//Take two strings using nextLine() and print their concatenation.
+public class Concatenation {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter a First String");
+		String a = sc.nextLine ();
+		System.out.println("Enter a Second String ");
+		String b = sc.nextLine ();
+		System.out.println("concatenation = " + (a+b));
+        sc.close();
+	}
+}
