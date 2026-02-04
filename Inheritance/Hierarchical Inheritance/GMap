@@ -1,0 +1,7 @@
+package com.Inheritance;
+
+	public class GMap extends Google {
+		public void findLocation() {
+			System.out.println("find location using Google Map...!");
+	}
+}
