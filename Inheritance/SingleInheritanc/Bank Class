@@ -1,0 +1,8 @@
+package com.SingleInheritance;
+// Bank Class and Saving Account using Single Inheritance
+ public class Bank {
+
+	public void bankName() {
+		System.out.println("SBI Bank Account...!");
+	}
+}
