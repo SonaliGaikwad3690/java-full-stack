@@ -1,0 +1,8 @@
+package com.Inheritance;
+
+public class GDrive extends Google {
+
+	public void uploadFile() {
+		System.out.println("file Uploaded using GDrive...!");
+	}
+}
