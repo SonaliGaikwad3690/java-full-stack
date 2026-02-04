@@ -1,0 +1,8 @@
+package com.multilevelInheritance;
+
+public class AmazonShopping extends Amazon {
+
+	public void shopping() {
+		System.out.println("Shooping product on Amazon...!");
+	}
+}
