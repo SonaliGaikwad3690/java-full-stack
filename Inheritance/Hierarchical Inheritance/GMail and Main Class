@@ -1,0 +1,26 @@
+package com.Inheritance;
+
+public class GMail extends Google {
+
+	public void sendMail() {
+		System.out.println("Sending a mail using Google mail ...!");
+	}
+//	in  Main Method  object creation to Access the Method 
+	public static void main(String[] args) {
+		Google g = new Google();
+		g.login();
+		System.err.println("--------------");
+		GDrive d = new GDrive();
+		d.login();
+		d.uploadFile();
+		System.err.println("---------------");
+		GMail m = new GMail();
+		m.login();
+		m.sendMail();
+		System.err.println("---------------"); 
+		GMap n = new GMap ();
+		n.login();
+		n.findLocation();
+		
+	}
+}
