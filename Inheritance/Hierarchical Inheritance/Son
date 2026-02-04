@@ -1,0 +1,15 @@
+package com.Inheritance;
+
+public class Son extends Father {
+	public void myVilla() {
+		System.out.println("1CR Son Prpperty..!");
+	}
+
+	public static void main(String[] args) {
+		Son s = new Son(); //Object Creation
+		s.myProperty();
+		s.myHouse();
+		s.myVilla();
+
+	}
+}
