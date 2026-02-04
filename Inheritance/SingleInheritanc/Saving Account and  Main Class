@@ -1,0 +1,16 @@
+package com.SingleInheritance;
+
+public class SavingAccount extends Bank {
+ 
+	public void mySaving () {
+		System.out.println("My Saving Rs 50,000...!");
+	}
+	
+	// Main Class for Object Creation and Access the Methods
+	
+	public static void main(String[] args) {
+		SavingAccount s = new SavingAccount ();
+		s.bankName();
+		s.mySaving();
+	}
+}
