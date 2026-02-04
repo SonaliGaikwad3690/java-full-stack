@@ -1,0 +1,10 @@
+package com.Inheritance;
+
+public class Google {
+
+	public void login() {
+		System.out.println("Login using Google Account..!");
+	}
+	
+}
+
