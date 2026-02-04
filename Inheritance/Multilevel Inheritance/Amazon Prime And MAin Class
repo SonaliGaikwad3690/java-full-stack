@@ -1,0 +1,15 @@
+package com.multilevelInheritance;
+
+public class AmazonPrime  extends AmazonShopping{
+
+	public void primeVideo() {
+		System.out.println("Watching Prime Videos on Amazon....!");
+	}
+	//  Main Class 
+	public static void main(String[] args) {
+		AmazonPrime prime = new AmazonPrime ();
+		prime.Login();
+		prime.shopping();
+		prime.primeVideo();
+	}
+}
