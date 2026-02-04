@@ -1,0 +1,8 @@
+package com.multilevelInheritance;
+//Amazon : AmazonShopping : AmazonPrime  using Multilevel Inheritance 
+public class Amazon {
+
+	public void Login () {
+		System.out.println("Amzon Login is Successfully..>!");
+	}
+}
