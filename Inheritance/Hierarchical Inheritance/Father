@@ -1,0 +1,10 @@
+package com.Inheritance;
+
+public class Father extends GrandFather {
+
+	public void myHouse() {
+		
+		System.out.println("50 Father Property");
+	}
+
+}
