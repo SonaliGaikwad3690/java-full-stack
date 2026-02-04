@@ -1,0 +1,18 @@
+package com.SingleInheritance;
+
+public class SavingAccount extends Bank {
+	double balance;
+
+	public void mySaving(double deposite) {
+		balance += deposite;
+		System.out.println("My Saving is " + deposite);
+	}
+
+	// Main Class for Object Creation and Access the Methods
+
+	public static void main(String[] args) {
+		SavingAccount s = new SavingAccount();
+		s.bankName("SBI Bank");
+		s.mySaving(500000);
+	}
+}
