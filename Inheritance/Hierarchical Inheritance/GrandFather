@@ -1,0 +1,10 @@
+package com.Inheritance;
+
+public class GrandFather {
+	
+	public void myProperty() {
+		
+		System.out.println("2CR GrandFather Property..!");
+	}
+
+}
