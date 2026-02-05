@@ -1,0 +1,9 @@
+package com.SingleInheritance;
+// Create a singly inheritance program where TelecomService is the parent class and 
+// Jio is the child class.
+public class TelecomService {
+
+	public void m1 () {
+		System.out.println("Welcome in TelecomService....!");
+	}
+}
