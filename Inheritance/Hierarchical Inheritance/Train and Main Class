@@ -1,0 +1,46 @@
+package com.Hierarchicaliheritance;
+
+public class Train extends RailwaySystem {
+
+	public void trainDetail() {
+		int platformNumber = 5;
+		System.out.println("platform Number = " + platformNumber);
+	}
+	
+//	 Main Class 
+	
+	public static void main(String[] args) {
+		System.err.println("---------------------");
+		
+		Passanger p = new Passanger();
+		System.out.println("System Name = " + p.railwayName);
+		p.booking();
+		p.cancelling();
+		p.passangerDetails();
+		
+		System.err.println("------------------");
+		
+		Train t = new Train ();
+		System.out.println("System Name = " + p.railwayName);
+		t.booking();
+		t.cancelling();
+		t.trainDetail();
+		
+		System.err.println("---------------------");
+		
+		Ticket t1 = new Ticket ();
+		System.out.println("System Name = " + p.railwayName);
+		t1.booking();
+		t1.cancelling();
+		t1.ticketDetail();
+		
+		System.err.println("---------------------");
+		
+		Train t2 = new Train ();
+		System.out.println("System Name = " + p.railwayName);
+		t2.booking();
+		t2.cancelling();
+		t2.trainDetail();
+		
+	}
+}
