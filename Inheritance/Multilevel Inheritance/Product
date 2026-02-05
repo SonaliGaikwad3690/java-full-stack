@@ -1,0 +1,18 @@
+package com.multilevelInheritance;
+//  E-commerce product system, write a multilevel inheritance program for product is a
+//  parent class, electronic -->product -->mobile.
+public class Product {
+
+	String name ;
+	double price;
+	public void setProduct (String name , double price) {
+		this.name = name ;
+		this.price = price;
+	}
+		public void showProduct() {
+		System.out.println("Product Name = " + name);
+		System.out.println("Product price = " + price);
+		
+	}
+	
+}
