@@ -1,0 +1,9 @@
+package com.Hierarchicaliheritance;
+
+public class Passanger extends RailwaySystem {
+
+	public void passangerDetails() {
+		String passangerName= "Sonal Gaiwkad";
+		System.out.println("Passanger Name = " + passangerName);
+	}
+}
