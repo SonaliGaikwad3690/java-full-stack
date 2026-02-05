@@ -1,0 +1,15 @@
+package com.SingleInheritance;
+
+public class UPIPayment extends Payment {
+       double amount ;
+	public void paymentSatus() {
+		System.out.println("Payment is Successfull ");
+		
+	}
+	
+	public static void main(String[] args) {
+		UPIPayment p = new UPIPayment();
+		p.makePayment(250000);
+		p.paymentSatus();
+	}
+}
