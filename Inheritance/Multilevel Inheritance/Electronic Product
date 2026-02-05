@@ -1,0 +1,13 @@
+package com.multilevelInheritance;
+
+public class ElectronicProduct extends Product {
+	   int warranty;  // in years
+
+	    void setElectronic(int warranty) {
+	        this.warranty = warranty;
+	    }
+
+	    void showElectronic() {
+	        System.out.println("Warranty: " + warranty + " year(s)");
+	    }
+}
