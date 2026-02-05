@@ -1,0 +1,10 @@
+package com.SingleInheritance;
+ // Create a single inheritance example where Payment is the parent class and UPay is the child class.
+public class Payment {
+   double amount ;
+	public void makePayment( double amount ) {
+		this.amount= amount;
+		System.out.println("Payment Amount = " + amount);
+	}
+
+}
