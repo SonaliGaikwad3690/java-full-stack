@@ -1,0 +1,28 @@
+package com.multilevelInheritance;
+
+public class Mobile extends ElectronicProduct {
+
+	String model;
+	public void mbModel(String mode) {
+		this.model = model;
+	}
+	public void showModel() {
+		System.out.println("Mobile Model Name = " + model);
+	}
+	
+//	 Main Class 
+	public static void main(String[] args) {
+		Mobile mb = new Mobile ();
+		mb.setProduct("SmartPhone ", 35000);
+		mb.setElectronic(2);
+		mb.mbModel("RealMe");
+		
+	    mb.showModel(); // From Mobile
+	    mb.showProduct(); // from product
+	    mb.showElectronic(); // from electronic
+	    
+
+	
+	}
+	
+}
