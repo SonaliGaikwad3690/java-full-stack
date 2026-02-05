@@ -1,0 +1,15 @@
+package com.Hierarchicaliheritance;
+
+// Railway reservation system design a hierarchical inheritance structure where
+// railway system is the parent class and
+// passenger ticket and trainee are child classes.
+
+  public class RailwaySystem {
+	  String railwayName = "Indian Railway";
+   public void booking() {
+	   System.out.println("Tickect Booking Servise is Available Here....!");
+   }
+   public void cancelling() {
+	   System.out.println("Cancallation is Available Here....!");
+   }
+}
