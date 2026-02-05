@@ -1,0 +1,17 @@
+package com.SingleInheritance;
+
+public class Jio  extends TelecomService {
+
+	public void jioPlans() {
+		System.out.println("399 Recharge is Successfully....!");
+	}
+	
+	// Main Class and object Creation to Access the Method
+	
+	public static void main(String[] args) {
+		Jio j = new Jio ();
+		j.m1();
+		j.jioPlans();
+		
+	}
+}
