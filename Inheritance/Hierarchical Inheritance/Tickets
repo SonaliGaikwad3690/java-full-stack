@@ -1,0 +1,9 @@
+package com.Hierarchicaliheritance;
+
+public class Ticket extends RailwaySystem {
+
+	public void ticketDetail() {
+		int ticketNumber = 12345;
+		System.out.println("Ticket Number = " + ticketNumber);
+	}
+}
