@@ -1,0 +1,9 @@
+package com.DefaultConstructor;
+
+public class MainSquare {
+
+	public static void main(String[] args) {
+		Square sq = new Square ();
+		
+	}
+}
