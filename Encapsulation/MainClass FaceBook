@@ -1,0 +1,12 @@
+package com.Encapsulation;
+
+public class MainFb {
+
+	public static void main(String[] args) {
+		FaceBook fb = new FaceBook();
+		fb.setUserName("SonalGaikwad");
+		fb.setPassword("Sonal@123");
+		System.out.println("UserName = " + fb.getUserName());
+		System.out.println("Password = " + fb.getPassword());
+	}
+}
