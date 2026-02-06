@@ -1,0 +1,9 @@
+package com.DefaultConstructor;
+
+public class Square {
+
+	Square (){
+		int a = 2;
+		System.out.println("Square of 2 = " + 2*2);
+	}
+}
