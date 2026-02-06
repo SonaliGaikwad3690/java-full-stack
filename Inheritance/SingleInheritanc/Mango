@@ -1,0 +1,9 @@
+package com.SingleInheritance;
+
+public class Mango extends Fruits {
+        String test;
+	public void sweetMango(String test) {
+		this.test = test;
+		System.out.println("Mango test is " + test);
+	}
+}
