@@ -1,0 +1,8 @@
+package com.SingleInheritance;
+
+public class Fruits {
+
+	public void myFruits () {
+		System.out.println("This is My Fruits...!");
+	}
+}
