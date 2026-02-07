@@ -1,0 +1,4 @@
+// Interface 1
+interface Father {
+    void house();
+}
