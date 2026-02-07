@@ -1,0 +1,11 @@
+public class Main {
+    public static void main(String[] args) {
+
+        BankAccount b1 = new BankAccount();
+
+        b1.setName("Sonali");
+        b1.setBalance(5000);
+
+        System.out.println("Name: " + b1.getName());
+        System.out.println("Balance: " + b1.getBalance());
+    }
