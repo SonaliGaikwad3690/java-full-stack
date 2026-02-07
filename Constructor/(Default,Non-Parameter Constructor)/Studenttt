@@ -1,0 +1,20 @@
+class Student {
+    int id;
+    String name;
+
+    // Default Constructor
+    Student() {
+        id = 101;
+        name = "Sonali";
+    }
+
+    void display() {
+        System.out.println("Id: " + id);
+        System.out.println("Name: " + name);
+    }
+
+    public static void main(String[] args) {
+        Student s1 = new Student();   // Constructor called
+        s1.display();
+    }
+}
