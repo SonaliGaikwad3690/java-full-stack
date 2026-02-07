@@ -1,0 +1,23 @@
+class Student {
+    int id;
+    String name;
+
+    // Parameterized Constructor
+    Student(int i, String n) {
+        id = i;
+        name = n;
+    }
+
+    void display() {
+        System.out.println("Id: " + id);
+        System.out.println("Name: " + name);
+    }
+
+    public static void main(String[] args) {
+        Student s1 = new Student(101, "Sonali");
+        Student s2 = new Student(102, "Rahul");
+
+        s1.display();
+        s2.display();
+    }
+}
