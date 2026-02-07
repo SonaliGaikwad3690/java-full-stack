@@ -1,0 +1,4 @@
+// Interface 2
+interface Mother {
+    void car();
+}
