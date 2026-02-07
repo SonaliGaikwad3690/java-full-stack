@@ -1,0 +1,9 @@
+interface Camera {
+    void takePhoto();
+}
+
+interface Music {
+    void playMusic();
+}
+
+}
