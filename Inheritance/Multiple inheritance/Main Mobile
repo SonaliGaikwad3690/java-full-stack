@@ -1,0 +1,15 @@
+class Mobile implements Camera, Music {
+
+    public void takePhoto() {
+        System.out.println("Photo Captured");
+    }
+
+    public void playMusic() {
+        System.out.println("Music Playing");
+    }
+
+    public static void main(String[] args) {
+        Mobile m = new Mobile();
+        m.takePhoto();
+        m.playMusic();
+    }
