@@ -1,0 +1,6 @@
+package com.MultipleInheritance;
+
+interface Engine {
+
+	public void  startEngine();
+}
