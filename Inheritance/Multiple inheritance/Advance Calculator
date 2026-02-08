@@ -1,0 +1,7 @@
+package com.MultipleInheritance;
+
+interface AdvanceCalculator {
+
+	public void mul ();
+	public void div();
+}
