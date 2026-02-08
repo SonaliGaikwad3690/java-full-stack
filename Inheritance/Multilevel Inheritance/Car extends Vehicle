@@ -1,0 +1,8 @@
+package com.multilevelInheritance;
+
+public class Car extends Vehicle {
+
+	public void drive() {
+		System.out.println("I am Going to Driving Car...!");
+	}
+}
