@@ -1,0 +1,7 @@
+package com.MultipleInheritance;
+
+interface Calculator {
+
+	public void add() ;
+	public void sub();
+}
