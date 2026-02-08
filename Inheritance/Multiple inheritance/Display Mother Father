@@ -1,0 +1,16 @@
+package com.MultipleInheritance;
+
+public class Child implements Father, Mother {
+
+	@Override
+	public void mothercolour() {
+		System.out.println("Child inherited Color from Mother....! ");
+
+	}
+
+	@Override
+	public void fatherHeight() {
+		System.out.println("Child inherited Height from Father....! ");
+	}
+
+}
