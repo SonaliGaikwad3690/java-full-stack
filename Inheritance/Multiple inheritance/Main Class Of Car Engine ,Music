@@ -1,0 +1,21 @@
+package com.MultipleInheritance;
+
+public class Car implements Engine, Music {
+
+	@Override
+	public void playMusic() {
+		System.out.println("Play Music in a Car..!");
+
+	}
+
+	@Override
+	public void startEngine() {
+		System.out.println("Start The Engine..!");
+
+	}
+	public static void main(String[] args) {
+		Car c = new Car();
+		c.startEngine();
+		c.playMusic();
+	}
+}
