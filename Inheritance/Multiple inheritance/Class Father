@@ -1,0 +1,7 @@
+package com.MultipleInheritance;
+
+interface Father {
+
+	public void fatherHeight();
+
+}
