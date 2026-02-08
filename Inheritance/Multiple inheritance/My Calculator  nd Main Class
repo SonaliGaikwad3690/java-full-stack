@@ -1,0 +1,51 @@
+package com.MultipleInheritance;
+
+public class MyCalculator implements Calculator,AdvanceCalculator, ScientificCalculator {
+
+	@Override
+	public void square() {
+		System.out.println("Perform the Addition Operaton....!");
+		
+	}
+
+	@Override
+	public void cube() {
+		System.out.println("Calculate the Cube of Given Number ....!");
+		
+	}
+
+	@Override
+	public void mul() {
+		System.out.println("Calculate the Multiplication ....!");
+		
+	}
+
+	@Override
+	public void div() {
+		System.out.println("Perform the Division Operaton....!");
+		
+	}
+
+	@Override
+	public void add() {
+		System.out.println("Perform the Addition Operaton....!");
+		
+	}
+
+	@Override
+	public void sub() {
+		System.out.println("Perform the Substraction Operaton....!");
+		
+	}
+
+	public static void main(String[] args) {
+		
+		MyCalculator cal = new MyCalculator();
+		cal.add();
+		cal.sub();
+		cal.div();
+		cal.mul();
+		cal.cube();
+		cal.square();
+	}
+}
