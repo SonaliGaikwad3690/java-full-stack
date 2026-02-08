@@ -1,0 +1,11 @@
+package com.MultipleInheritance;
+
+public class Display {
+
+	public static void main(String[] args) {
+		
+		Child  ch = new Child ();
+		ch.fatherHeight();
+		ch.mothercolour();
+	}
+}
