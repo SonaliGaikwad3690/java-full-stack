@@ -1,0 +1,8 @@
+package com.MultipleInheritance;
+
+interface Mother {
+
+	public void mothercolour() ;
+		
+	
+}
