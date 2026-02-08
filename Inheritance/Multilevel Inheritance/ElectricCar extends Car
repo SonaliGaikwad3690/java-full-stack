@@ -1,0 +1,18 @@
+package com.multilevelInheritance;
+
+public class ElectricCar extends Car {
+
+	public void chargBattery() {
+		System.out.println("Charg the Battery...!");
+	}
+	
+	public static void main(String[] args) {
+	 ElectricCar c = new ElectricCar();
+	 c.drive();
+	 c.start();
+	 c.chargBattery();
+	 
+	 
+		
+	}
+}
