@@ -1,0 +1,11 @@
+package com.tka;
+
+public class Studentt {
+
+	private Studentt() {
+		System.out.println("I am constructor..!");
+	}
+	public static Studentt m1() {
+		return new Studentt();
+	}
+}
