@@ -1,0 +1,8 @@
+package com.multilevelInheritance;
+
+public class Dog extends Animal {
+
+	   Dog(){
+		System.out.println("This is a Dog Constr...!");
+	}
+}
