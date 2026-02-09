@@ -1,0 +1,10 @@
+package com.tka;
+
+public class Stud {
+
+	public static void main(String[] args) {
+		
+		Studentt.m1();
+		
+	}
+}
