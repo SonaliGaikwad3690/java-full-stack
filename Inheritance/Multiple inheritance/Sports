@@ -1,0 +1,6 @@
+package com.MultipleInheritance;
+
+interface Sports {
+
+	public void play();
+}
