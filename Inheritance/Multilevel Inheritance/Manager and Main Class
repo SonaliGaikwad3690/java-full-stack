@@ -1,0 +1,19 @@
+package com.multilevelInheritance;
+
+public class Manager extends Employee {
+
+	String department = "IT";
+	 public void managerdept() {
+		System.out.println("manager department = " + department);
+	}
+	 
+	 public static void main(String[] args) {
+		Manager  m = new Manager();
+		m.show();
+		m.empSalary();
+		m.managerdept();
+		
+	}
+
+	
+}
