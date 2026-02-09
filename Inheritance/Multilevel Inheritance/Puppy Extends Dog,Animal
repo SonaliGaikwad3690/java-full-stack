@@ -1,0 +1,14 @@
+package com.multilevelInheritance;
+
+public class Puppy extends Dog{
+
+	Puppy(){
+		System.out.println("This is Puppy Constr...!");
+	}
+	
+	
+	public static void main(String[] args) {
+		Puppy p = new Puppy();
+	
+	}
+}
