@@ -1,0 +1,15 @@
+package com.tka;
+
+public class Student {
+
+//	int a = 5;
+//	Student s = new Student ();
+	
+	public int m1 () {
+		return 3;
+	}
+	public static void main(String []args){
+		Student s = new Student ();
+		System.out.println(s.m1());
+	}
+}
