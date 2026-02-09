@@ -1,0 +1,9 @@
+package com.multilevelInheritance;
+
+public class Employee extends Person {
+
+	double salary = 350000;
+	public void empSalary() {
+		System.out.println("Employee Salary = " + salary);
+	}
+}
