@@ -1,0 +1,25 @@
+package com.tka;
+
+import java.util.Scanner;
+
+public class MainEmployee {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner (System.in);
+		int  empId = sc.nextInt();
+		String name = sc.next();
+		double salary = sc.nextDouble();
+				
+		
+//		Employee emp = new Employee();
+//		emp.setId(123);
+//		emp.setName("Sonal");
+//		emp.setSalary(350000);
+//		
+//		System.out.println("Employee Name = " + emp.getName());
+//		System.out.println("Employee Id = "  + emp.getId());
+//		System.out.println("Employee Salary =" + emp.getSalary());
+//		
+	}
+}
