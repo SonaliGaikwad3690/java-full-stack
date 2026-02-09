@@ -1,0 +1,15 @@
+package com.multilevelInheritance;
+
+public class Person {
+    
+	String name = "Sonal";
+	int age = 24 ;
+//	public void displayPerson(String name , int age) {
+//		this.age = age;
+//		this.name = name;
+//	}
+	public void show () {
+		System.out.println("Person Name = " + name);
+		System.out.println("Person age = " + age);
+	}
+}
