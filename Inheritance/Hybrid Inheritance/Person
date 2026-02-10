@@ -1,0 +1,8 @@
+package com.HybridInheritance;
+
+public class Person {
+
+	public void showDetails() {
+		System.out.println("I am a Person...!");
+	}
+}
