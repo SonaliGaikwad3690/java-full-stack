@@ -1,0 +1,12 @@
+package com.HybridInheritance;
+
+public class MainIntern {
+
+	public static void main(String[] args) {
+		
+		Intern i = new Intern();
+		i.showDetails();
+		i.study();
+		i.work();
+	}
+}
