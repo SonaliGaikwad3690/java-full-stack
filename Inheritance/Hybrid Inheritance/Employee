@@ -1,0 +1,7 @@
+package com.HybridInheritance;
+
+interface Employee {
+
+	public void work() ;
+	
+}
