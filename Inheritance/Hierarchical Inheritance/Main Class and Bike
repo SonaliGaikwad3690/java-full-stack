@@ -1,0 +1,19 @@
+package com.Hierarchicaliheritance;
+
+public class Bike extends Vehicle {
+
+	public void ride() {
+		System.out.println("Bike is Riding...!");
+	}
+	
+	public static void main(String[] args) {
+		
+		Car c = new Car ();
+		c.start();
+		c.drive();
+		System.err.println("-----------------");
+		Bike b = new Bike();
+		b.start();
+		b.ride();
+	}
+}
