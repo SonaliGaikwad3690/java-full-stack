@@ -1,0 +1,15 @@
+package com.HybridInheritance;
+
+ public class Intern extends Person implements Student,Employee {
+
+		@Override
+		public void work() {
+		  System.out.println("Intren is Working...!");
+		}
+
+		@Override
+		public void study() {
+			System.out.println("Intern is studying.....! ");
+		}
+
+}
