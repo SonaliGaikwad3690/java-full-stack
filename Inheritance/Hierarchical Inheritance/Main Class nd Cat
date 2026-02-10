@@ -1,0 +1,18 @@
+package com.Hierarchicaliheritance;
+
+public class Cat extends Animal {
+
+	public void meow() {
+		System.out.println("Cat is Meowing..!");
+	}
+	
+	public static void main(String[] args) {
+		Dog d = new Dog();
+		d.eat(); //Inherited from animal
+		d.bark();
+		
+		Cat c = new Cat();
+		c.eat(); //Inherited from animal
+		c.meow();
+	}
+}
