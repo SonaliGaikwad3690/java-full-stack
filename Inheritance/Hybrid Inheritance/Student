@@ -1,0 +1,7 @@
+package com.HybridInheritance;
+
+interface Student {
+
+   public void study();
+		
+}
