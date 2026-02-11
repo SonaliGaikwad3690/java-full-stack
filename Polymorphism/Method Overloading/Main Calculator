@@ -1,0 +1,12 @@
+package com.Polymorphism;
+
+public class MainCalculator {
+
+	public static void main(String[] args) {
+		
+		Calculator cal = new Calculator();
+		cal.add(5, 10);
+		cal.add(6, 500);
+		cal.add(2, 3, 8);
+	}
+}
