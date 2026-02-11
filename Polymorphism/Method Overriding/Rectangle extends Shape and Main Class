@@ -1,0 +1,23 @@
+package com.OverridingPolymorphism;
+
+public class Rectangle extends Shape{
+ 
+	public void draw() {
+	System.out.println("Drawing a Rectangle...!");
+
+	}
+	
+	public static void main(String[] args) {
+//		Rectangle r = new Rectangle();
+//		r.draw();
+//		
+//		Circle c = new Circle ();
+//		c.draw();
+		
+		Shape s = new Circle ();
+		Shape s1 = new Rectangle ();
+		s.draw();
+		s1.draw();
+		
+	}
+}
