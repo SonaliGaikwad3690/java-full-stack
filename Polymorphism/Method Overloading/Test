@@ -1,0 +1,22 @@
+
+package com.Polymorphism;
+//Program – Change Order of Parameters
+//Question:Create class Test and overload method display():
+//display(int, String)
+//display(String, int)
+
+   public class Test {
+
+	   public void display(int a , String b) {
+		   System.out.println("int then srting = " + a + " , " + b);
+	   }
+	   public void display(String a , int b) {
+		   System.out.println("String then int = " + a + " , " + b);
+	   }
+	   
+	   public static void main(String[] args) {
+		Test t = new Test ();
+		t.display(25, "Sonal");
+		t.display("Rashi", 24);;
+	}
+}
