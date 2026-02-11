@@ -1,0 +1,27 @@
+package com.Polymorphism;
+// Create class Area and overload findArea() method:
+// Area of square
+// Area of rectangle
+// Area of circle
+public class Area {
+
+	public int findArea(int side) {
+		System.out.println("Area of Square = " + (side * side));
+		return side;
+	}
+	public void findArea(int length, int width) {
+		System.out.println("Area of Rectangle = " + (length * width));
+	}
+	public void findArea(double radius) {
+		System.out.println("Area of Circle = " + (3.14 * radius * radius));
+	}
+	
+	
+	public static void main(String[] args) {
+		Area a = new Area ();
+		a.findArea(2);
+		a.findArea(5, 3);
+		a.findArea(4.4);
+	}
+	
+}
