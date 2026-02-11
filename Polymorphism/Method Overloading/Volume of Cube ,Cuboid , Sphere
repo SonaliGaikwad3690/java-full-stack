@@ -1,0 +1,25 @@
+package com.Polymorphism;
+
+// Create class Volume 1.volume of cube , 2.volume of cuboid , 3.volume of sphere
+public class Volume {
+
+	public void volumeOfCube(int a) {
+		System.out.println("Volume of Cube = " + (a*a*a));
+	}
+
+	public void volumOfCuboid(int l, int b,int h) {
+		System.out.println("volume of Cuboid = " + (l*b*h));
+	}
+
+	public void volumOfSpeher(double r) {
+     System.out.println("Volume of Spehere = " + (1.333 *3.14 * r*r*r));
+	}
+
+	public static void main(String[] args) {
+       Volume v = new Volume ();
+       v.volumeOfCube(2);
+       v.volumOfCuboid(8, 5, 4);
+       v.volumOfSpeher(2);
+	}
+
+}
