@@ -1,0 +1,36 @@
+package com.Polymorphism;
+// Overload constructor in class Student
+// Student() , Student(int id), Student(int id, String name)
+public class Student {
+   
+	int id ;
+	String name;
+	Student(){ // Default Constructor Called
+		 id = 0 ;
+		 name = "unknown" ;
+		System.err.println("it is Default Constructor...!");
+		System.out.println(id + " , " + name);
+	}
+	
+	 Student (int id) {
+		 System.err.println("Parametrised Constructor Called with id");
+		 this.id = id;
+		System.out.println("Student Id =" + id);	
+	}
+	 
+	  Student (int id , String name) {
+		  System.err.println("Parametrised Constructor Called with id and Name");
+		  this.id = id;
+		  this.name = name;
+		System.out.println("Student Id and Name = " + id + ", " +  name);	
+	}
+	
+	public static void main(String[] args) {
+		Student s = new Student();
+		
+		Student s1 = new Student(23);
+		
+		Student s2 = new Student(24 , "Sonal");
+		
+	}
+}
