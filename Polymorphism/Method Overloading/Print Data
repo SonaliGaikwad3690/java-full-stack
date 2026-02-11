@@ -1,0 +1,20 @@
+package com.Polymorphism;
+// Create class PrintData , print(int),print(char),print(String
+public class PrintData {
+
+	public void print (int a) {
+		System.out.println("in Int = " + a);
+	}
+	public void print (char a) {
+		System.out.println("in Char = " + a);
+	} 
+	public void print (String a) {
+		System.out.println("in String = " + a);
+	}
+	public static void main(String[] args) {
+		PrintData p = new PrintData();
+		p.print(24);
+		p.print('c');
+		p.print("Info");
+	}
+}
