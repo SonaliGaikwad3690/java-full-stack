@@ -1,0 +1,9 @@
+package com.OverridingPolymorphism;
+//  Create Shape → draw()
+//   Override in Circle and Rectangle
+public class Shape {
+
+	public void draw() {
+		System.out.println("Drawing a Shape");
+	}
+}
