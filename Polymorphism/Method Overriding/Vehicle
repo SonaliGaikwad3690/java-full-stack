@@ -1,0 +1,8 @@
+package com.OverridingPolymorphism;
+
+public class Vehicle {
+
+	public void start() {
+		System.out.println("Vehicle us Started...!");
+	}
+}
