@@ -1,0 +1,27 @@
+package com.Polymorphism;
+// Create class Display and overload show() method for:
+// int , double , String
+public class Display {
+
+	public void show(int a) {
+		System.out.println("integer = " + a);
+	}
+	public void show(double a) {
+		System.out.println("double = " + a);
+	}
+	public void show(String a) {
+		System.out.println("String = " + a);
+	}
+}
+package com.Polymorphism;
+
+public class MainDisplay {
+
+	public static void main(String[] args) {
+		
+		Display d = new Display();
+		d.show(5);
+		d.show(35.00);
+		d.show("Sonal");
+	}
+}
