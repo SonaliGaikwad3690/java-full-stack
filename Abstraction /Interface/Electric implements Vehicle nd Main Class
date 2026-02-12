@@ -1,0 +1,14 @@
+package com.Abstraction;
+
+public class Electric implements Vehicle {
+
+	@Override
+	public void start() {
+		System.out.println("Vehicle is Started....!");
+	}
+
+	public static void main(String[] args) {
+		Electric e = new Electric ();
+		e.start();
+	}
+}
