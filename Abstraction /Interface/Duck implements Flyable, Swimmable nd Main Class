@@ -1,0 +1,37 @@
+package com.Abstraction;
+// Create interfaces Flyable → fly(), Swimmable → swim() → Class Duck implements both
+interface 1
+interface Flyable {
+
+	public abstract void fly();
+}
+
+interface 2
+package com.Abstraction;
+
+interface Swimmable {
+	public abstract void swimm(); //method
+}
+
+package com.Abstraction;
+
+public class Duck implements Flyable, Swimmable {
+
+	@Override
+	public void swimm() {
+		System.out.println("Duck Can Swim...!");
+		
+	}
+
+	@Override
+	public void fly() {
+		System.out.println("Duck Can Fly...!");
+		
+	}
+	public static void main(String[] args) {
+		Duck d = new Duck ();
+		d.fly();
+		d.swimm();
+	}
+
+}
