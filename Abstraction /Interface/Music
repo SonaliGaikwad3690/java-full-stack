@@ -1,0 +1,7 @@
+package com.Abstraction;
+
+interface Music {
+
+	public abstract void sing ();
+	
+}
