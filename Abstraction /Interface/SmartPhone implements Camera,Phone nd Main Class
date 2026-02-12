@@ -1,0 +1,36 @@
+package com.Abstraction;
+// Camera , phone ---> SmartPhones
+interface Camera {
+
+	public abstract void click();
+}
+
+Interface 1 :
+package com.Abstraction;
+
+interface Phone {
+
+	public abstract void call();
+}
+
+Interface 2 :
+package com.Abstraction;
+
+public class SmartPhone implements Camera,Phone {
+
+	@Override
+	public void call() {
+	System.out.println("Smartphone can click the Picture...!");
+	}
+
+	@Override
+	public void click() {
+	System.out.println("Smartphone can Dial the Number");
+	}
+
+	public static void main(String[] args) {
+		SmartPhone s = new  SmartPhone();
+		s.call();
+		s.click();
+	}
+}
