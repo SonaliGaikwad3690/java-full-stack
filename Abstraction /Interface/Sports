@@ -1,0 +1,6 @@
+package com.Abstraction;
+// Sports , Music ---> Person 
+interface Sports {
+
+	public void play();
+}
