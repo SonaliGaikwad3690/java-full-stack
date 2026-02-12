@@ -1,0 +1,23 @@
+package com.Abstraction;
+
+public class Person implements Sports , Music{
+
+	@Override
+	public void sing() {
+	System.out.println("A Person is Singing a Song..!");
+		
+	}
+
+	@Override
+	public void play() {
+		System.out.println("A Person is Playing a Cricket....!");
+		
+	}
+	
+	public static void main(String[] args) {
+		Person p = new Person ();
+		p.play();
+		p.sing();
+	}
+
+}
