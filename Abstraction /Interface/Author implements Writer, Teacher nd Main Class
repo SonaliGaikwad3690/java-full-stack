@@ -1,0 +1,39 @@
+package com.Abstraction;
+// Writer , Teacher--> Author
+
+Interface 1 :
+interface Writer {
+
+	public abstract void write();
+}
+
+package com.Abstraction;
+
+interface Teacher {
+
+	public abstract void teach();
+}
+
+Interface 1 :
+package com.Abstraction;
+
+public class Author implements Writer, Teacher {
+
+	@Override
+	public void teach() {
+		System.out.println("Author can Write..!");
+		
+	}
+
+	@Override
+	public void write() {
+	System.out.println("Author can Teach..!");
+		
+	}
+
+	public static void main(String[] args) {
+		Author a = new Author();
+		a.write();
+		a.teach();
+	}
+}
