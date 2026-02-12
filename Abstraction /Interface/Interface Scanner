@@ -1,0 +1,6 @@
+package com.Abstraction;
+
+interface Scanner {
+
+	public abstract void scann();
+}
