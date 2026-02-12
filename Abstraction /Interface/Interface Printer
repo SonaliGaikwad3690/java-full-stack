@@ -1,0 +1,7 @@
+package com.Abstraction;
+// Interface Printer + Scanner → Class AllInOne
+interface Printer {
+
+	public abstract void print();
+	
+}
