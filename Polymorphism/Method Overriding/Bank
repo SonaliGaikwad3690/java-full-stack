@@ -1,0 +1,8 @@
+package com.OverridingPolymorphism;
+
+public class Bank {
+
+	public void intrestRate() {
+		System.out.println("intrestRate = " + 7 + "%");
+	}
+}
