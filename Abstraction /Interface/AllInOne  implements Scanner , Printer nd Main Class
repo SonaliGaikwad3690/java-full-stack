@@ -1,0 +1,22 @@
+package com.Abstraction;
+
+public class AllInOne  implements Scanner , Printer{
+
+	@Override
+	public void print() {
+		System.out.println("Printing the Docs...!");
+		
+	}
+
+	@Override
+	public void scann() {
+		System.out.println("Scanning the Docs...!");
+	}
+
+	public static void main(String[] args) {
+		AllInOne a = new  AllInOne();
+		a.print();
+		a.scann();
+	}
+	
+}
