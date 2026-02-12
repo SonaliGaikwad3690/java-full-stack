@@ -1,0 +1,12 @@
+package com.Polymorphism;
+
+public class MainTime {
+
+	public static void main(String[] args) {
+		
+		Time t = new Time ();
+		t.show(2);
+		t.show(2, 30);
+		t.show(2, 30, 45);
+	}
+}
