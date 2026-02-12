@@ -1,0 +1,21 @@
+package com.Polymorphism;
+
+// Create class Time - show(hour) , show(hour, minute) , show(hour, minute, second)
+
+public class Time {
+
+	public void show(int hour) {
+
+		System.out.println("Time = " + hour + " Hour");
+	}
+
+	public void show(int hour , int min) {
+
+		System.out.println("Time = " + hour + ":" + min  );
+	}
+
+	public void show(int hour, int min , int sec) {
+
+		System.out.println("Time = " + hour + ":" + min + ":" + sec);
+	}
+}
