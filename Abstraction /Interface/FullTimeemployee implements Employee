@@ -1,0 +1,15 @@
+package com.Interface;
+
+public class FullTimeemployee implements Employee {
+	  private double monthlySalary;
+
+	    // Constructor
+	    FullTimeemployee(double monthlySalary) {
+	        this.monthlySalary = monthlySalary;
+	    }
+
+	    // Implement method
+	    public void calculateSalary() {
+	        System.out.println("Full Time Employee Salary: " + monthlySalary);
+	    }
+}
