@@ -1,0 +1,10 @@
+package com.Interface;
+
+interface Authentication {
+
+	public abstract void login(String userName, String password);
+	
+	public abstract void loggout();
+	
+	
+}
