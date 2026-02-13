@@ -1,0 +1,15 @@
+package com.Interface;
+
+public class UPI implements Payment {
+
+	@Override
+	public void pay() {
+		System.out.println("Payment successfully through the UPI...1");
+		
+	}
+	public static void main(String[] args) {
+		UPI u = new UPI();
+		u.pay();
+	}
+
+}
