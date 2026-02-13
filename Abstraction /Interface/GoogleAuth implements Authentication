@@ -1,0 +1,20 @@
+package com.Interface;
+
+public class GoogleAuth implements Authentication {
+
+	@Override
+	public void login(String userName, String password) {
+		if(userName.equals("Sonal.gmail.com") && password.equals("Sonal@123") ) {
+			System.out.println("Login Successfully...!");
+		}else {
+			System.out.println("Invalid");
+		}
+		
+	}
+
+	@Override
+	public void loggout() {
+	System.out.println("Loggout Successfully...!");
+	}
+
+}
