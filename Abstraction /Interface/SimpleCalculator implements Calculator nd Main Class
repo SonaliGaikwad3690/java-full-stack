@@ -1,0 +1,33 @@
+package com.Interface;
+
+public class SimpleCalculator implements Calculator {
+    
+	@Override
+	public void add() {
+		System.out.println("Addition = " + (a + b));
+		
+	}
+
+	@Override
+	public void sub() {
+		System.out.println("Substraction = " + (a - b));
+	}
+
+	@Override
+	public void multiply() {
+		System.out.println("Multiply = " + (a * b));
+	}
+
+	@Override
+	public void divide() {
+		System.out.println("Division = " + (a / b));
+	}
+
+	public static void main(String[] args) {
+		SimpleCalculator s = new SimpleCalculator();
+		s.add();
+		s.sub();
+		s.multiply();
+		s.divide();
+	}
+}
