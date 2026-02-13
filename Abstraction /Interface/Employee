@@ -1,0 +1,7 @@
+package com.Interface;
+// Employee Interface ,Create interface Employee , calculateSalary() , Implement for: 
+// FullTimeEmployee , PartTimeEmployee
+interface Employee {
+
+	void calculateSalary();
+}
