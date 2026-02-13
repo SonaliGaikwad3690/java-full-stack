@@ -1,0 +1,19 @@
+package com.Interface;
+
+public class PartTimeEmployee implements Employee {
+	 private int hoursWorked;
+	    private double ratePerHour;
+
+	    // Constructor
+	    PartTimeEmployee(int hoursWorked, double ratePerHour) {
+	        this.hoursWorked = hoursWorked;
+	        this.ratePerHour = ratePerHour;
+	    }
+
+	    // Implement method
+	    public void calculateSalary() {
+	        double salary = hoursWorked * ratePerHour;
+	        System.out.println("Part Time Employee Salary: " + salary);
+	    }
+
+}
