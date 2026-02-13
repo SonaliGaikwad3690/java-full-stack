@@ -1,0 +1,13 @@
+package com.Interface;
+
+public class MainAuth {
+
+	public static void main(String[] args) {
+		Authentication auth;
+		auth = new GoogleAuth();
+		auth.login("Sonal.gmail.com", "Sonal@123");
+		
+		auth = new InstagramAuth();
+		auth.login("Rashi.gmail.com", "Rashi@123");
+	}
+}
