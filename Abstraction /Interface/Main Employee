@@ -1,0 +1,12 @@
+package com.Interface;
+
+public class MainEmployee {
+
+	public static void main(String[] args) {
+		Employee e1 = new FullTimeemployee(30000);
+        Employee e2 = new PartTimeEmployee(5,500);
+
+        e1.calculateSalary();
+        e2.calculateSalary();
+}
+}
