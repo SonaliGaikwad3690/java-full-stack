@@ -1,0 +1,8 @@
+package com.Interface;
+//  Shape Interface . Create interface Shape: , area() , perimeter()
+// Implement for: Circle , Rectangle
+interface Shape {
+
+	public abstract void  area();
+	public abstract void perimeter();
+}
