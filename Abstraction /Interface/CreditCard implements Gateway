@@ -1,0 +1,11 @@
+package com.Interface;
+
+public class CreditCard implements Gateway {
+
+	@Override
+	public void pay(double amount) {
+		System.out.println("Paid Rs " + amount + " Using Credit Card ");
+	
+	}
+
+}
