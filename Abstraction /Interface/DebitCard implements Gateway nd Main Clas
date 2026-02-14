@@ -1,0 +1,29 @@
+package com.Interface;
+
+public class DebitCard implements Gateway {
+
+	@Override
+	public void pay(double amount) {
+     System.out.println("Paid Rs " + amount + " Using Debit Card ");
+	}
+	
+	public static void main(String[] args) {
+		System.err.println(" Using UPIs method");
+		
+		Gateway g1 ;
+		g1 = new UPIs();
+		g1.pay(25000);
+		
+		System.err.println(" Using Credit Card");
+		
+		Gateway g2 ;
+		g2 = new CreditCard();
+		g2.pay(30000);
+		
+		System.err.println(" Using Debit Card");
+		
+		Gateway g3 ;
+		g3 = new DebitCard();
+		g3.pay(350000);
+	}
+}
