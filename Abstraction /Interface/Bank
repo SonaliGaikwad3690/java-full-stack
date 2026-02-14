@@ -1,0 +1,10 @@
+package com.Interface;
+// Bank System :Create interface Bank deposit() , withdraw() , checkBalance()
+// Implement: SBI , HDFC
+interface Bank {
+ 
+	public abstract void withdraw(double amount);
+	public abstract void deposite(double amount);
+	public abstract void checkBalance();
+
+}
