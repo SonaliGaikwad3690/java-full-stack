@@ -1,0 +1,8 @@
+package com.Interface;
+// Payment Gateway : Create interface Payment: pay(double amount)
+// Implement: UPI , CreditCard ,DebitCard
+interface Gateway {
+	
+ public abstract void pay(double amount);
+ 
+}
