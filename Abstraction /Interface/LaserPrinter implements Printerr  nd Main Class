@@ -1,0 +1,22 @@
+package com.Interface;
+
+public class LaserPrinter implements Printerr {
+
+	@Override
+	public void print() {
+		System.out.println("Printer using LaserPrinter....!");
+	}
+	
+	public static void main(String[] args) {
+		Printerr p ;
+		p = new InkjetPrinter();
+		p.print();
+		System.err.println("------");
+		
+		Printerr p1 ;
+		p1 = new LaserPrinter();
+		p1.print();
+		
+	}
+
+}
