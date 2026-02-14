@@ -1,0 +1,6 @@
+package com.Interface;
+// Printer Interface Create interface Printer: print() , Implement: InkjetPrinter ,LaserPrinter
+interface Printerr {
+
+	public abstract void print();
+}
