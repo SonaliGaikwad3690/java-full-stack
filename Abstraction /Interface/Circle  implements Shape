@@ -1,0 +1,21 @@
+package com.Interface;
+
+public class Circle  implements Shape {
+
+	private double radius;
+	Circle(double radius){
+		this.radius = radius ;
+	}
+	@Override
+	public void area() {
+		 double a = Math.PI * radius * radius;
+		 System.out.println("area of Circle = " + a);
+	}
+
+	@Override
+	public void perimeter() {
+		double p = 2 * Math.PI * radius ;
+		System.out.println("Parimeter of Circle = " + p);
+	}
+
+}
