@@ -1,0 +1,10 @@
+package com.Interface;
+
+public class InkjetPrinter implements Printerr {
+
+	@Override
+	public void print() {
+		System.out.println("Printer using InkjetPrinter....!");
+	}
+
+}
