@@ -1,0 +1,27 @@
+package com.Interface;
+
+public class SBI implements Bank  {
+
+	private  double balance = 0;
+	@Override
+	public void deposite(double amount) {
+		balance += amount;
+		System.out.println("Deposited amount = " + amount);
+	}
+
+	@Override
+	public void withdraw(double amount) {
+		if (amount <= balance) {
+			balance -= amount;
+			System.out.println(" SBI Rs: deposite amount = " + amount);
+		}else {
+			System.out.println(" SBI Rs : insufficint balance ");
+		}
+	}
+
+	@Override
+	public void checkBalance() {
+		System.out.println("Check Balance Of SBI Bank = " + balance);
+	}
+
+}
