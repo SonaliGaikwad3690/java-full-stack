@@ -1,0 +1,42 @@
+package com.Interface;
+
+public class HDFC implements Bank {
+     private double balance = 0;
+	@Override
+	public void deposite(double amount) {
+		balance +=amount ;
+		System.out.println("HDFC : Rs Deposited = " + amount);
+	}
+
+	@Override
+	public void withdraw(double amount) {
+		if(amount <=balance ) {
+			balance -= amount ;
+			System.out.println("Withdraw amount from HDFC Bank Rs : " + amount );
+		}else {
+			System.out.println("HDFC Bank: Insufficint Balance ");
+		}
+	}
+
+	@Override
+	public void checkBalance() {
+		System.out.println("Check Balance Of HDFC Bank = " + balance);
+	}
+
+	public static void main(String[] args) {
+		
+		Bank b1 ;
+		b1 = new SBI ();
+		b1.deposite(1000);
+		b1.withdraw(600);
+		b1.checkBalance();
+		
+		System.err.println("---------------!");
+		
+		Bank b2 ;
+		b2 = new HDFC ();
+		b2.deposite(2000);
+		b2.withdraw(1600);
+		b2.checkBalance();
+	}
+}
