@@ -1,0 +1,9 @@
+package com.Interface;
+// Remote Control ; Create interface RemoteControl: powerOn() , powerOff()
+// Implement: TV , AC
+
+interface RemotControl {
+
+	public abstract void powerOn();
+	public abstract void powerOff();
+}
