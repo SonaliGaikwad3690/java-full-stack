@@ -1,0 +1,25 @@
+package com.Interface;
+
+public class SMSNotification implements Notification {
+
+	@Override
+	public void sendMsg(String msg) {
+		System.out.println("SMS Notification sent : " + msg);
+	}
+
+	public static void main(String[] args) {
+		Notification n1;
+		n1 = new EmailNotification();
+		n1.sendMsg("Heyyy..!");
+		System.err.println("--------------");
+
+		Notification n2;
+		n2 = new WhatsAppNotification();
+		n2.sendMsg("Hello..!");
+		System.err.println("--------------");
+
+		Notification n3;
+		n3 = new SMSNotification();
+		n3.sendMsg("Hiiiii..!");
+	}
+}
