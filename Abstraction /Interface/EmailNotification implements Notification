@@ -1,0 +1,10 @@
+package com.Interface;
+
+public class EmailNotification implements Notification {
+
+	@Override
+	public void sendMsg(String msg) {
+		System.out.println("Email Notification sent : " + msg);
+	}
+
+}
