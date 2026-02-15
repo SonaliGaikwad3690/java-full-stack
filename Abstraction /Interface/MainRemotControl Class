@@ -1,0 +1,17 @@
+package com.Interface;
+
+public class MainRemotControl {
+
+	public static void main(String[] args) {
+		RemotControl rc1 ;
+		rc1 = new TV();
+		rc1.powerOn();
+		rc1.powerOff();
+		System.err.println("--------------");
+		
+		RemotControl rc2 ;
+		rc2 = new AC();
+		rc2.powerOn();
+		rc2.powerOff();
+	}
+}
