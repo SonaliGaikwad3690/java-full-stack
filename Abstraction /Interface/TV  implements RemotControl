@@ -1,0 +1,15 @@
+package com.Interface;
+
+public class TV  implements RemotControl {
+
+	@Override
+	public void powerOn() {
+		System.out.println("TV is On .....!");
+	}
+
+	@Override
+	public void powerOff() {
+		System.out.println("Tv is Off...!");
+	}
+
+}
