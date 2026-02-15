@@ -1,0 +1,8 @@
+package com.Interface;
+// Notification System : Create interface Notification: sendMessage(String msg)
+// Implement: EmailNotification , SMSNotification , WhatsAppNotification
+interface Notification {
+
+	public abstract void sendMsg(String msg);
+
+}
