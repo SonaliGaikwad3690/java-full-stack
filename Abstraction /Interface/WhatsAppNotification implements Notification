@@ -1,0 +1,10 @@
+package com.Interface;
+
+public class WhatsAppNotification implements Notification {
+
+	@Override
+	public void sendMsg(String msg) {
+		System.out.println("Whtas App Notification sent : " + msg);
+	}
+
+}
