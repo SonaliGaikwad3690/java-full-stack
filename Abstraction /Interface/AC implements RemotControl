@@ -1,0 +1,15 @@
+package com.Interface;
+
+public class AC implements RemotControl {
+
+	@Override
+	public void powerOn() {
+		System.out.println("AC is On ...!");
+	}
+
+	@Override
+	public void powerOff() {
+	System.out.println("AC if Off...!");
+	}
+
+}
