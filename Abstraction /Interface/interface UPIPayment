@@ -1,0 +1,8 @@
+package com.Interface;
+// Online Payment System Create two interfaces:
+// UPIPayment â†’ method payUsingUPI() , CardPayment â†’ method payUsingCard()
+// Create a class PaymentGateway that implements both interfaces.
+interface UPIPayment {
+
+	public abstract void payUsingUPI();
+}
