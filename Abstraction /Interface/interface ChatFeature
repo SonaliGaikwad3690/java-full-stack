@@ -1,0 +1,6 @@
+package com.Interface;
+
+interface ChatFeature {
+
+	public abstract void sendMsg();
+}
