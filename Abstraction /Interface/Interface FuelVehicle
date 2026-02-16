@@ -1,0 +1,6 @@
+package com.Interface;
+
+interface FuelVehicle {
+
+	public abstract void  fillFuel();
+}
