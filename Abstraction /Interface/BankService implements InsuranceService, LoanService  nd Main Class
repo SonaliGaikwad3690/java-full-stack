@@ -1,0 +1,41 @@
+package com.Interface;
+
+public class BankService implements InsuranceService, LoanService {
+
+	String name ;
+	double loanAmount ;
+	String insuranceType;
+	// Constructor
+	BankService (String name ,double loanAmount ,String insuranceType){
+		this.name = name;
+		this.loanAmount = loanAmount;
+		this.insuranceType = insuranceType;
+	}
+	@Override
+	public void applyLoan() {
+		System.out.println("Customer Name = " + name);
+		System.out.println("Customer Load Applied = " +loanAmount );
+	}
+
+	@Override
+	public void applyInsurance() {
+		System.out.println("Customer Name = " + name);
+		System.out.println("Customer Insturance Type = " + insuranceType);
+	}
+
+	
+	public static void main(String[] args) {
+		
+		LoanService l ;
+//		 l = new BankService(insuranceType, loanAmount, insuranceType);
+//		 
+//		
+//		InsuranceService i ;
+//		i = new BankService ("Sonal", 500000," HealthInsurance");
+//		i.applyInsurance();
+		
+		BankService b = new BankService("Sonal", 500000," HealthInsurance");
+		b.applyInsurance();
+		b.applyLoan();
+	}
+}
