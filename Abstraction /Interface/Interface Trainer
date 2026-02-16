@@ -1,0 +1,7 @@
+package com.Interface;
+// Employee Roles : Create two interfaces: Trainer â†’ method teach() ,Developer â†’ method developProject()
+// Create a class TechLead that implements both interfaces.
+interface Trainer {
+
+	public abstract void teach();
+}
