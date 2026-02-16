@@ -1,0 +1,6 @@
+package com.Interface;
+
+interface InsuranceService {
+
+	public abstract void applyInsurance();
+}
