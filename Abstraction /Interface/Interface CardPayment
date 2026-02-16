@@ -1,0 +1,7 @@
+package com.Interface;
+
+interface CardPayment {
+ 
+	public abstract void payUsingCard();
+	
+}
