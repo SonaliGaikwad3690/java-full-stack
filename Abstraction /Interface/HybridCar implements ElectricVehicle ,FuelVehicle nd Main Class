@@ -1,0 +1,32 @@
+package com.Interface;
+
+public class HybridCar implements ElectricVehicle ,FuelVehicle {
+
+	@Override
+	public void chargeBattery() {
+		System.out.println("Battery is Charging......!");
+	}
+
+	@Override
+	public void fillFuel() {
+	System.out.println("Fuel tank is being filled......!");
+	}
+
+	public void drive() {
+		System.out.println("Hybrid car is running using both Electrical, FuelVehicle......!");
+	}
+	
+	public static void main(String[] args) {
+		ElectricVehicle ev ;
+		ev = new HybridCar();
+		ev.chargeBattery();
+		
+		FuelVehicle f ;
+		f = new HybridCar ();
+		f.fillFuel();
+		
+		HybridCar h = new HybridCar ();
+		h.drive();
+		
+	}
+}
