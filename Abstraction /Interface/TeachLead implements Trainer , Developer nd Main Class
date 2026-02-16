@@ -1,0 +1,24 @@
+package com.Interface;
+
+public class TeachLead implements Trainer , Developer {
+
+	@Override
+	public void developProject() {
+		System.out.println("Developpers are devlop the Projects....!");
+	}
+
+	@Override
+	public void teach() {
+		System.out.println("Trainer is provide the tarining to new Employee....!");
+	}
+
+	public static void main(String[] args) {
+		Trainer t;
+		t = new TeachLead ();
+		t.teach();
+		
+		Developer d ;
+		d = new TeachLead();
+		d.developProject();
+	}
+}
