@@ -1,0 +1,8 @@
+package com.Interface;
+// Banking System :Create two interfaces:LoanService â†’ method applyLoan()l,
+// InsuranceService â†’ method applyInsurance()
+// Create a class BankService that implements both interfaces.
+interface LoanService {
+
+	public abstract void applyLoan();
+}
