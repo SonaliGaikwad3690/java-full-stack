@@ -1,0 +1,26 @@
+package com.Interface;
+
+public class SocialApp implements ReelsFeature, ChatFeature {
+
+	@Override
+	public void uploadReel() {
+		System.out.println("Upload The reels on Instagram....!");
+	}
+
+	@Override
+	public void sendMsg() {
+		System.out.println("Send the message on Whats App....!");
+
+	}
+
+	public static void main(String[] args) {
+		ReelsFeature r ;
+		r = new SocialApp();
+		r.uploadReel();
+		
+		ChatFeature c ;
+		c = new SocialApp();
+		c.sendMsg();
+		
+	}
+}
