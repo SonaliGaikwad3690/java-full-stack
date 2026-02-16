@@ -1,0 +1,26 @@
+package com.Interface;
+
+public class PaymentGateway implements UPIPayment, CardPayment {
+
+	@Override
+	public void payUsingCard() {
+		System.out.println("Paymnets done Through the Using Card...!");
+	}
+
+	@Override
+	public void payUsingUPI() {
+		System.out.println("Paymnets done Through the Using UPI...!");
+	}
+	
+	public static void main(String[] args) {
+		UPIPayment p;
+		p= new PaymentGateway();
+		p.payUsingUPI();
+		
+		CardPayment c;
+		c = new PaymentGateway();
+		c.payUsingCard();
+	}
+}
+
+
