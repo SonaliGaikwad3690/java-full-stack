@@ -1,0 +1,8 @@
+package com.Interface;
+// Vehicle Features : Create two interfaces:ElectricVehicle â†’ method chargeBattery()
+// FuelVehicle â†’ method fillFuel()
+// Create a class HybridCar that implements both interfaces.
+interface ElectricVehicle {
+
+	public abstract void chargeBattery();
+}
