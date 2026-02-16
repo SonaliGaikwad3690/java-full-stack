@@ -1,0 +1,6 @@
+package com.Interface;
+
+interface Developer {
+
+	public abstract void developProject();
+}
