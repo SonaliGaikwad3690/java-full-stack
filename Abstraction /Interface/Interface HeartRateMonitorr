@@ -1,0 +1,8 @@
+package com.Interface;
+// Smart Watch : Create two interfaces:
+// HeartRateMonitor â†’ method measureHeartRate() , StepCounter â†’ method countSteps()
+// Create a class SmartWatch that implements both interfaces.
+interface HeartRateMonitor {
+
+	public abstract void  measureHeartRate();
+}
