@@ -1,0 +1,16 @@
+package com.AbstractClass;
+
+public class Dog extends Animal {
+
+	@Override
+	public void makeSount() {
+		System.out.println("Dog barks......!");
+	}
+
+	public static void main(String[] args) {
+		
+		Dog d = new Dog();
+		d.eat();  // concrete method
+		d.makeSount();  //abstract method
+	}
+}
