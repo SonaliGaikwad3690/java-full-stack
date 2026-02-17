@@ -1,0 +1,7 @@
+package com.Interface;
+//  Educational Platform :Create two interfaces:
+// VideoCourse â†’ method watchVideo() , TestSeries â†’ method attemptTest()
+// Create a class LearningApp that implements both interfaces.
+interface VideoCourse {
+	public abstract void watchVideo();
+}
