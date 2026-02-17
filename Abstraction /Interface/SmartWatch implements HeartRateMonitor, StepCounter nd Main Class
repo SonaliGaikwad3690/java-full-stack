@@ -1,0 +1,33 @@
+package com.Interface;
+
+public class SmartWatch implements HeartRateMonitor, StepCounter {
+
+	int heartRate;
+	int stepCount;
+	// Constructor
+	SmartWatch(	int heartRate, int stepCount){
+		this.heartRate = heartRate;
+		this.stepCount = stepCount;
+	}
+	@Override
+	public void CountSteps() {
+		System.out.println("Count Steps = " + stepCount);
+		
+	}
+
+	@Override
+	public void measureHeartRate() {
+		System.out.println("Heart Rate = " + heartRate);
+
+	}
+
+	public static void main(String[] args) {
+		HeartRateMonitor h ;
+		h = new SmartWatch(32, 5000);
+		h.measureHeartRate();
+		
+		StepCounter c ;
+		c = new  SmartWatch (32, 5000);
+		c.CountSteps();
+	}
+}
