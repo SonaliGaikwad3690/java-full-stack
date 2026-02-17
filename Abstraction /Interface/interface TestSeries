@@ -1,0 +1,6 @@
+package com.Interface;
+
+interface TestSeries {
+	public abstract void attemptTest();
+
+}
