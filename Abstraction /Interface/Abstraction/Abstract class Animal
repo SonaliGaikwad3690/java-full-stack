@@ -1,0 +1,10 @@
+package com.AbstractClass;
+//
+public abstract class Animal {
+
+	public abstract void makeSount();
+	
+	public void eat () {
+		System.out.println("Animal is Eating...!");
+	}
+}
