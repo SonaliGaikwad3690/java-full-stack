@@ -1,0 +1,7 @@
+package com.Interface;
+// E-Commerce Platform : Create two interfaces:
+// Seller â†’ method sellProduct() , Buyer â†’ method buyProduct()
+// Create a class MarketplaceUser that implements both interfaces.
+interface Seller {
+	public abstract void sellProduct();
+}
