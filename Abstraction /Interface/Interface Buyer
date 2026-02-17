@@ -1,0 +1,5 @@
+package com.Interface;
+
+interface Buyer {
+  public abstract void buyProduct();
+}
