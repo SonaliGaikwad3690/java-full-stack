@@ -1,0 +1,25 @@
+package com.Interface;
+
+public class MarketplaceUser  implements Seller , Buyer{
+
+	@Override
+	public void buyProduct() {
+		System.out.println("User is Buying the  product from on Platform.....!");
+	}
+
+	@Override
+	public void sellProduct() {
+		System.out.println("User is Sell the  product on Platform.....!");
+
+	}
+
+	public static void main(String[] args) {
+		Seller s ;
+		s = new MarketplaceUser();
+		s.sellProduct();
+		
+		Buyer b ;
+		b = new MarketplaceUser();
+		b.buyProduct();
+	}
+}
