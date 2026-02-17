@@ -1,0 +1,41 @@
+package com.Interface;
+
+public class LearningApp implements VideoCourse, TestSeries {
+
+	String studentName ;
+	String courseName;
+	int testScore;
+	// constructor
+	LearningApp(String studentName,String courseName,int testScore ){
+		this.studentName = studentName;
+		this.courseName = courseName;
+		this.testScore = testScore;
+	}
+	@Override
+	public void watchVideo() {
+		System.out.println(studentName + " is the Watching video Course " + courseName);
+	}
+
+	@Override
+	public void attemptTest() {
+		System.out.println(studentName + " Test Score is " + testScore);
+	}
+
+	public void progress() {
+		System.out.println("Learning is Progress....!");
+	}
+	public static void main(String[] args) {
+		VideoCourse v ;
+		v = new LearningApp("Sonal", "Java Course", 80);
+		v.watchVideo();
+		System.err.println("-------------");
+		TestSeries t ;
+		t = new LearningApp("Sonal", "Java Course", 80);
+		t.attemptTest();
+		System.err.println("-------------");
+
+		LearningApp l = new LearningApp("Sonal", "Java Course", 80);
+		l.progress();
+		
+	}
+}
