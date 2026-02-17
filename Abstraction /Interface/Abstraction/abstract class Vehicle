@@ -1,0 +1,10 @@
+package com.AbstractClass;
+
+public abstract class Vehicle {
+
+	public abstract void start();
+	
+	public void chargeBattry() {
+		System.out.println("Battery Charing is Progress ..!");
+	}
+}
