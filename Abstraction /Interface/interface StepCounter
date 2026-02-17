@@ -1,0 +1,6 @@
+package com.Interface;
+
+interface StepCounter {
+
+	public abstract void  CountSteps();
+}
