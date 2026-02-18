@@ -1,0 +1,32 @@
+package com.AbstractClass;
+
+public class PrimeRide extends Ride {
+
+	@Override
+	public void calculateFare(double distance) {
+		double ratePerKm = 5 ;
+		double luxaryCharge =  50 ;
+		double fare = (ratePerKm * distance) + luxaryCharge;
+		
+		startRide ();
+		System.out.println("Prime Ride Rate per KM = " + ratePerKm + " Km");
+		System.out.println("Luxary Charges are = " + luxaryCharge);
+		System.out.println("Prime Ride Fare = " + fare);
+	}
+	
+
+	public static void main(String[] args) {
+		System.err.println("---- MiniRide ------");
+		Ride r1 ; 
+		r1 = new MiniRide ();
+		r1.startRide();
+		r1.calculateFare(10);
+		System.err.println("---- PrimeRide ------");
+		Ride r2 ; 
+		r2 = new PrimeRide ();
+		r2.startRide();
+		r2.calculateFare(5);
+
+	}
+
+}
