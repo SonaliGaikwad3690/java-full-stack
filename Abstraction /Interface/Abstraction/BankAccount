@@ -1,0 +1,23 @@
+package com.AbstractClass;
+//  Banking System : Create an abstract class BankAccount with:
+// variables: accountNumber, balance
+// abstract method: calculateInterest() , concrete method: deposit()
+// Create subclasses: SavingsAccount ,CurrentAccount
+public abstract  class BankAccount {
+
+	double accountNumber ;
+	double balance ;
+	BankAccount(double accountNumber ,double balance){
+		this.accountNumber = accountNumber;
+		this.balance = balance ;
+	}
+	
+	public abstract void calculateInterest();// Abstract Method 
+	
+	public void deposite (double amount ) {
+		balance += amount;
+		System.out.println("Amount Deposited = " + amount);
+		System.out.println("Amount Updated = " + balance);
+	}
+}
+
