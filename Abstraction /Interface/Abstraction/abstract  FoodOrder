@@ -1,0 +1,17 @@
+package com.AbstractClass;
+// Food Delivery App (like Zomato/Swiggy) : Create abstract class FoodOrder with:
+// abstract method calculateBill() , concrete method printReceipt()
+//Subclasses: DineInOrder ; OnlineOrder
+public abstract class FoodOrder {
+        double amount ;
+        FoodOrder(double amount ){
+        	this.amount = amount ;
+        }
+        
+        public abstract void calculateBill();
+        
+        public void printRecepit() {
+        	  System.out.println(" print Receipt .....!");
+        	  System.out.println("Food Amount = " + amount);
+        }
+}
