@@ -1,0 +1,29 @@
+package com.AbstractClass;
+
+public class CurrentAccount extends BankAccount{
+
+	CurrentAccount(double accountNumber, double balance) {
+		super(accountNumber, balance);
+		
+	}
+
+	@Override
+	public void calculateInterest() {
+		double intrest = balance * 0.02;
+		System.out.println("Current Intrest = " + intrest );
+	}
+
+	
+	public static void main(String[] args) {
+		System.err.println("Saving Account....!");
+		BankAccount b1 ;
+		b1 = new SavingsAccount(226191767, 50000);
+		b1.calculateInterest();
+		b1.deposite(60000);
+		System.err.println("Currenrt Account....!");
+		BankAccount b2 ;
+		 b2 = new CurrentAccount(234367899, 40000);
+		 b2.calculateInterest();
+		 b2.deposite(60000);
+	}
+}
