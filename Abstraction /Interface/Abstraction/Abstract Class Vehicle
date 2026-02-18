@@ -1,0 +1,23 @@
+package com.AbstractClass;
+// Vehicle Service System : Create abstract class Vehicle with:
+// abstract method startEngine() , concrete method stopEngine()
+// Subclasses: Car , Bike
+
+public abstract class Vehicle {
+
+	String name ;
+	double price;
+	Vehicle (String name , double price){
+		this.name = name ;
+		this.price = price ;
+	}
+	
+	public abstract void startEngine();
+	
+	public void stopEngine () {
+		System.out.println("Vehicle Name = " + name);
+		System.out.println("Vehicle Price = " + " Rs = "  + price );
+		System.out.println("Stopped Engine");
+
+	}
+}
