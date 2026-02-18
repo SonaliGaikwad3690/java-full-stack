@@ -1,0 +1,22 @@
+package com.AbstractClass;
+
+public class DineInOrder extends FoodOrder {
+
+	DineInOrder(double amount) {
+		super(amount);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void calculateBill() {
+		double tax = amount * 0.10 ;
+		double total = tax + amount ;
+	
+	      printRecepit ();
+		System.out.println("Tax = " + tax);
+		System.out.println("Print Reacpit = " + total);
+	
+	
+	}
+
+}
