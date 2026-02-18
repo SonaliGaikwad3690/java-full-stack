@@ -1,0 +1,15 @@
+package com.AbstractClass;
+
+public class Car extends Vehicle{
+
+	Car(String name, double price) {
+		super(name, price);
+	}
+
+	@Override
+	public void startEngine() {
+		System.out.println("Start the Car using KEYs....!");	
+	}
+
+	
+}
