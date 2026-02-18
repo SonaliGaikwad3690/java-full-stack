@@ -1,0 +1,33 @@
+package com.AbstractClass;
+
+public class OnlineOrder extends FoodOrder {
+
+	OnlineOrder(double amount) {
+		super(amount);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void calculateBill() {
+		double deleveryCharges = 50 ;
+		double tax = amount * 0.10 ;
+		double total = amount + tax + deleveryCharges;
+		System.out.println("Delevery Charges = " + deleveryCharges );
+		System.out.println("Tax = " + tax);
+		System.out.println("Total Bill = " + total);
+	}
+
+	public static void main(String[] args) {
+		System.err.println("DinIn Order-------------!");
+		FoodOrder f1 ;
+		f1 = new DineInOrder (400);
+		f1.calculateBill();
+		f1.printRecepit();
+		
+		System.err.println("Online Order-------------!");
+		FoodOrder f2 ;
+		f2 = new OnlineOrder (600);
+		f2.calculateBill();
+		f2.printRecepit();
+	}
+}
