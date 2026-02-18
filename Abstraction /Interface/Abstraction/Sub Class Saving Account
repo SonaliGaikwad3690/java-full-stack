@@ -1,0 +1,17 @@
+package com.AbstractClass;
+
+public class SavingsAccount extends BankAccount  {
+
+	SavingsAccount(double accountNumber, double balance) {
+		super(accountNumber, balance);
+	
+	}
+
+	@Override
+	public void calculateInterest() {
+		double intrest = balance * 0.04 ;
+		System.out.println("Saving Intrest = " + intrest);
+	}
+
+	
+}
