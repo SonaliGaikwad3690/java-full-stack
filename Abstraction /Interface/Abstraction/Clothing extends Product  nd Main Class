@@ -1,0 +1,32 @@
+package com.AbstractClass;
+
+public class Clothing extends Product {
+
+	Clothing(String productName, double price) {
+		super(productName, price);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void calculateDiscount() {
+		double discount = price * 0.20 ;
+		double finalPrice = price - discount;
+		
+		displayProductDetails();
+		System.out.println("Clothing price = " + discount);
+		System.out.println("Clothing finalPrice = " + finalPrice);
+	}
+
+	public static void main(String[] args) {
+		System.err.println("----Electronic Product -----");
+		Product p1 ;
+		p1 = new Electronics("Mobile", 50000);
+		p1.calculateDiscount();
+		System.err.println("----Clothing Product -----");
+		Product p2 ;
+		p2 = new Clothing("T-Shirt", 1500);
+		p2.calculateDiscount();
+		
+	}
+}
+ 
