@@ -1,0 +1,27 @@
+package com.AbstractClass;
+
+public class Bike extends Vehicle {
+
+	Bike(String name, double price) {
+		super(name, price);
+	}
+
+	@Override
+	public void startEngine() {
+		System.out.println("Start the Bike Using KEYs...!");		
+	}
+
+	public static void main(String[] args) {
+		System.err.println("-----Car -----");
+		Vehicle v1 ;
+		v1 = new Car ("Scoda", 1300000);
+		v1.startEngine();
+		v1.stopEngine();
+		System.err.println("-----Bike -----");
+
+		Vehicle v2 ;
+		v2 = new Bike ("Z900", 250000);
+		v2.startEngine();
+		v2.stopEngine();
+	}
+}
