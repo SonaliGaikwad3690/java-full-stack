@@ -1,0 +1,20 @@
+package com.AbstractClass;
+
+public class Electronics extends Product {
+
+	Electronics(String productName, double price) {
+		super(productName, price);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void calculateDiscount() {
+		double discount = price * 10 ;
+		double finalPrice = price - discount ;
+		
+		displayProductDetails();
+		System.out.println("Electronic Product price = " + discount);
+		System.out.println("Product finalPrice = " + finalPrice);
+	}
+
+}
