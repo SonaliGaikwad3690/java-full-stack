@@ -1,0 +1,16 @@
+package com.AbstractClass;
+
+public class MiniRide extends Ride {
+
+	@Override
+	public void calculateFare(double distance) {
+		double ratePerKm = 10;
+		double fare = distance * ratePerKm;
+
+		startRide();
+		System.out.println("Mini Ride Distance = " + distance + "KM");
+		System.out.println("Mini ride fare = " + fare);
+
+	}
+
+}
