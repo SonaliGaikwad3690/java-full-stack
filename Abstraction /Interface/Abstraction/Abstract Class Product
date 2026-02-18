@@ -1,0 +1,22 @@
+package com.AbstractClass;
+// E-Commerce Platform (like Amazon) : Create abstract class Product with:
+// abstract method calculateDiscount() ,concrete method displayProductDetails()
+// Subclasses: Electronics , Clothing
+public abstract class Product {
+
+	String productName ;
+	double price;
+	// constructor
+	Product (String productName  , double price){ 
+		this.productName = productName;
+		this.price = price;
+	}
+	
+	 public abstract void  calculateDiscount (); // Abstract Method
+	 
+	 public void displayProductDetails () { // Concrete Method
+		 System.out.println("Product name = " + productName);
+		 System.out.println("Product discount = " + price);
+		 
+	 }
+}
