@@ -1,0 +1,18 @@
+package com.SuperAndThis;
+// Hospital Management : Create abstract class MedicalStaff with:
+// abstract method performDuty() , concrete method getStaffDetails()
+// Subclasses: Doctor , Nurse
+public abstract class MedicleStaff {
+    String name ;
+    int id ;
+    MedicleStaff ( String name  , int id){
+    	this.name = name ;
+    	this.id = id ;
+    }
+	public abstract void  performDuty();
+	
+	public void getStaffDetails() {
+		System.out.println("Staff name = "+ name );
+		System.out.println("Staff Id = " + id);
+	}
+}
