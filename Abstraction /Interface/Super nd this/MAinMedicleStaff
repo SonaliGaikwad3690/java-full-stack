@@ -1,0 +1,14 @@
+package com.SuperAndThis;
+
+public class MainMedicleStaff {
+
+	public static void main(String[] args) {
+		System.err.println("--------Doctor Details------");
+		Doctor d = new Doctor ("Dr.Rahul" ,12, "Cardiology");
+		d.performDuty();
+		
+		System.err.println("--------Nurse Details------");
+        Nurse n = new Nurse ("Rashi", 22, "ICU");
+        n.performDuty();
+	}
+}
