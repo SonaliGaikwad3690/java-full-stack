@@ -1,0 +1,18 @@
+package com.SuperAndThis;
+//Online Course Platform : Create abstract class Course with:
+// abstract method calculateDuration() , concrete method courseDetails()
+// Subclasses: JavaCourse , PythonCourse
+public abstract class Course {
+      String courseName ;
+      int totalModule;
+      Course (String courseName, int totalModule){
+    	  this.courseName = courseName;
+    	  this.totalModule = totalModule;
+      }
+	public abstract void calculateDuration();
+	
+	public void courseDetails() {
+		System.out.println("Course Name = " + courseName);
+		System.out.println("Corse TotalModule = " +  totalModule);
+	}
+}
