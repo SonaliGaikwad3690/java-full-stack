@@ -1,0 +1,23 @@
+package com.SuperAndThis;
+
+public class Employee extends Company {
+
+	public Employee() {
+		super(); // parent class constructor
+		super.info(); // Parent class method
+		System.out.println("this is Employee class Constr");
+
+	}
+
+	public Employee(int a) {
+		super.info();
+		System.out.println("this is Employee class Constr");
+
+	}
+
+	public static void main(String[] args) {
+		Employee e = new Employee();
+	    e.info();
+	}
+
+}
