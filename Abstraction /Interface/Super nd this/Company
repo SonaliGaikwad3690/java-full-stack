@@ -1,0 +1,12 @@
+package com.SuperAndThis;
+
+public class Company {
+
+	public Company() {
+		System.out.println("this is parent class Constrs");
+	}
+
+	public void info() {
+		System.out.println("this is method of Company class");
+	}
+}
