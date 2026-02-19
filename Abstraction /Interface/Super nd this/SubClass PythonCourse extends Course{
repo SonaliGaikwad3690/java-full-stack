@@ -1,0 +1,18 @@
+package com.SuperAndThis;
+
+public class PythonCourse extends Course{
+	 int hoursPerModule ;
+	PythonCourse(String courseName, int totalModule ,  int hoursPerModule) {
+	// 	this Course();
+		super(courseName, totalModule);
+		this.hoursPerModule =  hoursPerModule ;
+	}
+
+	@Override
+	public void calculateDuration() {
+		int totalHours = totalModule * hoursPerModule ;
+		super.courseDetails();
+		System.out.println("Pythone Course = " + totalHours + " Hours");
+	}
+
+}
