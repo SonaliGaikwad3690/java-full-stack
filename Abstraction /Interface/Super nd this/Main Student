@@ -1,0 +1,9 @@
+package com.SuperAndThis;
+
+public class MainStudent {
+
+	public static void main(String[] args) {
+		Student s = new Student ("Sonal" , 21);
+		
+	}
+}
