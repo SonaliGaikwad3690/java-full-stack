@@ -1,0 +1,18 @@
+package com.SuperAndThis;
+
+public class Doctor extends MedicleStaff {
+      String specialization ;
+	Doctor(String name, int id ,String specialization) {
+		super(name, id); // called parent class constructor
+          this.specialization = specialization;	
+          }
+
+	@Override
+	public void performDuty() {
+		super.getStaffDetails(); // called parent class method
+		System.out.println("Role = Doctor");
+		System.out.println("specialization = " + this.specialization);
+		System.out.println(name + " is diagnosing patients.");
+	}
+
+}
