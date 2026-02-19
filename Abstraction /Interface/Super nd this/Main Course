@@ -1,0 +1,14 @@
+package com.SuperAndThis;
+
+public class MainCourse {
+
+	public static void main(String[] args) {
+		System.err.println("=====Java Course====");
+		JavaCourse java = new JavaCourse ("Core Java", 10, 2);
+		java.calculateDuration();
+		
+		System.err.println("=====Python Course====");
+        PythonCourse python = new PythonCourse("Python Programming " , 8 , 3);
+        python.calculateDuration();
+	}
+}
