@@ -1,0 +1,18 @@
+package com.SuperAndThis;
+
+public class Nurse  extends MedicleStaff{
+      String ward;
+	Nurse(String name, int id , String ward) {
+		super(name, id); //call parent constructor
+		this.ward = ward ;
+	}
+
+	@Override
+	public void performDuty() {
+		super.getStaffDetails(); //call parent method
+		 System.out.println("Role: Nurse");
+	     System.out.println("Ward: " + this.ward);
+	      System.out.println(name + " is taking care of patients.");
+	}
+
+}
