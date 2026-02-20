@@ -1,0 +1,25 @@
+package com.PracticeBaseQue;
+
+public class MultiFuctionalDevice extends Device implements Scanner, Printer {
+
+	@Override
+	public void print() {
+		System.out.println("Print the Docus..!");
+	}
+
+	@Override
+	public void scan() {
+		System.out.println("Scann the Docus..!");
+	}
+
+	@Override
+	public void start() {
+		System.out.println("Machine Started..!");
+	}
+
+	@Override
+	public void stop() {
+		System.out.println("Machine Stopped..!");
+	}
+
+}
