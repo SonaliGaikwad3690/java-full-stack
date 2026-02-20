@@ -1,0 +1,13 @@
+package com.package2;
+import com.package1.Animal;
+public class Dog  extends Animal{
+
+	void bark() {
+	  sound();
+	}
+	public static void main(String[] args) {
+		Dog d = new Dog ();
+		d.sound();
+		d.bark();
+	}
+}
