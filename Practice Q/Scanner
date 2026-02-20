@@ -1,0 +1,7 @@
+package com.PracticeBaseQue;
+
+public interface Scanner {
+	
+	public abstract void scan();
+
+}
