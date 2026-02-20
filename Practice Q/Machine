@@ -1,0 +1,6 @@
+package com.PracticeBaseQue;
+
+public  abstract class Machine {
+
+	public abstract void start ();
+}
