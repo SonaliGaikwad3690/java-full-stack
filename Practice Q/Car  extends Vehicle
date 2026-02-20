@@ -1,0 +1,16 @@
+package com.PracticeBaseQue;
+
+public class Car  extends Vehicle{
+
+	Car(String vehicleNumber) {
+		super(vehicleNumber);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void startEngine() {
+		System.out.println("Car Engine started with the Keys  🚗 ...!");
+		System.out.println("Vehicle Number = " + getVehicleNumber()) ;
+	}
+
+}
