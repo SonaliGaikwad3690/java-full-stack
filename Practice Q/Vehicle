@@ -1,0 +1,24 @@
+package com.PracticeBaseQue;
+// Vehicle Service System : Create abstract class Vehicle with:Make the variable private
+// abstract method startEngine() , concrete method stopEngine()
+// Subclasses: Car , Bike
+public  abstract class Vehicle {
+
+	private String vehicleNumber ;
+	
+	Vehicle(String vehicleNumber ){ // constructor
+		this.vehicleNumber = vehicleNumber ;
+	}
+	
+	public abstract void startEngine(); // abstract method
+	
+	public String getVehicleNumber() { //Getter Method to access the Private Variable
+		return vehicleNumber;
+		
+	}
+	
+	public void stopEngine () { 
+	  System.out.println("Engine Stopped for  Vehicle No = " + vehicleNumber);
+		
+	}
+}
