@@ -1,0 +1,7 @@
+package com.PracticeBaseQue;
+
+interface Printer {
+
+	public abstract void print();
+	
+}
