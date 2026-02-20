@@ -1,0 +1,14 @@
+package com.package1;
+
+public class Student {
+
+	private int age = 22;
+	 
+	public void show () {
+		System.out.println("Student = " + age);
+	}
+	public static void main(String[] args) {
+		Student s = new Student ();
+		s.show();
+	}
+}
