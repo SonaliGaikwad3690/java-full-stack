@@ -1,0 +1,6 @@
+package com.PracticeBaseQue;
+
+public  abstract class Device extends Machine {
+
+	public abstract void stop();
+}
