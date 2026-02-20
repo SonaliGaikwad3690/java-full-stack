@@ -1,0 +1,12 @@
+package com.PracticeBaseQue;
+
+public class MainPrinterMachine {
+
+	public static void main(String[] args) {
+		MultiFuctionalDevice m = new MultiFuctionalDevice();
+		m.print();
+		m.scan();
+		m.start();
+		m.stop();
+	}
+}
