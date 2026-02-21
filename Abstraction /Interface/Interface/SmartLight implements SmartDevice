@@ -1,0 +1,28 @@
+package com.Interface;
+
+public class SmartLight implements SmartDevice {
+
+	@Override
+	public void turnOn() {
+		System.out.println("Smart Light is Turn On....!");
+	}
+
+	@Override
+	public void turnOff() {
+		System.out.println("Smart Light is Turn On....!");
+	}
+
+	public static void main(String[] args) {
+		SmartDevice s1 ;
+		s1 = new SmartFan();
+		s1.turnOn();
+		s1.turnOff();
+		
+		System.err.println("------------------------!");
+		SmartLight s2 ;
+		s2 = new SmartLight ();
+		s2.turnOn();
+		s2.turnOff();
+		
+	}
+}
