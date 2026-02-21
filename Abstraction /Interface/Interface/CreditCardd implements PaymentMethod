@@ -1,0 +1,12 @@
+package com.Interface;
+
+public class CreditCardd implements PaymentMethod {
+
+	@Override
+	public void pay(double amount) {
+		System.err.println("Payment made Using Credit Card ...!");
+		System.out.println("Paid Amount = " + amount + " RS ");
+	}
+
+	
+}
