@@ -1,0 +1,11 @@
+package com.Interface;
+
+public class NetBanking implements PaymentMethod{
+
+	@Override
+	public void pay(double amount) {
+		System.err.println("Made a Payment through the Net Banking ...!");
+		System.out.println("Paid Amount = " + amount + " RS ");
+	}
+
+}
