@@ -1,0 +1,16 @@
+package com.AbstractClass;
+
+public class MainPayment {
+
+	public static void main(String[] args) {
+		Payment p ;
+		p = new UPIPayment ();
+		p.makePayment(50000);
+		p.generateReceipt();
+		System.err.println("-----------------------------");
+		Payment p1 ;
+		p1 = new CardPayment ();
+		p1.makePayment(50000);
+		p1.generateReceipt();
+	}
+}
