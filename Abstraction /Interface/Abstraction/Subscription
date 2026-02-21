@@ -1,0 +1,48 @@
+package com.AbstractClass;
+// Streaming Platform (like Netflix) : Create abstract class Subscription with:
+// abstract method calculatePrice() , concrete method subscriptionDetails()
+// Subclasses: BasicPlan , PremiumPlan
+public abstract class package com.AbstractClass;
+// Streaming Platform (like Netflix) : Create abstract class Subscription with:
+// abstract method calculatePrice() , concrete method subscriptionDetails()
+// Subclasses: BasicPlan , PremiumPlan
+public abstract class Subscription {
+    
+	String userName ;
+	int months;
+	
+	Subscription(String userName,int months){
+		this.userName = userName;
+		this.months= months;
+	}
+	
+	public abstract void calculatePrice();
+	
+	public void subscriptionDetails() {
+		//System.out.println("subscriptionDetails...!");
+		System.out.println("User Name = " + userName);
+		System.out.println("Month = " + months);
+	}
+
+	
+}
+ {
+    
+	String userName ;
+	int months;
+	
+	Subscription(String userName,int months){
+		this.userName = userName;
+		this.months= months;
+	}
+	
+	public abstract void calculatePrice();
+	
+	public void subscriptionDetails() {
+		//System.out.println("subscriptionDetails...!");
+		System.out.println("User Name = " + userName);
+		System.out.println("Month = " + months);
+	}
+
+	
+}
