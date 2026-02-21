@@ -1,0 +1,24 @@
+package com.Interface;
+
+public class UPI implements PaymentMethod{
+
+	@Override
+	public void pay(double amount) {
+		System.err.println("Made a Payment Through the UPI....!");
+		System.out.println("Paid Amount = " + amount + " RS ");
+	}
+
+	public static void main(String[] args) {
+		PaymentMethod p1 ;
+		p1 = new NetBanking ();
+		p1.pay(2000);
+		
+		PaymentMethod p2 ;
+		p2 = new CreditCardd ();
+		p2.pay(4000);
+		
+		PaymentMethod p3 ;
+		p3 = new UPII ();
+		p3.pay(6000);
+	}
+}
