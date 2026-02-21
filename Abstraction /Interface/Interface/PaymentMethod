@@ -1,0 +1,8 @@
+package com.Interface;
+//  Payment System : Create interface PaymentMethod with: method pay(double amount)
+// Implement: CreditCard , UPI ,NetBanking
+public  interface  PaymentMethod {
+
+	public abstract void pay ( double amount);
+	
+}
