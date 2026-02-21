@@ -1,0 +1,11 @@
+package com.Interface;
+
+//  Smart Device : Create interface SmartDevice with: method turnOn() , method turnOff()
+// Implement: SmartFan , SmartLight
+public interface SmartDevice {
+
+	public abstract void turnOn();
+
+	public abstract void turnOff();
+
+}
