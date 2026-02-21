@@ -1,0 +1,11 @@
+package com.AbstractClass;
+
+public class UPIPayment extends Payment {
+
+	@Override
+	public void makePayment(double amount) {
+		System.out.println("Proccessing amount Through the UPI Payment..!");
+		System.out.println("Amount = " + amount);
+	}
+
+}
