@@ -1,0 +1,19 @@
+package com.AbstractClass;
+
+public class PremiumPlan  extends Subscription  {
+
+	int pricePerMonths = 199;
+	PremiumPlan(String userName, int months) {
+		super(userName, months);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void calculatePrice() {
+		int total = months * pricePerMonths ;
+		System.err.println("Plan = PremiumPlan");
+		subscriptionDetails();
+		System.out.println("Total Of PremiumPlan = " + total);
+	}
+
+}
