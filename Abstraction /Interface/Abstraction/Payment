@@ -1,0 +1,14 @@
+package com.AbstractClass;
+// Payment Gateway : Create abstract class Payment with:
+// abstract method makePayment(amount) , concrete method generateReceipt()
+// Subclasses: UPIPayment , CardPayment
+public abstract class Payment {
+
+	double amount ;
+	public abstract void makePayment (double amount);
+	
+	public void generateReceipt () {
+		System.out.println("Payment successfully done ...!");
+		System.out.println("Generate Receipt...!");
+	}
+}
