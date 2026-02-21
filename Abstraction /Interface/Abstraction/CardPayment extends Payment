@@ -1,0 +1,11 @@
+package com.AbstractClass;
+
+public class CardPayment extends Payment{
+
+	@Override
+	public void makePayment(double amount) {
+		System.out.println("Proccessing Amount through th Card Payment...!");
+		System.out.println("Amount = " + amount);
+	}
+
+}
