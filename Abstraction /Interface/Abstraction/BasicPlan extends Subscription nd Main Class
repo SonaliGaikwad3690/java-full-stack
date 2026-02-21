@@ -1,0 +1,30 @@
+package com.AbstractClass;
+
+public class  {
+ 
+	int pricePerMonths= 199;
+	BasicPlan(String userName, int months) {
+		super(userName, months);
+		
+	}
+
+	@Override
+	public void calculatePrice() {
+		int total = months * pricePerMonths;
+		System.err.println("Plan = Basic plan");
+		subscriptionDetails();
+		System.out.println("Total of Basic Plan = " + total);
+	}
+
+	public static void main(String[] args) {
+		
+		Subscription s1 ;
+		s1 = new BasicPlan("Sonal",3);
+		s1.calculatePrice();
+		System.err.println("---------------");
+		Subscription s2 ;
+		s2 = new PremiumPlan("Rashi",3);
+		s2.calculatePrice();
+		
+	}
+}
