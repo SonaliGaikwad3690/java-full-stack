@@ -1,0 +1,15 @@
+package com.Interface;
+
+public class AudioPlayer implements MediaPlay {
+
+	@Override
+	public void play() {
+		System.out.println("Audio is Playing...!");
+	}
+
+	@Override
+	public void pause() {
+		System.out.println("Audio is Paused...!");
+	}
+
+}
