@@ -1,0 +1,15 @@
+package com.Interface;
+
+public class GoogleDrive implements CloudStorage {
+
+	@Override
+	public void uploadFile() {
+		System.out.println("Upload File To Google Drive...!");
+	}
+
+	@Override
+	public void downloadFile() {
+		System.out.println("DownLoad File From Google drive");
+	}
+
+}
