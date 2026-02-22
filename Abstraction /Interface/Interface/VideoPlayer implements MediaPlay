@@ -1,0 +1,15 @@
+package com.Interface;
+
+public class VideoPlayer implements MediaPlay  {
+
+	@Override
+	public void play() {
+		System.out.println("Video Player is Plaing ...!");
+	}
+
+	@Override
+	public void pause() {
+		System.out.println("Video is Paused...!");
+	}
+
+}
