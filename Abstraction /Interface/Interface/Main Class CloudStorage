@@ -1,0 +1,14 @@
+package com.Interface;
+
+public class MainCloudStorage {
+
+	public static void main(String[] args) {
+		CloudStorage g1 = new GoogleDrive ();
+		g1.uploadFile();
+		g1.downloadFile();
+		System.err.println("------------------");
+		CloudStorage g2 = new DropBox ();
+		g2.uploadFile();
+		g2.downloadFile();
+	}
+}
