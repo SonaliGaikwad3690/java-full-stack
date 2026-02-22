@@ -1,0 +1,10 @@
+package com.Interface;
+// Media Player :Create interface MediaPlayer with:method play() , method pause()
+// Implement: AudioPlayer , VideoPlayer
+
+public interface MediaPlay {
+
+	public abstract void play ();
+	public abstract void pause();
+	
+}
