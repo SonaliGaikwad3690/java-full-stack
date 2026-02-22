@@ -1,0 +1,15 @@
+package com.Interface;
+
+public class DropBox implements CloudStorage  {
+
+	@Override
+	public void uploadFile() {
+		System.out.println("Upload File to DropBox ...!");
+	}
+
+	@Override
+	public void downloadFile() {
+		System.out.println("DownLoad File From DropBox...!");
+	}
+
+}
