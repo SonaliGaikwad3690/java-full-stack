@@ -1,0 +1,9 @@
+package com.Interface;
+// Cloud Storage System : Create interface CloudStorage with:
+// method uploadFile() , method downloadFile()
+// Implement: GoogleDrive , Dropbox
+public interface CloudStorage {
+
+	public abstract void  uploadFile ();
+	public abstract void  downloadFile ();
+}
