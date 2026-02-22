@@ -1,0 +1,24 @@
+package com.AbstractClass;
+
+public class GoogleDrive  extends CloudStorage{
+
+	GoogleDrive(String userName) {
+		super(userName);
+		// TODO Auto-generated constructor stub
+	}
+
+	
+
+	@Override
+	public void dowanloadFile(String userName) {
+		System.out.println(userName + " Download File From Google Drive...!");
+	}
+
+
+
+	@Override
+	public void uploadFile(String userName) {
+		System.out.println(userName + " Upload File to Google Drive ");
+	}
+
+}
