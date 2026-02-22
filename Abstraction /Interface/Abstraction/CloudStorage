@@ -1,0 +1,23 @@
+package com.AbstractClass;
+// Cloud Storage System Create Abstract Clalss CloudStorage with:
+// method uploadFile() , method downloadFile()
+// Implement: GoogleDrive ,Dropbox , using Constructor , Private Variables
+     
+public  abstract class CloudStorage {
+
+	 private String userName ;
+	CloudStorage (String userName ){
+		this.userName = userName;
+	}
+	
+	public String getUserName () {
+		return userName;
+		
+	} 
+	// abstract method
+	public abstract void  uploadFile (String userName) ;
+	
+	public abstract void  dowanloadFile (String userName) ;
+
+
+}
