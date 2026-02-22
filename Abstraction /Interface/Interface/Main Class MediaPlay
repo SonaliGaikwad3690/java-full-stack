@@ -1,0 +1,15 @@
+package com.Interface;
+
+public class MainMedia {
+
+	public static void main(String[] args) {
+		
+		MediaPlay m1 = new AudioPlayer ();
+		m1.play();
+		m1.pause();
+		
+		MediaPlay m2 = new VideoPlayer ();
+		m2.play();
+		m2.pause();
+	}
+}
