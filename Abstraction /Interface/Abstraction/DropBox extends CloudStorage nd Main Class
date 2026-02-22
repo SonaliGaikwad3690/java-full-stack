@@ -1,0 +1,34 @@
+package com.AbstractClass;
+
+public class DropBox extends CloudStorage {
+
+	DropBox(String userName) {
+		super(userName);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void uploadFile(String userName) {
+		System.out.println(userName + " Download File From drop Box ...!");
+
+	}
+
+	@Override
+	public void dowanloadFile(String userName) {
+		System.out.println(userName + " Download File From Drop Box ...!");
+
+	}
+
+	public static void main(String[] args) {
+		CloudStorage c1 = new GoogleDrive ("Sonal");
+		c1.uploadFile("Sonal");
+		c1.dowanloadFile("Sonal");
+		c1.getUserName();
+		
+		System.err.println("--------------------------");
+		CloudStorage c2 = new DropBox("Rashi");
+		c2.uploadFile("Rashi");
+		c2.dowanloadFile("Rashi");
+		c2.getUserName();
+	}
+}
