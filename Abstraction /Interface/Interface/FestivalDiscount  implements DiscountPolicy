@@ -1,0 +1,15 @@
+package com.Interface;
+
+public class FestivalDiscount  implements DiscountPolicy {
+
+	@Override
+	public void applyDiscount(double amount) {
+		double discount = amount * 0.2;
+		double finalPrice = amount - discount;
+		System.out.println("Festival Discount Applied Here....!");
+		System.out.println("Original Price = " + amount);
+		System.out.println("Discount Price = " + discount + "%");
+		System.out.println("Festival Final Price = " + finalPrice);
+	}
+
+}
