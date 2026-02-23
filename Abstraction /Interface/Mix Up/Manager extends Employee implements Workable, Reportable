@@ -1,0 +1,37 @@
+package com.PracticeBaseQue;
+
+public class Manager extends Employee implements Workable, Reportable {
+
+	Manager(String name, int id) {
+		super(name, id);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void doWork() {
+		System.out.println(name + " Managing the team...!");
+	}
+
+	@Override
+	public void generateReport() {
+		System.out.println(name + " is Generating the Report...!");
+	}
+
+	@Override
+	public void showRole() {
+		System.out.println("Role = Senior Engineer");
+	}
+
+	@Override
+	public void salary() {
+		System.out.println("Salary= 40,000");
+	}
+
+	public static void main(String[] args) {
+		Manager m = new Manager("Sonal", 12);
+		m.showRole();
+		m.salary();
+		m.doWork();
+		m.generateReport();
+	}
+}
