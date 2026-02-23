@@ -1,0 +1,8 @@
+package com.Interface;
+// Online Shopping Discount : Create interface DiscountPolicy with:
+// method applyDiscount()
+// Implement: FestivalDiscount , MemberDiscount
+public interface DiscountPolicy {
+
+	public abstract  void applyDiscount(double amount);
+}
