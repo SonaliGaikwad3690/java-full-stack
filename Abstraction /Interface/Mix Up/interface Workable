@@ -1,0 +1,7 @@
+package com.PracticeBaseQue;
+// Smart Work System
+public interface Workable {
+
+	public abstract void doWork();
+	
+}
