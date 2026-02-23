@@ -1,0 +1,6 @@
+package com.PracticeBaseQue;
+
+public interface Reportable {
+
+	public abstract void generateReport();
+}
