@@ -1,0 +1,15 @@
+package com.Interface;
+
+public class MemberDiscount implements DiscountPolicy {
+
+	@Override
+	public void applyDiscount(double amount) {
+		System.out.println("Member Discount Applied Here...!");
+		double discount = amount * 0.2;
+		double finalPrice = amount - discount;
+		System.out.println("Original Price = " + amount);
+		System.out.println("Discount Price = " + discount + "%");
+		System.out.println("Member Final Price = " + finalPrice);
+	}
+
+}
