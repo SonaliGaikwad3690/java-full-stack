@@ -1,0 +1,13 @@
+package com.Interface;
+
+public class MainDiscount {
+
+	public static void main(String[] args) {
+		
+		DiscountPolicy d1 = new FestivalDiscount ();
+		d1.applyDiscount(500);
+		System.err.println("------------------------!");
+		DiscountPolicy d2 = new MemberDiscount ();
+		d2.applyDiscount(1000);
+	}
+}
