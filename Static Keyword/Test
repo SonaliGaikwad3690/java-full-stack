@@ -1,0 +1,16 @@
+package com.Static;
+
+public class Test {
+
+	static {
+		System.out.println("This is Static Bolck"); // Static block
+	}
+	
+	public void m1 () { //Non Static block
+		System.out.println("This is M1 Method");
+	}
+	public static void main(String[] args) {
+	  Test t = new Test() ;	
+	  t.m1();
+	}
+}
