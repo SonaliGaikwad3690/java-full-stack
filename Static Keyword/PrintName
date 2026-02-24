@@ -1,0 +1,13 @@
+package com.Static;
+
+public class PrintName {
+
+	
+	public static void name() {
+		String name = "Sonal";
+		System.out.println("Print the Name = " + name);
+	}
+		public static void main(String[] args) {
+			PrintName.name();
+		}	
+}
