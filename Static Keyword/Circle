@@ -1,0 +1,21 @@
+package com.Static;
+
+public class Circle {
+
+ 
+	public static void areaOfCircle(int r ) {
+		double area = 3.14 * r * r ;
+		System.out.println("are of Circle = " + area);
+	}
+	public static void perimeterOfCircle(int r ) {
+		double perimeter =  2 * 3.14 * r;
+		System.out.println("are of Circle = " + perimeter);
+	}
+	
+	
+	public static void main(String[] args) {
+		Circle.areaOfCircle(2);
+		Circle.perimeterOfCircle(4);
+	}
+}
+
