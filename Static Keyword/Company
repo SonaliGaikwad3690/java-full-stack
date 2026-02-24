@@ -1,0 +1,16 @@
+package com.Static;
+
+public class Company {
+       
+	static {
+		System.out.println("This is Static Block");
+	}
+	 static String companyName = " Tata Motors";
+	 
+	 public static void show() {
+		 System.out.println("Company Name = " + companyName);
+	 }
+	 public static void main(String[] args) {
+		Company.show();
+	}
+}
