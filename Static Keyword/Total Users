@@ -1,0 +1,16 @@
+package com.Static;
+
+public class Users {
+
+	 static int totalUsers = 0;
+	
+	public static void registerdUsers() {
+		totalUsers++ ;
+		System.out.println("Regusterd Total Users = " + totalUsers);
+		}
+	public static void main(String[] args) {
+		Users.registerdUsers();
+		Users.registerdUsers();
+		Users.registerdUsers();
+	}
+}
