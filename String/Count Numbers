@@ -1,0 +1,10 @@
+package com.String;
+
+public class CountNum {
+
+	public static void main(String[] args) {
+		String str = "Sonal";
+		int count = str.length();
+		System.out.println("Total Count = " + count);
+	}
+}
