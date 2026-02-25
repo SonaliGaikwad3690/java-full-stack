@@ -1,0 +1,14 @@
+package com.String;
+
+public class CaseConvert {
+
+	public static void main(String[] args) {
+		String str = "JAva";
+		System.out.println(str.toLowerCase());
+		System.out.println(str.toUpperCase());
+		System.out.println(str.lastIndexOf('a'));
+		System.out.println(str.lastIndexOf("v"));
+		System.out.println(str.codePointAt(0));
+		System.out.println(str.startsWith(str));
+	}
+}
