@@ -1,0 +1,13 @@
+package com.String;
+
+public class InsertBuffer {
+
+	public static void main(String[] args) {
+		StringBuffer s = new StringBuffer("Hlo");
+//		s.insert(1, "el");
+//		System.out.println(s);
+//		
+		s.insert(1, "el");
+		System.out.println(s);
+	}
+}
