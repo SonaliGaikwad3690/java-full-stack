@@ -1,0 +1,13 @@
+package com.String;
+
+public class ChatMsg {
+
+	public static void main(String[] args) {
+		StringBuilderr msg = new StringBuilder ("Sonali");
+		msg.append(" Please");
+		msg.append(" Wlcome");
+		msg.append(" in Java");
+		System.out.println(msg);
+
+	}
+}
