@@ -1,0 +1,11 @@
+package com.String;
+
+public class Printt {
+
+	public static void main(String[] args) {
+		String s = "Soanl";
+		StringBuffer s1 = new StringBuffer ("Sonal");
+		s1.append(" Gaikwad");
+		System.out.println(s1);
+	}
+}
