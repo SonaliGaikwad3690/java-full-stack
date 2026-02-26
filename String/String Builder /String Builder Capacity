@@ -1,0 +1,10 @@
+package com.String;
+
+public class BuilderCapacity {
+
+	public static void main(String[] args) {
+		StringBuilder s = new StringBuilder ();
+//		s.capacity();
+		System.out.println(s.capacity());
+	}
+}
