@@ -1,0 +1,10 @@
+package com.String;
+
+public class RevrseBuffer {
+
+	public static void main(String[] args) {
+			StringBuffer s = new StringBuffer("Sonal");
+			s.reverse();
+			System.out.println(s);
+	}
+}
