@@ -1,0 +1,16 @@
+package com.String;
+
+public class Bufferdelete {
+
+	public static void main(String[] args) {
+		StringBuffer s = new StringBuffer ("Java");
+//		s.delete (2, 3);
+//		s.deleteCharAt(0);
+//		s.lastIndexOf("a");
+//		s.getClass();
+//		s.charAt(1);
+		s.isEmpty();
+		System.out.println(s);
+				
+	}
+}
