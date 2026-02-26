@@ -1,0 +1,12 @@
+package com.String;
+
+public class ReverseBulider {
+
+	public static void main(String[] args) {
+		StringBuilder s = new StringBuilder ("Sonal");
+//		s.indexOf("J");
+//		s.indexOf("S", 2);
+		s.reverse();
+		System.out.println(s);
+	}
+}
