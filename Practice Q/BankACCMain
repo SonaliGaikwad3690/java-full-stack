@@ -1,0 +1,16 @@
+
+public class BankACCMain {
+
+	public static void main(String[] args) {
+		
+		BankACC  bank = new BankACC ();
+		long x = bank.accNumber = 2264191370527L;
+		double y =  bank.balance = 500000;
+		String z =  bank.holderName = "Sonal Gaikwad";
+		
+		System.out.println("Bank Account Number = " + x);
+	    System.out.println("Bank Account Balance = " + y);
+	    System.out.println("Bank Account Holder Name = " + z);
+
+	}
+}
