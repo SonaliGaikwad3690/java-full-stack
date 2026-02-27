@@ -1,0 +1,9 @@
+
+public class BankACC {
+
+//	  Variables for Bank Account
+	
+	long accNumber ;
+	String holderName ;
+	double balance ;
+}
