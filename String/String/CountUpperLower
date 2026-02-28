@@ -1,0 +1,24 @@
+package com.String;
+// Count Uppercase and Lowercase Characters - Input: "JavaTrainer" ,
+
+// Output: Uppercase = ?, Lowercase = ?
+
+public class CountUpperLower {
+
+	public static void main(String[] args) {
+		String str = "JavaTrainer";
+		int upper = 0;
+		int lower = 0;
+		for (int i = 0; i  < str.length(); i++) {
+			char ch = str.charAt(i);
+			if (ch > 'a' && ch < 'z') {
+				lower++;
+			} else if (ch > 'A' && ch < 'Z') {
+				upper++;
+			}
+		}
+		System.out.println("Upper = " + upper);
+		System.out.println("Lower = " + lower);
+
+	}
+}
