@@ -1,0 +1,26 @@
+package com.String;
+
+// Remove All Spaces from String
+// Input: "Java is powerful" , Output: "Javaispowerful" ,,(Without using replace() method)
+public class RemoveSpacee {
+
+	public static void main(String[] args) {
+//		String str = "Java is powerful";
+//		 using Replace method
+//		str = str.replace(" " , ""  );
+//		System.out.println(str);
+		
+//		  without Using Replace Method
+		
+		String str = "Java is powerful";
+		String space = "";
+		for (int i = 0; i < str.length(); i++) {
+			char ch = str.charAt(i);
+
+			if (ch != ' ') {
+				space = space + ch;
+			}
+		}
+		System.out.println(space);
+	}
+}
