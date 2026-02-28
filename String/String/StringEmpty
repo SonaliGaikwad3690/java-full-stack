@@ -1,0 +1,16 @@
+package com.String;
+// Check String is Empty or Not - If string is empty → print "String is empty" ,
+//Else → print "String is not empty"
+public class StringEmpty {
+
+	public static void main(String[] args) {
+		String str = "";
+		if (str.isEmpty()) {
+			System.out.println("String is Empty...!");
+
+		} else {
+			System.out.println("String is Not Empty...!");
+		}
+
+	}
+}
