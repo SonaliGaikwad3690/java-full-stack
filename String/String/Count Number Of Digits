@@ -1,0 +1,20 @@
+package com.String;
+// Count Number of Digits in String -Input: "Java1234" ; Output: Digits = 4
+
+// Toggle Case of Each Character :- Input: "JaVa" , Output: "jAvA" -(Upper → Lower, Lower → Upper)
+
+public class CountNumberOfDigits {
+
+	public static void main(String[] args) {
+		String str = "Java1234";
+		int digitCount = 0;
+		for (int i = 0; i < str.length(); i++) {
+			char ch = str.charAt(i);
+			if (ch >= '0' && ch <= '9') {
+				digitCount++;
+			}
+		}
+		System.out.println("Count Number of digits = " + digitCount);
+
+	}
+}
