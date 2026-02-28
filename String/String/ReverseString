@@ -1,0 +1,22 @@
+package com.String;
+//Reverse a String - Input: "Java" , Output: "avaJ" ,(Use loop and charAt())
+public class ReverseString {
+
+	public static void main(String[] args) {
+		
+		String str = "Java";
+		String rev = "";
+		
+		// using for loops
+		for(int i=str.length()-1 ; i>=0 ;i--) {
+			rev = rev + str.charAt(i);
+		}
+		System.out.println("Revrse String = " + rev);
+		
+//		Using StringBuffer 
+		StringBuffer sb = new StringBuffer(str);
+		sb.reverse();
+		System.out.println(sb);
+
+	}
+}
