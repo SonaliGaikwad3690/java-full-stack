@@ -1,0 +1,11 @@
+package com.PracticeBaseQue;
+
+public class Space {
+
+	public static void main(String[] args) {
+		String str = "Sonali Gaikwad";
+//		String result ="";
+		
+		System.out.println(str.replace("", ""));
+	}
+}
