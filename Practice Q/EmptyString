@@ -1,0 +1,14 @@
+package com.PracticeBaseQue;
+
+public class EmptyString {
+
+	public static void main(String[] args) {
+		StringBuffer sb = new StringBuffer ();
+		StringBuilder sb1 = new StringBuilder("Sonal");
+		System.out.println(sb1.isEmpty());
+		System.out.println(sb.isEmpty());
+		System.out.println(sb.equals(sb1));
+		System.out.println(sb1.toString());
+		System.out.println(sb.lastIndexOf("l"));
+	}
+}
