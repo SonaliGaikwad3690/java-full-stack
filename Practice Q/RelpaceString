@@ -1,0 +1,11 @@
+package com.PracticeBaseQue;
+
+public class RelpaceString {
+
+	public static void main(String[] args) {
+		String str= "Java";
+		String replace = "";
+		System.out.println(str.replace("a", "o"));
+		System.out.println(str.replace("Java", "Sonaa"));
+	}
+}
