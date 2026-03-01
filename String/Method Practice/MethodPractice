@@ -1,0 +1,61 @@
+package com.String;
+
+public class MethodPractice {
+
+	public static void main(String[] args) {
+//		String s1="Sonali Gaikwad";
+//		String s2="  Sonali Gaiwkad ";
+//	    String s3="ram";
+//	    String s4=new String("Sonali Gaikwad");
+//		//System.out.println("Methods for checking and comparing");
+//		System.out.println(s1.length());//it count length of string i.e 12 
+//		System.out.println(s1.isEmpty());//check if the string is empty or not 
+//		System.out.println(s1.equals(s2));//it checks the contain
+//		System.out.println(s1.charAt(3));//get a single charcter from a specfic index within a string
+//		System.out.println(s1.equalsIgnoreCase(s2));// ignore upperaCse and lowerCase
+//		System.out.println(s1.compareTo(s2));//compare alphabetically
+//		System.out.println(s1.contains("Payal"));//check char or words if is there or not
+//		System.out.println(s1.startsWith("Pay"));//check if the string begain with or not
+//		System.out.println(s1.endsWith("an"));//check if the string end with or not
+//		System.out.println(s1.indexOf('y'));//find occurence of character
+//		System.out.println(s1.lastIndexOf("n"));//find the index of last occurance
+//		System.out.println(s1.substring(3));//used to extract a portion of string
+//		System.out.println(s1.toLowerCase());// covert string into lower case 
+//		System.out.println(s1.toUpperCase());// covert string into upper case 
+//		System.out.println(s2.trim());//remove extra space
+//		System.out.println(s3.replace('a', 'r'));//replace old charcter to new charcter
+//		System.out.println(s3.concat(" Sharma"));//used to add two string
+//		System.out.println(s3.isEmpty());//check is string is empty or not
+//		System.out.println(s1.hashCode());//return hash value
+//		System.out.println(s4=s1.intern());//move string to scp
+//		System.out.println(s1==s4);//true
+//		String s6="Payal";
+//		String s5 = new String("Payal");  
+//		 s5=s5.intern();          
+//		System.out.println(s6 == s5);  
+		String name="Payal";
+		String name1="Payal";
+		StringBuilder sb=new StringBuilder(name);
+		StringBuilder sb1=new StringBuilder(name1);
+		//sb.append(" Chavan");//
+//		System.out.println(sb);
+//		int a=sb.hashCode();
+//		int b=sb1.hashCode();
+//		System.out.println(a);
+//		System.out.println(b);
+//		System.out.println(a==b);
+		boolean c=sb.toString().equals(sb1);
+//		Object obj=new Object();
+//		obj.equals(obj);
+		
+		//System.out.println(sb.toString());
+		
+		//String srr = new 
+		
+	}
+}
+		
+
+		
+	
+
