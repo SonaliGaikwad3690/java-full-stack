@@ -1,0 +1,17 @@
+package com.PracticeBaseQue;
+// Count Total Character in String
+public class CountChar {
+
+	public static void main(String[] args) {
+		String str = "Core 8";
+		int countDigits = 0;
+		for(int i = 0;i<str.length();i++) {
+			char ch = str.charAt(i);
+			if(Character.isDigit(ch)) {
+				countDigits++;
+			}
+		}
+		System.out.println("Count the Character of a Given String = " + str.length());
+		System.out.println("Count the Digits of givane String = " + countDigits);
+	}
+}
