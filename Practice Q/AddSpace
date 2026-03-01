@@ -1,0 +1,17 @@
+package com.PracticeBaseQue;
+
+public class AddSpace {
+	public static void main(String[] args) {
+		String str = "SonliGaikwad";
+		String result ="";
+		
+		for(int i=0;i<str.length();i++) {
+			char ch = str.charAt(i);
+			if(ch != 0 && Character.isUpperCase(ch)) {
+			result += " ";
+		}
+			result += ch; 
+		}
+		System.out.println(result);
+	}
+}
