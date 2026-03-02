@@ -1,0 +1,18 @@
+package com.Exception;
+
+public class NestedTryCatch {
+
+	public static void main(String[] args) {
+		try {
+			try {
+			int a = 10/0;
+//			System.out.println(a);
+			}catch (ArithmeticException e) {
+				System.out.println("Inner Catch Block...!");
+			}
+		}
+		catch (Exception e) {
+			System.out.println("Outer Catch Block...!");
+		}
+	}
+}
