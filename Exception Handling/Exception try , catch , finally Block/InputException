@@ -1,0 +1,17 @@
+package com.Exception;
+
+import java.util.Scanner;
+
+public class InputException {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner (System.in);
+		try {
+			int num =sc.nextInt() ;
+			System.out.println("Number =" + num);
+		}
+		catch(Exception e ) {
+			System.out.println("Inavlid input...!");
+		}
+	}
+}
