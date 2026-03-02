@@ -1,0 +1,23 @@
+package com.Exception;
+
+import java.security.DomainCombiner;
+
+public class Test2 {
+
+	static int test() {
+		try {
+			 System.out.println("try Block...!");
+			  return 10;
+		}
+		   catch (Exception e) {
+			  return 20;
+		}
+		    finally {
+			  return 30;
+		}
+ 
+	}
+	public static void main(String[] args) {
+		System.out.println(test());
+	}
+}
