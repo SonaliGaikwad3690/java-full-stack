@@ -1,0 +1,14 @@
+package com.Exception;
+
+public class Tset1 {
+
+	public static void main(String[] args) {
+		try {
+			System.out.println("try Block...!");
+		}finally {
+			int a = 10/2;
+			System.out.println(a);
+			System.out.println("Finally Block..!");
+		}
+	}
+}
