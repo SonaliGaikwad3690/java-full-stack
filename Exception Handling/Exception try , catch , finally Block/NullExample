@@ -1,0 +1,19 @@
+package com.Exception;
+
+public class NullExample {
+
+	public static void main(String[] args) {
+		
+	         try {
+		           String s = "Null";
+		           System.out.println("String = " + s.length());
+	         }
+	         catch (NullPointerException e){
+	          System.out.println("String is Null....!");
+	              
+	         }
+	         finally{
+	        	 System.out.println("Finally block is excuted...!");
+	         }
+	  }
+}
