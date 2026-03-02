@@ -1,0 +1,17 @@
+package com.Exception;
+
+public class Test3 {
+	static int test() {
+		try {
+			  return 10;
+		}
+		 
+		    finally {
+			  return 30;
+		}
+ 
+	}
+	public static void main(String[] args) {
+		System.out.println(test());
+	}
+}
