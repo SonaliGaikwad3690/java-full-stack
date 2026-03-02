@@ -1,0 +1,22 @@
+package com.Exception;
+
+public class MultipleStatements {
+
+	public static void main(String[] args) {
+		System.out.println("A");
+		try {
+
+			System.out.println("B");
+
+			System.out.println("C");
+			int a = 10 / 0;
+		} 
+		 catch (Exception e) {
+			System.out.println("D");
+		} 
+		 finally {
+			System.out.println("E");
+		}
+		System.out.println("F");
+	}
+}
