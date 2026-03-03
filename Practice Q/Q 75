@@ -1,0 +1,8 @@
+
+public class Q75 {
+
+	public static void main(String[] args) {
+		String str = "Sona";
+		System.out.println(str.charAt(0));
+	}
+}
