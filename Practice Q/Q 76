@@ -1,0 +1,7 @@
+
+public class Q76 {
+	public static void main(String[] args) { 
+	        String str = "Sona";
+         	System.out.println(str.contains(str));
+   }
+}
