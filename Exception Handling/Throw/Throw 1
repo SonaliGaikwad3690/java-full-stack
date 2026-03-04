@@ -1,0 +1,12 @@
+package com.Throw;
+
+public class Throw1 {
+
+	public static void main(String[] args) {
+		int a = -5 ;
+		if(a <0) {
+			throw new ArithmeticException("Number cannot be Negative...!");
+		}
+		System.out.println("Valid numebr");
+	}
+}
