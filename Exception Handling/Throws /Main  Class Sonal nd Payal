@@ -1,0 +1,10 @@
+package com.Throws;
+
+public class MainS1P1 {
+
+	public static void main(String[] args) {
+		Payal p = new Payal();
+		p.p1();
+		System.out.println("Invalid....");
+	}
+}
