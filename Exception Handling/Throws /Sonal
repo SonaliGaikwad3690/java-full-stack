@@ -1,0 +1,8 @@
+package com.Throws;
+
+public class Sonal {
+
+	public void s1 () throws ArithmeticException {
+		int s = 10/0;
+	}
+}
