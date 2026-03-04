@@ -1,0 +1,14 @@
+package com.Throws;
+import java.io.FileReader;
+import java.io.IOException;
+public class MainThrows {
+
+	public static void main(String[] args) {
+		try {
+		fileRead();
+		}catch(Exception e ) {
+			System.out.println("File Not Found...!");
+		}
+	}
+
+	}
