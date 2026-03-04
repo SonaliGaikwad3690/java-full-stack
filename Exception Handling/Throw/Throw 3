@@ -1,0 +1,15 @@
+package com.Throw;
+
+public class Throw3 {
+	public static void main(String[] args) {
+		try {
+			int age = 17;
+			if (age < 18) {
+				throw new Exception("Not Eligible for Voting...!");
+			}
+			System.out.println("Eligible");
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
+	}
+}
