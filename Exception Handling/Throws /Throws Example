@@ -1,0 +1,18 @@
+package com.Throws;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class ThrowsExample {
+
+	 static void fileRead ()throws IOException {
+		FileReader fr = new FileReader("abc.txt");
+		System.out.println("File Opend..!");
+	}
+	 public static void main(String[] args) {
+		try {
+			fileRead();
+		}catch (IOException e) {
+			System.out.println("File Not found");
+		}
+	}
+}
