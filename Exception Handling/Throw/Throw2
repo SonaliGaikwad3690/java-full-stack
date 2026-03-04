@@ -1,0 +1,11 @@
+package com.Throw;
+
+public class Throw2 {
+
+	public static void main(String[] args) {
+		int n = 0;
+		if(n == 0) {
+			throw new ArithmeticException("Number cannot be zero...!");
+		}System.out.println("Valid number...!");
+	}
+}
