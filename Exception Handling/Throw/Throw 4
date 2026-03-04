@@ -1,0 +1,13 @@
+package com.Throw;
+
+public class Throw4 {
+
+	public static void main(String[] args) throws Exception {
+		int a =10;
+		int b = 0;
+		if(a!=0) {
+			throw new Exception("My Own Customised throw....!");
+		}
+		System.out.println(a / b);
+	}
+}
