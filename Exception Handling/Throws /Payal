@@ -1,0 +1,8 @@
+package com.Throws;
+
+public class Payal {
+     public void p1 ()throws ArithmeticException{
+    	     Sonal s = new Sonal();
+    	     s.s1();
+     }
+}
