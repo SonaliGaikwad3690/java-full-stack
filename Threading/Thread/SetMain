@@ -1,0 +1,12 @@
+package com.Thread;
+
+public class SetMain {
+
+	public static void main(String[] args) {
+		SetThread  t = new SetThread ();
+		t.setPriority(10);
+		t.setPriority(5);
+		t.start();
+				
+	}
+}
