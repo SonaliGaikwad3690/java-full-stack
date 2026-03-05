@@ -1,0 +1,11 @@
+package com.Thread;
+
+public class MainNumber {
+
+	public static void main(String[] args) {
+		NumberThread n = new NumberThread ();
+		n.equals(n);
+//	    n.run();
+	    n.start();
+	}
+}
