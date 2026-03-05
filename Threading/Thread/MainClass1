@@ -1,0 +1,11 @@
+package com.Thread;
+
+public class MainClass1 {
+
+	public static void main(String[] args) {
+		MyThread1 t = new MyThread1 ();
+		t.setName("Sonali Thread ");
+		t.start();
+		
+	}
+}
