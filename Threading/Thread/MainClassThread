@@ -1,0 +1,10 @@
+package com.Thread;
+
+public class MainClassThread {
+
+	public static void main(String[] args) {
+		MyThread m = new MyThread();
+		m.start();
+		m.m1();
+	}
+}
