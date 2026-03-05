@@ -1,0 +1,15 @@
+package com.Thread;
+
+public class MyThread extends Thread {
+	@Override
+	public void run() {
+	   for(int i=1;i<=100;i++) {
+		   System.out.println("Run Method = " + i);
+	   }
+	}
+	      public void m1() {
+	    	  for(int i=100;i<=200;i++) {
+	   		   System.out.println("m1 Method = " + i);
+	   	   }
+	}
+}
