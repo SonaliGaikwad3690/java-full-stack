@@ -1,0 +1,6 @@
+package com.Syncronication;
+
+public interface A {
+
+	public void m1();
+}
