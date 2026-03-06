@@ -1,0 +1,6 @@
+package com.Syncronication;
+
+public interface C {
+
+	public void m3();
+}
