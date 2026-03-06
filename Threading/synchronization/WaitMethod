@@ -1,0 +1,16 @@
+package com.Syncronication;
+
+public class WaitMethod {
+
+	 public static void main(String[] args) throws Exception {
+
+	        Object obj = new Object();
+
+	        synchronized(obj) {
+	            System.out.println("Thread waiting...");
+	            obj.wait();
+	            System.out.println("Thread resumed");
+	            
+	        }
+	    }
+}
