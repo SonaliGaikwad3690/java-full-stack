@@ -1,0 +1,54 @@
+package com.Syncronication;
+
+public class MyThread implements Runnable, A, B, C {
+
+	@Override
+	public void run() {
+
+		for (int i = 31; i <= 40; i++) {
+			System.out.println("Run Method = " + i);
+		}
+		try {
+			Thread.sleep(500);
+
+		} catch (Exception e) {
+		}
+	}
+
+	@Override
+	public void m1() {
+		for (int i = 1; i <= 10; i++) {
+			System.out.println("M1 Method = " + i);
+		}
+		try {
+			Thread.sleep(800);
+
+		} catch (Exception e) {
+		}
+	}
+
+	@Override
+	public void m2() {
+		for (int i = 11; i <= 20; i++) {
+			System.out.println("M2 Method = " + i);
+		}
+		try {
+			Thread.sleep(1000);
+
+		} catch (Exception e) {
+		}
+	}
+
+	@Override
+	public void m3() {
+		for (int i = 21; i <= 30; i++) {
+			System.out.println("M3 Method = " + i);
+		}
+
+		try {
+			Thread.sleep(1500);
+
+		} catch (Exception e) {
+		}
+	}
+}
