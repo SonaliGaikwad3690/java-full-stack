@@ -1,0 +1,13 @@
+package com.Syncronication;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		MyThread mt = new MyThread ();
+		Thread m = new Thread (mt);
+		m.start();
+		mt.m1();
+		mt.m2();
+		mt.m3();
+	}
+}
