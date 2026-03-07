@@ -1,0 +1,22 @@
+package com.Serialization;
+
+import java.io.FileInputStream;
+import java.io.ObjectInputStream;
+
+public class Diseralization {
+
+	public static void main(String[] args) {
+		try {
+		FileInputStream file = new FileInputStream ("C:\\Java Workspace\\employeedata.txt");
+		ObjectInputStream os = new ObjectInputStream (file);
+		Employee e = (Employee) os.readObject(); // Read/fetch Data
+
+		System.out.println(e.empId + "  " + e.empName + "    " + e.empCity);
+		os.close();
+		file.close();
+		} catch (Exception e1) {
+            e1.printStackTrace();
+        }
+
+	}
+}
