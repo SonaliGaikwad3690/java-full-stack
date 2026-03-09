@@ -1,0 +1,6 @@
+
+public interface A {
+
+	abstract void show();
+	
+	}
