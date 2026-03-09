@@ -1,0 +1,13 @@
+
+public class SBI extends Bank {
+
+	@Override
+	public void interest () {
+		System.out.println("SBI Bank Intrest is 7 %");
+	}
+	
+	public static void main(String[] args) {
+		SBI sb = new SBI ();
+		sb.interest();
+	}
+}
