@@ -1,0 +1,16 @@
+
+public class Q97 {
+
+	public static void main(String[] args) {
+		String str = "CoreJava";
+		String result = "";
+		for(int i=0;i<str.length();i++) {
+			char ch = str.charAt(i);
+			if(i>0 && Character.isUpperCase(ch)) {
+				result = result + " " ;
+			}
+			result+= ch;
+		}
+		System.out.println(result);
+	}
+}
