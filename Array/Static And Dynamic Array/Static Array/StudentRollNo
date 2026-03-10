@@ -1,0 +1,14 @@
+package com.Array;
+
+public class StudentRollNo {
+
+	public static void main(String[] args) {
+		
+		byte []stdRollNo = {12, 14,30, 32, 40,42 };
+		System.out.println("Student Roll No :");
+		for(int i =0; i<stdRollNo.length;i++) {
+			System.out.println(stdRollNo[i]);
+		}
+		System.out.println("Student Length : " + stdRollNo.length);
+	}
+}
