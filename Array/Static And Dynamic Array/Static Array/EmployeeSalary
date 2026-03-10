@@ -1,0 +1,13 @@
+package com.Array;
+
+public class EmployeeSalary {
+
+	public static void main(String[] args) {
+		long []empSalary = {35000,40000,30000, 32000,45000,60000 };
+		System.out.println("Employee Saalry :");
+		for(int i =0; i<empSalary.length;i++) {
+			System.out.println("Rs = " + empSalary[i] );
+		}
+		System.out.println("Employee Length : " + empSalary.length);
+	}
+}
