@@ -1,0 +1,12 @@
+package com.Array;
+
+public class StudentName {
+
+	public static void main(String[] args) {
+		System.out.println("Student Name :");
+		String []stdName = { "Rashi" , "Payal" , "Sonal", "Shruti", "Sandhya"};
+		for(int i =0;i<stdName.length;i++) {
+			System.out.println(stdName[i]);
+		}
+	}
+}
