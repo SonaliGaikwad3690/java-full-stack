@@ -1,0 +1,14 @@
+package com.Array;
+
+public class StudentMarks {
+
+	public static void main(String[] args) {
+		
+		int []stdMarks = {10 , 20 ,30 , 40 ,50 };
+		System.out.println("Student Marks");
+		for(int i =0; i<stdMarks.length;i++) {
+			System.out.println(stdMarks[i]);
+			
+		}System.out.println("Length oof Student Marks = " + stdMarks.length);
+	}
+}
