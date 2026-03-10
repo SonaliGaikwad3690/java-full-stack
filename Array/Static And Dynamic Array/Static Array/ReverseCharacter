@@ -1,0 +1,18 @@
+package com.StaticArray;
+
+public class ReverseCharacter {
+
+	public static void main(String[] args) {
+		char []arr = {'A', 'B' , 'C', 'D','E'};
+		 System.out.println("Original Char...!");
+		 int i = 0;
+		 while(i<arr.length) {
+			 System.out.println(arr[i]);
+			 i++;
+		 } 
+		 System.out.println("Reverse Character...!");
+		 for(int j=arr.length-1;j >=0;j--) {
+			 System.out.println(arr[j]);
+		 }
+	}
+}
