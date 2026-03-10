@@ -1,0 +1,13 @@
+package com.Array;
+
+public class StudentAverage {
+
+	public static void main(String[] args) {
+		System.out.println("Student Average...!");
+		float[] stdAvg = { 70.00f, 60.00f, 80.00f, 90.00f, 92.00f };
+		for (int i = 0; i < stdAvg.length; i++) {
+			System.out.println(stdAvg[i]);
+		}
+		System.out.println("Studnet Length : " + stdAvg.length);
+	}
+}
