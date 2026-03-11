@@ -1,0 +1,26 @@
+package com.StaticArray;
+
+public class FindLargestSmallest {
+
+	public static void main(String[] args) {
+		int []arr = {10,20,35,45,50};
+		System.out.println("Largest Numbers---------");
+		int max= arr[0];
+		  for(int i=0;i<arr.length;i++) {
+			 if(arr[i]>arr[0]) {
+				 max=arr[i];
+			 }
+		  }
+		  System.out.println(max);
+		  
+		  System.out.println("Smallest Numbers----------");
+		  int min = arr[0];
+			for (int i = 0; i < arr.length; i++) {
+				if (arr[i] < min) {
+					min = arr[i];
+				}
+			}
+			System.out.println(min);
+		}
+	}
+
