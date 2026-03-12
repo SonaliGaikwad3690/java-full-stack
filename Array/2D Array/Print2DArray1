@@ -1,0 +1,11 @@
+package com.Array2D;
+
+public class Print2DArray1 {
+
+	public static void main(String[] args) {
+		int arr[][]= { {10,20,30},{40,50},{70} };
+		System.out.println(arr[0][2]);
+		System.out.println(arr[2][0]);
+		System.out.println(arr[1][2]); // index 2 is out of bounds
+	}
+}
