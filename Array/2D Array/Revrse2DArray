@@ -1,0 +1,13 @@
+package com.Array1D;
+
+public class Revrse2DArray {
+
+	public static void main(String[] args) {
+		int arr[][]= { {1,2,},{3,4,},{5} };
+		for(int i=arr.length-1;i>=0;i--) { //for Rpws 
+			for(int j=arr[i].length-1;j>=0;j--) { //For Coloum
+				System.out.print(arr[i][j] + " ");
+			}System.out.println();
+		}
+	}
+}
