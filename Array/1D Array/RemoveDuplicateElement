@@ -1,0 +1,24 @@
+package com.Array1D;
+//Write a program to remove duplicate elements from a 1D array.
+public class RemoveDuplicateElement {
+
+	public static void main(String[] args) {
+		int arr[]= {10,20,30,20,40};
+		System.out.println("Original Elements......!");
+		for(int i=0;i<arr.length;i++) { //for Rpws 
+			System.out.println(arr[i]);
+			for(int j=i+1;j<arr.length;j++) { //For Coloum
+				if(arr[i]==arr[j]) {
+				arr[i]=-1;
+				}
+			}
+		}
+	
+		System.out.println("After Rempving Duplicate Element....!");
+		for(int i=0;i<arr.length;i++) {
+			if(arr[i]!=-1) {
+			System.out.println(arr[i]);
+			}
+		}
+	}
+}
