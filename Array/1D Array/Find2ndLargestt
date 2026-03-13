@@ -1,0 +1,13 @@
+package com.Array1D;
+
+import java.util.Arrays;
+
+public class Find2ndLargestt {
+
+	public static void main(String[] args) {
+		int []arr = {10,20,35,45,50};
+		Arrays.sort(arr);
+		System.out.println("Second Largest = " + arr[arr.length-2]);
+	
+	}
+}
