@@ -1,0 +1,27 @@
+package com.Multilevelinhetitance;
+//E-Commerce System : Product → base class (productId, price)
+// :Electronics → inherits from Product (warrantyPeriod)
+//MobilePhone → inherits from Electronics (brand, model, batteryCapacity)
+
+public class Product {
+
+	private int productId;
+	private double price;
+	 public int getProductID() {
+		 return productId;
+	 }
+	 public double getPrice() {
+		return price;
+		 
+	 }
+	 public void setProductId(int productId) {
+		 this.productId = productId;
+	 }
+	 public void setProductPrice(double pice) {
+		 this.price = price;
+	 }
+	 public void displayProduct() {
+		 System.out.println("Product Id = " + productId);
+		 System.out.println("Product Price = " + price);
+	 }
+}
