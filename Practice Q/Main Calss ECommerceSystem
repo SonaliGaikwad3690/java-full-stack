@@ -1,0 +1,24 @@
+package com.Multilevelinhetitance;
+
+public class ECommerceSystem {
+
+	public static void main(String[] args) {
+		MobilePhone mb = new MobilePhone() ;
+//	    mb.display();
+//	    mb.displayElectronic();
+//	    mb.displayPhone();
+	    mb.setProductId(121);
+	    mb.setProductPrice(350000);
+	    mb.setWarrantyPeriod(2);
+	    mb.setBrand("Samsung");
+	    mb.setModel("Galaxy G21");
+	    mb.setBattaryCapacity(4000);
+		System.out.println("Product Id : " + mb.getProductID());
+		System.out.println("Product Product Price : " + mb.getPrice());
+		System.out.println("Product WarrantyPeriod : " + mb.getWarrantyPeriod() + " Years");
+		System.out.println("Product Brand : " + mb.getBrand());
+		System.out.println("Product Model : " + mb.getModel());
+		System.out.println("Product Battery Capacity : " + mb.getBattaryCapacity());
+	    
+	}
+}
