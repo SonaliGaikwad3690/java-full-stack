@@ -1,0 +1,33 @@
+package com.Multilevelinhetitance;
+
+public class MobilePhone extends Electronics {
+     private String brand ;
+     private String model;
+     private int battaryCapacity;
+	
+      public String getBrand() {
+		return brand;
+      }
+      public String getModel() {
+  		return model;
+        }
+      public int getBattaryCapacity() {
+  		return battaryCapacity  ;
+        }
+      public void setBrand(String brand) {
+    	  this.brand = brand;
+      }
+      public void setModel(String model) {
+    	  this.model = model;
+      }
+      public void setBattaryCapacity(int battaryCapacity) {
+    	  this.battaryCapacity = battaryCapacity;
+      }
+
+	public void displayPhone() {
+		displayElectronic();
+		System.out.println("Mobile Brand = " + brand);
+		System.out.println("Mobile Model = " + model);
+		System.out.println("Mobile battaryCApacity = " + battaryCapacity);
+	}
+}
