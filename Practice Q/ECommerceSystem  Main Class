@@ -1,0 +1,12 @@
+package com.Multilevelinhetitance;
+
+public class ECommerceSystem {
+
+	public static void main(String[] args) {
+		MobilePhone mb = new MobilePhone(121, 30000, 1, "Samsung", "Galaxy s21",4000 ) ;
+//	    mb.display();
+//	    mb.displayElectronic();
+	    mb.displayPhone();
+		
+	}
+}
