@@ -1,0 +1,32 @@
+package com.Array2D;
+//Write a program to sort a 2D array in ascending order.
+public class SortAscending {
+
+	public static void main(String[] args) {
+		int arr[][]= { {9,2,3}, 
+                       {6,5,4},
+                       {8,7,1} };
+		int temp ;
+		for(int i=0; i<arr.length ; i++) {
+			for(int j=0; j<arr[i].length; j++) {
+				for(int k=0; k<arr.length ; k++) {
+					for(int l=0; l<arr[i].length; l++) {
+						if(arr[i][j] < arr[k][l]) {
+				   temp = arr[i][j];
+				   arr[i][j] = arr[k][l];
+				   arr[k][l]= temp;
+					  }
+					}
+				}
+			}
+		}
+		
+		// Printing Sorting 2D Array
+		System.out.println("Sorting 2D Array In Asecending Oreder");
+		for(int i =0;i<arr.length; i++) {
+			for(int j=0; j<arr[i].length; j++) {
+				System.out.print(arr[i][j] + " ");
+			}System.out.println();
+		}
+	}
+}
