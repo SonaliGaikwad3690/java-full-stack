@@ -1,0 +1,25 @@
+package com.Array2D;
+//Write a program to check whether a 1D array is a palindrome.
+public class CheckPalindrome2DArray {
+
+	 public static void main(String[] args) {
+		 int arr[][]= { {1,2,3 } , {4,5,4 } , {3,2,1 } };
+		 
+		 int rows = arr.length ;
+		 int columns = arr[0].length;
+		 boolean isPalindrome = true;
+		 for(int i =0;i<arr.length;i++){
+				 for(int j=0; j<arr[i].length; j++) {
+					 if(arr[i][j] != arr[rows-i-1][columns-j-1]) {
+						 isPalindrome = false;
+						 break ;
+				 }
+			 } 
+		 }
+		 if(isPalindrome) {
+			 System.out.println(" Yes this a Palindrome Array");
+		 }else{
+			 System.out.println(" Its Not A PAlindrome Array");
+		 }
+	}
+}
