@@ -1,0 +1,33 @@
+package com.Array2D;
+//Write a program to remove duplicate elements from a 1D array.
+public class RemoveDuplicate {
+
+	public static void main(String[] args) {
+		int arr[][]= { {9,2,3}, 
+                       {6,2,4},
+                       {1,2,7} };
+			   System.out.println("Array after removing duplicates:");
+
+		        for (int i = 0; i < arr.length; i++) {
+		            for (int j = 0; j < arr[i].length; j++) {
+
+		                boolean isDuplicate = false;
+
+		                for (int k = 0; k < i; k++) {
+		                    for (int l = 0; l < arr[k].length; l++) {
+
+		                        if (arr[i][j] == arr[k][l]) {
+		                            isDuplicate = true;
+		                            break;
+		                        }
+		                    }
+		                    if (isDuplicate) break;
+		                }
+
+		                if (!isDuplicate) {
+		                    System.out.print(arr[i][j] + " ");
+		                }
+		            }
+		     }
+	}
+}
