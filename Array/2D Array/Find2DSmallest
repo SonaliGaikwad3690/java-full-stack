@@ -1,0 +1,28 @@
+package com.Array2D;
+//Write a program to find the second Smallest element in a 2D array.
+public class Find2DSmallest {
+
+	public static void main(String[] args) {
+		int arr[][]= { { 1,2,3} , { 4,5,6 } , { 6,7,8} } ;
+		// for Loop for Smallest Number
+		int smallest = arr[0][0];
+		int secondSmallest = Integer.MAX_VALUE;
+		for(int i=0;i<arr.length;i++) {
+			for(int j=0; j<arr[i].length; j++) {
+				if(arr[i][j] < smallest) {
+					smallest = arr[0][0];
+				}
+			}
+		}
+		// 2D Loop For Second Smallest Number
+		for(int i=0 ; i<arr.length;i++) {
+			for(int j =0; j<arr[i].length; j++) {
+				if(arr[i][j] < secondSmallest && arr[i][j] != smallest) {
+					secondSmallest = arr[i][j];
+				}
+			}
+		}
+		   System.out.println("Largest Number : " + smallest);
+		   System.out.println("Second Largest Number : " + secondSmallest);
+	}
+}
