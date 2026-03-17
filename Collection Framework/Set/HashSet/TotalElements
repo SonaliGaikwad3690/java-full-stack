@@ -1,0 +1,22 @@
+package com.Set;
+
+import java.util.HashSet;
+
+//Find total number of elements in a Set.
+
+public class TotalElements {
+
+	public static void main(String[] args) {
+		
+		HashSet <String> set = new HashSet<String> ();
+		// Add Elements
+				 set.add("Sonal");
+				 set.add("Rashi");
+				 set.add("Pooja");
+				 set.add("Payal");
+				 set.add("Shruti");
+	   // Total Number
+		 System.out.println("The Number Of the Elemenst : " + set.size());
+
+	}
+}
