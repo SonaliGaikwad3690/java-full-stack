@@ -1,0 +1,18 @@
+package com.Set;
+//Create a HashSet and add 5 string values.
+
+import java.util.HashSet;
+
+public class PrintHashSet {
+
+	public static void main(String[] args) {
+		HashSet <String> set = new HashSet<String>();
+		set.add("Orange");
+		set.add("Banana");
+		set.add("Apple");
+		set.add("Grapes");
+		set.add("Mango");
+		//Display Elements using HashSet
+		System.out.println(set);
+	}
+}
