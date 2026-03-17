@@ -1,0 +1,21 @@
+package com.Set;
+
+//Try to add duplicate elements in a Set and observe the output.
+
+import java.util.HashSet;
+
+public class DuplicateInSet {
+
+	public static void main(String[] args) {
+		HashSet<String> set = new HashSet<String>();
+		
+		set.add("Orange"); //Dupplicate Not allowed In HashSet,Not Mainted Index
+		set.add("Banana");
+		set.add("Apple");
+		set.add("Banana");
+		set.add("Orange");
+		// Duplicate Elements in Set
+		System.out.println(set);
+	}
+	
+}
