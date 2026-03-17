@@ -1,0 +1,18 @@
+package com.ArrayList;
+// Remove an element from a List using index.
+
+import java.util.ArrayList;
+
+public class RemoveElements {
+
+	public static void main(String[] args) {
+		
+	    ArrayList<String> list = new ArrayList<String>();
+	    list.add("Mango");
+	    list.add("Banana");
+	    list.add("Apple");
+	   //Remove an element from a List using index.
+	    list.remove(0);
+	    System.out.println(list);
+	}
+}
