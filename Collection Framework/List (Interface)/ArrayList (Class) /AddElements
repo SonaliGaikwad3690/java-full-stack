@@ -1,0 +1,21 @@
+package com.ArrayList;
+
+import java.util.ArrayList;
+
+//Add an element at a specific index in an ArrayList.
+
+public class AddElements {
+
+	public static void main(String[] args) {
+		ArrayList<String> list = new ArrayList<String>();
+		list.add("Sonali");
+		list.add("Payal");
+		list.add("Shruti");
+		list.add("Rashi");
+		list.add("Gauri");
+		//Add Elements at Specific Index in a ArrayList
+		list.add(1, "Pooja");
+		//Display Updated List
+		System.out.println(list);
+	}
+}
