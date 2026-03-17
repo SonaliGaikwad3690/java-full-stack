@@ -1,0 +1,27 @@
+package com.ArrayList;
+//Retrieve an element from a List using get() method.
+
+import java.util.ArrayList;
+
+public class RetriveElements {
+
+	public static void main(String[] args) {
+		ArrayList<String> list = new ArrayList<String>();
+		list.add("Apple");
+		list.add("Banana");
+		list.add("Orange");
+		System.out.println("List in ArrayList Format...!");
+		System.out.println(list);
+		System.err.println("----------");
+		
+		//Retrieve an element from a List using get() method.
+		System.out.println("Retrive Elements at Index....!");
+		System.out.println(list.get(0)); // at 0 index Show the Apple
+		System.out.println("Get 1st Index List : " + list.getFirst());
+		System.out.println("Get Last Index List : " + list.getLast());
+		System.out.println("Get Class Present : " + list.getClass());
+		
+		
+	
+	}
+}
