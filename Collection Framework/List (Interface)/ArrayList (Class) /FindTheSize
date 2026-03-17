@@ -1,0 +1,21 @@
+package com.ArrayList;
+
+// Find the size of a List.
+
+import java.util.ArrayList;
+
+public class FindTheSize {
+
+	   public static void main(String[] args) {
+		
+		 ArrayList<Integer> list = new ArrayList<Integer>();
+		 list.add(12);
+		 list.add(13);
+		 list.add(14);
+		 list.add(16);
+		 list.add(17);
+		 // Find the Size of List
+		 System.out.println("The Size Of The List = " + list.size());
+		 System.out.println(list);
+	}
+}
