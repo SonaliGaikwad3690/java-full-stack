@@ -1,0 +1,28 @@
+package com.Set;
+
+import java.util.HashSet;
+
+//Create a HashMap and store Roll No as key and Name as value.
+
+public class PrintEven {
+
+	public static void main(String[] args) {
+
+		HashSet<Integer> set = new HashSet<Integer>();
+		// Add Elements
+		set.add(12);
+		set.add(15);
+		set.add(22);
+		set.add(42);
+		set.add(45);
+		// Print Even Elements
+		System.out.println("Even Number...!");
+		for (Integer i : set) {
+			if (i % 2 == 0) {
+				System.out.println(i);
+			}
+
+		}
+
+	}
+}
