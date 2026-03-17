@@ -1,0 +1,28 @@
+package com.Set;
+// Display all elements of a Set using for-each loop.
+
+import java.util.HashSet;
+
+public class DisplayElements {
+
+	public static void main(String[] args) {
+		
+		HashSet <Integer> set = new HashSet <Integer>();
+		
+		set.add(12);
+		set.add(15);
+		set.add(22);
+		set.add(42);
+		set.add(45);
+		System.out.println("Displayed Elements in HashSet Foramt......!");
+		System.out.println(set);
+		
+		System.err.println("-----------");
+		
+		// Display All Elements Using For-each Loop
+		System.out.println("Display HashSet in For-Each Foramt.......!");
+		for(Integer i : set) {
+			System.out.println(i);
+		}
+	}
+}
