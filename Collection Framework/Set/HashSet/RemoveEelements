@@ -1,0 +1,22 @@
+package com.Set;
+
+import java.util.HashSet;
+
+//Remove an element from a Set.
+
+public class RemoveEelements {
+
+	public static void main(String[] args) {
+		
+		HashSet <String> set = new HashSet<String> ();
+		// Add Eelements
+		 set.add("Sonal");
+		 set.add("Rashi");
+		 set.add("Pooja");
+		 set.add("Payal");
+		 set.add("Shruti");
+	  //Remove an element from a Set.
+		 set.remove("Pooja");
+		 System.out.println(set);
+	}
+}
