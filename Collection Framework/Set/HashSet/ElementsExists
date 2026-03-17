@@ -1,0 +1,24 @@
+package com.Set;
+//Check whether a specific element exists in a Set.
+
+import java.util.HashSet;
+
+public class ElementsExists {
+
+	private static final Object Orange = null;
+
+	public static void main(String[] args) {
+		
+		HashSet <String> set = new HashSet<String> ();
+		set.add("Orange");
+		set.add("Banana");
+		set.add("Grapes");
+		//element exists in a Set
+		if(set.contains("Orange")) {
+			System.out.println("Element exists in the set....!");
+		}else {
+			System.out.println("Element is Not exists in the set....!");
+		}
+	}
+	
+}
