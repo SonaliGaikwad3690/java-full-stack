@@ -1,0 +1,20 @@
+package com.ArrayList;
+//Write a Java program to check whether a given element exists in a List or not.
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ElemenstExists {
+
+	public static void main(String[] args) {
+		List <Integer>list = new ArrayList<>();
+		list.add(10);
+		list.add(20);
+		list.add(30);
+		if(list.contains(30)) {
+			System.out.println("Elemenst is Exists");
+		}else {
+			System.out.println("Elemenst Is Not Exists");
+		}
+	}
+}
