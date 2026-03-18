@@ -1,0 +1,22 @@
+package com.ArrayList;
+//Write a Java program to sort a List of integers in ascending order.
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class SortAscending {
+
+	public static void main(String[] args) {
+		ArrayList <Integer>list = new ArrayList<>();
+		list.add(10);
+		list.add(50);
+		list.add(20);
+		list.add(30);
+		list.add(40);
+		System.out.println("Before Sorting List : " + list);
+		
+		System.err.println("---------------");
+		Collections.sort(list);
+		System.out.println("After Sorting List : " + list);
+	}
+}
