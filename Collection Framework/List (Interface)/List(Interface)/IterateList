@@ -1,0 +1,31 @@
+package com.ArrayList;
+//Write a Java program to iterate a List using:
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class IterateList {
+	public static void main(String[] args) {
+ 
+		List <Integer>list = new ArrayList<>();
+		list.add(10);
+		list.add(20);
+		list.add(30);
+		
+		// Using For - Each Loppp - Iterate List 
+		System.out.println("Iterate List : ");
+		for(Integer num : list) {
+			System.out.println(num);
+			
+		}
+			System.out.println("-----------------");
+			
+	
+		// Usong For Loop
+			System.out.println("\nUsing For Loop");
+			for(int i =0; i<list.size();i++) {
+				System.out.println(list.get(i));
+			}
+		
+	}
+}
