@@ -1,0 +1,18 @@
+package com.Map;
+
+import java.util.HashMap;
+import java.util.Hashtable;
+import java.util.Map;
+
+public class PrintHashTable {
+
+	public static void main(String[] args) {
+		Map <String,Integer> map = new Hashtable <String,Integer>();
+		map.put("Sonali", 123);
+		map.put("Sona", 122);
+		map.put("Rashi", 223);
+//		map.put("Sona", 122); //Duplicate Not Allowed
+//		map.put(null, 12);//Not Null Key & Values Allowed
+		System.out.println(map);
+	}
+}
