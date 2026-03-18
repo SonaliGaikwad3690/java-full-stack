@@ -1,0 +1,15 @@
+package com.Map;
+
+import java.util.HashMap;
+
+//
+public class PrintHashMap {
+
+	public static void main(String[] args) {
+		HashMap <String,Integer> map = new HashMap <String,Integer>();
+		map.put("Sonali", 123);
+		map.put("Sona", 122);
+		map.put("Rashi", 223);
+		System.out.println(map);
+	}
+}
