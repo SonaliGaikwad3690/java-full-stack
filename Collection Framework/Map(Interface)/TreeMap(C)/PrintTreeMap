@@ -1,0 +1,15 @@
+package com.Map;
+import java.util.Map;
+import java.util.TreeMap;
+
+public class PrintTreeMap {
+
+	public static void main(String[] args) {
+		Map <String,Integer> map = new TreeMap <String,Integer>();
+		map.put("Sonali", 11); //Duplicate Not Allowed
+		map.put("Rashi", 11);
+		map.put("Payal", 12);
+		map.put("Sonali", 11);
+		System.out.println(map);
+	}
+}
