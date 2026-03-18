@@ -1,0 +1,27 @@
+package com.ArrayList;
+//Write a Java program to reverse elements of a List.
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class ReverseElemenst {
+
+	public static void main(String[] args) {
+		List <Integer>list = new ArrayList<>();
+		list.add(10);
+		list.add(50);
+		list.add(20);
+		list.add(30);
+		list.add(40);
+		System.out.println("Original List : " + list);
+		//Ascending Oreder
+		
+		Collections.sort(list);
+		System.out.println("List In Ascending Oreder : " + list);
+		
+		// After Descending Order
+		Collections.sort(list, Collections.reverseOrder());
+		System.out.println("List In Descending Order : " + list);
+	}
+}
