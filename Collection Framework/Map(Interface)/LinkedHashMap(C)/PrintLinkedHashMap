@@ -1,0 +1,17 @@
+package com.Map;
+
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+public class PrintLinkedHashMap {
+
+	public static void main(String[] args) {
+		Map <String,Integer> map = new LinkedHashMap <String,Integer>();
+		map.put("Sonali", 123);
+		map.put("Sona", 122);
+		map.put("Rashi", 223);
+		map.put("Payal", 123); //Duplicate Values Allowed in LinkedHashMp,Duplicate Key Not Allowed
+		System.out.println(map);
+	}
+}
