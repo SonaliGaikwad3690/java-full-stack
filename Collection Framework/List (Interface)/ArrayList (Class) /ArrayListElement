@@ -1,0 +1,22 @@
+package com.ArrayList;
+
+import java.util.ArrayList;
+
+public class ArrayListElement {
+
+	public static void main(String[] args) {
+		ArrayList<Integer> list = new <Integer>ArrayList();
+		list.add(23);
+		list.add(24);
+		list.add(25);
+		list.add(46);
+		list.add(45);
+		list.add(67);
+		list.add(26);
+		for(Integer i : list) {
+			if(i%2==0) {
+			System.out.println(i);
+			}
+		}
+	}
+}
