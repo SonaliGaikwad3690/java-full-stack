@@ -1,0 +1,19 @@
+package com.ArrayPracticeQA;
+
+public class Q7 {
+
+	public static void main(String[] args) {
+		String str = "Sonali Gaikwad";
+		 // Remove Space
+		String result = "";
+//		System.out.println(str.replace(" ", ""));
+		
+		for(int i=0;i<str.length();i++) {
+			char ch = str.charAt(i);
+		if(ch != ' ') {
+			result+=ch;
+		  }
+		}System.out.println(result);
+		
+	}
+}
