@@ -1,0 +1,32 @@
+package com.ArrayList;
+
+import java.util.Vector;
+
+public class VectorList {
+
+	public static void main(String[] args) {
+		Vector<Integer> list = new <Integer>Vector();
+		list.add(23);
+		list.add(24);
+		list.add(25);
+		list.add(46);
+		list.add(45);
+		list.add(67);
+		list.add(26);
+		System.out.println(list);
+		for(Integer i : list) {
+			if(i%2==0) {
+			System.out.println(i);
+			}
+		}
+		
+		Vector<String> list1 = new <String>Vector();
+		list1.add("Ram");
+		list1.add("Shyam");
+		list1.add("GhanShyam");
+		list1.add("Rahul");
+		list1.add("Ramuu");
+		System.out.println(list1);
+		
+	}
+}
