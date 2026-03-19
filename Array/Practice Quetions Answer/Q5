@@ -1,0 +1,29 @@
+package com.ArrayPracticeQA;
+
+public class Q5 {
+
+	public static void main(String[] args) {
+		 int arr[][]= { {1,2,3 } , {4,5,4 } , {3,2,1 } };
+      
+		 int rows = arr.length;
+		 int column = arr[0].length;
+		 boolean isPalindrome = true ;
+		 for(int i=0; i<arr.length;i++) {
+			 for(int  j=0; j<arr[i].length; j++) {
+				 if(arr[i][j] != arr[rows-i-1][column-j-1]) {
+					 isPalindrome = false;
+					 break;
+				 }
+			 }
+		 }if(isPalindrome) {
+			 System.out.println("Yes Palindrome");
+		 }else {
+			 System.out.println("Not Palindrome");
+		 }
+		 
+	}
+}
+
+		
+	}
+}
