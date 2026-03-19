@@ -1,0 +1,19 @@
+package com.Set;
+
+import java.util.LinkedHashSet;
+
+public class LinkedHashSetElements {
+
+	public static void main(String[] args) {
+		LinkedHashSet<Integer> set = new LinkedHashSet<Integer>(); // maintain insertion order
+		set.add(23457);
+		set.add(234);
+		set.add(23);
+		set.add(2);
+		set.add(231);
+		System.out.println(set);
+		
+		System.out.println("Get 1St Order : " + set.getFirst());
+		System.out.println("Get Last Order : " + set.getLast());
+	}
+}
