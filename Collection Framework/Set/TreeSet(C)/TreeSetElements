@@ -1,0 +1,21 @@
+package com.Set;
+
+import java.util.TreeSet;
+
+public class TreeSetElements {
+
+	public static void main(String[] args) {
+		TreeSet<Integer> set = new TreeSet<Integer>(); // Sorting , Don't accept null 
+		set.add(23457);
+		set.add(234);
+		set.add(23);
+		set.add(2);
+		set.add(231);
+		System.out.println(set);
+		System.out.println("Get First Elements : " + set.getFirst());
+		System.out.println("Get Last Elements : " + set.getLast());
+		System.out.println("Get Class : " + set.getClass());
+		System.out.println("Get Size of Elements : " + set.size());
+		
+	}
+}
