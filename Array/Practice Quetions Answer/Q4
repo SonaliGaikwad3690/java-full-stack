@@ -1,0 +1,23 @@
+package com.ArrayPracticeQA;
+
+public class Q4 {
+
+	public static void main(String[] args) {
+		int arr[][]= { { 1,2,3} , { 4,5,6 } , { 6,7,8} } ;
+		//Find SecondSmalllest
+		int Largsest = arr[0][0];
+		int secondLargest = arr[0][0];
+		for(int i=0;i<arr.length; i++) {
+			for(int j=0; j<arr[i].length; j++) {
+				if(arr[i][j]>Largsest) {
+					secondLargest = Largsest;
+					Largsest = arr[i][j];
+				}else if(arr[i][j]>secondLargest && arr[i][j] != Largsest){
+					secondLargest = arr[i][j];
+				}
+			}
+		}
+		System.out.println("Largest Number : " + Largsest);
+		   System.out.println("Second largest Number : " + secondLargest);
+	}
+}
