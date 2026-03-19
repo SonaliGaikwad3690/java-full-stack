@@ -1,0 +1,19 @@
+package com.Map;
+
+import java.util.HashMap;
+
+//Create a HashMap and store Roll No as key and Name as value.
+
+public class StudentDetails {
+
+	public static void main(String[] args) {
+		HashMap<Integer,String> map = new HashMap<Integer,String>();
+	    map.put(121, "Sonali");	
+	    map.put(122, "Rashi");	
+	    map.put(123, "Payal");	
+	    map.put(124, "Shrutii");	
+	    map.put(125, "Sandhya");	
+	    System.out.println("Student Details.....!");
+	    System.out.println(map);
+	}
+}
