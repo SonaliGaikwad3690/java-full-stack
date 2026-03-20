@@ -1,0 +1,25 @@
+package com.Iterator;
+
+import java.util.Iterator;
+import java.util.Set;
+import java.util.TreeSet;
+
+public class IteratorSet {
+
+	public static void main(String[] args) {
+		Set<String> list = new TreeSet<String>();
+		list.add("ram");
+		list.add("ramu");
+		list.add("shyam");
+		list.add("vraj");
+		list.add("raj");
+		list.add("ramesh");
+		list.add("rahul");
+		
+		Iterator <String> itr = list.iterator();
+		while(itr.hasNext()) {
+			System.out.println(itr.next());
+		}
+				
+	}
+}
