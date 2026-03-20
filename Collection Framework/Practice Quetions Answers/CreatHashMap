@@ -1,0 +1,25 @@
+package com.Map;
+//Create a HashMap and store Roll No as key and Name as value.
+
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map.Entry;
+
+public class CreatHashMap {
+
+	public static void main(String[] args) {
+		
+		HashMap<Integer, String> map = new HashMap<Integer, String>();
+		map.put(12, "Sonal");//Duplicate Not Allowed
+		map.put(12, "Payal");
+		map.put(32, "Pooja");
+		map.put(15, "rashi");
+		map.put(13, "Shrutii");
+		System.out.println(map);
+		//Iterate The map
+		System.out.println("Iterated Elements......!");
+		for(Entry<Integer, String> s : map.entrySet()) {
+			System.out.println(s);
+		}
+	}
+}
