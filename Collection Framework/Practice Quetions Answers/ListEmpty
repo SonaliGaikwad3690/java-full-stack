@@ -1,0 +1,19 @@
+package com.List;
+
+import java.util.ArrayList;
+import java.util.List;
+
+//Check whether a List is empty or not.
+public class ListEmpty {
+
+	public static void main(String[] args) {
+		List<Integer> list = new ArrayList<Integer>();
+		list.add(123);
+		list.isEmpty();
+		if(list.isEmpty()) {
+		System.out.println("List Is Empty");
+		}else {
+			System.out.println("List is Not Empty");
+		}
+	}
+}
