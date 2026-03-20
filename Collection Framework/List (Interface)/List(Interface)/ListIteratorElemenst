@@ -1,0 +1,24 @@
+package com.Iterator;
+
+import java.util.LinkedList;
+import java.util.List;
+import java.util.ListIterator;
+
+public class ListIteratorElemenst {
+
+	public static void main(String[] args) {
+		List<String> list = new LinkedList<String>();
+		list.add("ram");
+		list.add("ramu");
+		list.add("shyam");
+		list.add("Vraj");
+		list.add("raj");
+		list.add("ramesh");
+		list.add("rahul");
+
+		ListIterator<String> litr = list.listIterator();
+		while (litr.hasNext()) {
+			System.out.println(litr.next());
+		}
+	}
+}
