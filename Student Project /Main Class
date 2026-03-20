@@ -1,0 +1,84 @@
+package com.Project;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class StudentProject {
+
+	public static void main(String[] args) {
+
+		ArrayList<Student> list = new ArrayList<Student>();
+		Scanner sc = new Scanner(System.in);
+
+		while (true) {
+			System.out.println("-------------------------");
+			System.out.println("-------------------------");
+			System.out.println("1 Add Student");
+			System.out.println("2 View Student");
+			System.out.println("3 Search Student");
+			System.out.println("4 Delete Student");
+			System.out.println("5 Exit");
+			System.out.println("-------------------------");
+
+			System.out.println("Enter Choise ... !");
+			int choise = sc.nextInt();
+
+			if (choise == 1) {
+				System.out.println("Enter Id");
+				int id = sc.nextInt();
+				System.out.println("Enter Name");
+				String name = sc.next();
+				System.out.println("Enter marks");
+				double marks = sc.nextDouble();
+
+				Student s = new Student(id, name, marks);
+				list.add(s);
+				System.out.println("Student Added ...!");
+
+			} else if (choise == 2) {
+
+				for (Student student : list) {
+					System.out.println(student);
+				}
+			}
+
+			else if (choise == 3) {
+				System.out.println("Enter id to Search");
+				int id = sc.nextInt();
+				boolean found = false;
+				for (Student student : list) {
+					if (student.studId == id) {
+						System.out.println(student);
+						found = true;
+					}
+				}
+				if (found == false) {
+					System.out.println("Student NOT Found");
+				}
+			}
+
+			else if (choise == 4) {
+				System.out.println("Enter id to Delete");
+				int id = sc.nextInt();
+				Student temp = null;
+				for (Student student : list) {
+					if (student.studId == id) {
+						temp = student;
+					}
+				}
+				if (temp != null) {
+					list.remove(temp);
+					System.out.println("Student Deleted");
+				} else {
+					System.out.println("Student Not Deleted");
+				}
+			} else if (choise == 5) {
+				System.out.println("Program Ended ");
+				break;
+			}
+		}
+
+	}
+
+}
+
