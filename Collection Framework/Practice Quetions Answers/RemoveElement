@@ -1,0 +1,24 @@
+package com.List;
+
+import java.util.ArrayList;
+import java.util.List;
+
+// Remove an element from a List using index.
+public class RemoveElement {
+
+	public static void main(String[] args) {
+		List<Integer> list = new ArrayList<>();
+
+        // Add elements
+		
+        list.add(10);
+        list.add(20);
+        list.add(30);
+        list.add(40);
+        list.remove(0);
+        System.out.println(list);
+        for(Integer num : list) {
+        	System.out.println(num);
+        }
+	}
+}
