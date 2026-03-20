@@ -1,0 +1,23 @@
+package com.Iterator;
+
+import java.security.KeyStore.Entry;
+import java.util.HashMap;
+
+public class MapIteratorElements {
+
+	public static void main(String[] args) {
+		HashMap<Integer, String> map = new HashMap<Integer, String>();
+		map.put(123, "java");
+		map.put(13, "C");
+		map.put(1, "javaScprit");
+		map.put(3, "C++");
+		map.put(12, "python");
+		map.put(21, "Golang");
+
+//		System.out.println(map);
+
+		for (java.util.Map.Entry<Integer, String> s : map.entrySet()) {
+			System.out.println(s.getKey() + " = " + s.getValue());
+		}
+	}
+}
