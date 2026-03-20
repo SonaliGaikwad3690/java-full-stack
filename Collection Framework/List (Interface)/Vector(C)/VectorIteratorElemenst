@@ -1,0 +1,25 @@
+package com.Iterator;
+
+import java.util.Enumeration;
+import java.util.Vector;
+
+public class VectorIteratorElemenst {
+
+	public static void main(String[] args) {
+		Vector<String> list = new Vector<String>();
+		list.add("ram");
+		list.add("ramu");
+		list.add("shyam");
+		list.add("Vraj");
+		list.add("raj");
+		list.add("ramesh");
+		list.add("rahul");
+
+		Enumeration<String> e = list.elements();
+		while (e.hasMoreElements()) {
+			System.out.println(e.nextElement());
+		}
+
+	}
+
+}
