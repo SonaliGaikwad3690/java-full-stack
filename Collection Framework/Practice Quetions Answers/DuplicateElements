@@ -1,0 +1,19 @@
+package com.Set;
+//Try to add duplicate elements in a Set and observe the output.
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class DuplicateElements {
+
+	public static void main(String[] args) {
+		Set <String> set = new HashSet <String>();
+		set.add("Apple");
+		set.add("Banana");
+		set.add("Grapes");
+		set.add("Apple"); // duplicate 
+		//Duplicate Elements
+		System.out.println("Duplicate Elements : " + set);
+	} 
+	
+}
