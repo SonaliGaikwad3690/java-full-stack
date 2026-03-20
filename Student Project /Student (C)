@@ -1,0 +1,18 @@
+package com.Project;
+
+public class Student {
+		
+		int studId;
+		String name ;
+		double marks;
+		Student(int studId,String name,double marks){
+			this.name = name ;
+			this.studId = studId;
+			this.marks = marks;
+		}
+			@Override
+			public String toString() {
+				return "Student [studId=" + studId + ", name=" + name + ", marks=" + marks + "]";
+			
+	}
+}
