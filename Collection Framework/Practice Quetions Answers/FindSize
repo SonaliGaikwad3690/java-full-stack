@@ -1,0 +1,18 @@
+package com.Map;
+
+import java.util.HashMap;
+import java.util.Map;
+
+// Find the size of a Map.
+public class FindSize {
+	
+	public static void main(String[] args) {
+		Map <Integer,String> map = new HashMap <Integer,String>();
+		map.put(11, "Payal");
+		map.put(12, "Sonali");
+		map.put(22, "Sarika");
+		map.put(32, "Sonakshi");
+		//Size Of Map
+		System.out.println("Size Of Map : " + map.size());
+	}
+}
