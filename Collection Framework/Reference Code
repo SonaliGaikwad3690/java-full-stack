@@ -1,0 +1,135 @@
+package CollectionFrameworkRefCode;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.HashSet;
+import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
+import java.util.Vector;
+
+public class A {
+
+	public static void main(String[] args) {
+
+//		ArrayList list = new ArrayList();
+//		list.add(234);
+//		list.add(2.5f);
+//		list.add(23434567890987654l);
+//		list.add('A');
+//		list.add(true);
+//		list.add("Shubham");
+//
+//		System.out.println(list);
+//
+//		for (Object a : list) {
+//			System.out.println(a);
+//		}
+
+//
+//		ArrayList<Integer> list = new ArrayList();
+//		list.add(23);
+//		list.add(24);
+//		list.add(25);
+//		list.add(null);
+//		list.add(45);
+//		list.add(67);
+//		list.add(26);
+//		list.add(null);
+//
+//		ArrayList<Integer> list1 = new ArrayList<Integer>();
+//		list1.add(789);
+//		list1.addAll(list);
+//
+//		System.out.println("--------------------");
+//
+//		System.out.println(list1.get(3));
+//		System.out.println("--------------------");
+//
+//		for (Integer s : list1) {
+//			System.out.println(s);
+//		}
+
+//		ArrayList<Integer> list = new <Integer>ArrayList();
+//		list.add(23);
+//		list.add(24);
+//		list.add(25);
+//		list.add(46);
+//		list.add(45);
+//		list.add(67);
+//		list.add(26);
+//
+//		for (Integer i : list) {
+//			if (i % 2 != 0) {
+//				System.out.println(i);
+//			}
+//		}
+
+//		ArrayList<String> list = new ArrayList<String>();
+//		list.add("Ram");
+//		list.add("Shyam");
+//		list.add("GhanShyam");
+//		list.add("Rahul");
+//		list.add("Ramuu");
+//
+//		System.out.println(list);
+
+//		Vector<String> list = new Vector<String>();
+//		list.add("Ram");
+//		list.add("Shyam");
+//		list.add("GhanShyam");
+//		list.add("Rahul");
+//		list.add("Ramuu");
+//
+//		System.out.println(list);
+//
+//	}
+
+//		List list = new LinkedList();
+//		Collection list1 = new LinkedList();
+//		Iterable list2 = new LinkedList();
+
+//		Set 
+
+//		Set<Integer> set = new HashSet<Integer>();  // Only one Null // 
+//		set.add(23457);
+//		set.add(null);           
+//		set.add(null);
+//		set.add(234);
+//		set.add(23);
+//		set.add(2);
+//		set.add(23);
+//
+//// output		 [null, 23, 24, 234]
+//
+//		System.out.println(set);
+
+//		TreeSet<Integer> set = new TreeSet<Integer>(); // Sorting , Don't accept null 
+//		set.add(23457);
+//		set.add(234);
+//		set.add(23);
+//		set.add(2);
+//		set.add(231);
+//
+//		System.out.println(set);
+
+//		LinkedHashSet<Integer> set = new LinkedHashSet<Integer>(); // maintain insertion order
+//		set.add(23457);
+//		set.add(234);
+//		set.add(23);
+//		set.add(2);
+//		set.add(231);
+//
+//		// [23457, 234, 23, 2, 231]
+//
+//		System.out.println(set.getFirst());
+//		System.out.println(set.getLast());
+//		
+		
+
+	}
+
+}
