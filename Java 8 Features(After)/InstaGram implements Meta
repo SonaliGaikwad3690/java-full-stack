@@ -1,0 +1,11 @@
+package com.Java8Features;
+
+public class InstaGram implements Meta {
+
+	@Override
+	public void login() {
+		System.out.println("This is Login Page of InstaGram.....!");
+	}
+
+	
+}
