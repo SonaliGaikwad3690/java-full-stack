@@ -1,0 +1,18 @@
+package com.Map;
+// Retrieve a value using a key from Map.
+
+import java.util.HashMap;
+
+public class RetriveValue {
+
+	public static void main(String[] args) {
+		HashMap <Integer,String> map = new HashMap <Integer,String>();
+		map.put(11, "Payal");
+		map.put(12, "Sonali");
+		map.put(22, "Sarika");
+		map.put(32, "Sonakshi");
+		//Retrive Value
+		 String value = map.get(12);
+		 System.out.println(value);
+	}
+}
