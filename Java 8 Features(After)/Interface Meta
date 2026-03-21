@@ -1,0 +1,17 @@
+package com.Java8Features;
+
+public interface Meta {
+
+	default void logo() {
+		System.out.println("This is Logo Of Meta");
+	}
+	
+	public static void privacy() {
+		System.out.println("This is static method which cotnains privacy related data  ");
+	}
+	public abstract void login();
+	
+	 
+		
+	
+}
