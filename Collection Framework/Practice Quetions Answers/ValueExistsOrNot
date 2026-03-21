@@ -1,0 +1,21 @@
+package com.Map;
+// Check whether a value exists in Map.
+
+import java.util.HashMap;
+
+public class ValueExistsOrNot {
+
+	public static void main(String[] args) {
+		HashMap <Integer,String> map = new HashMap <Integer,String>();
+		map.put(11, "Payal");
+		map.put(12, "Sonali");
+		map.put(22, "Sarika");
+		map.put(32, "Sonakshi");
+		//Value Exists Or Not check
+		if(map.containsValue("Payal")) {
+			System.out.println("Yes Exists");
+		}else{
+			System.out.println("Not Exists");
+		}
+	}
+}
