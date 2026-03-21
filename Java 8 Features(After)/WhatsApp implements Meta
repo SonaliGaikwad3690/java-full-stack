@@ -1,0 +1,10 @@
+package com.Java8Features;
+
+public class WhatsApp implements Meta {
+
+	@Override
+	public void login() {
+		System.out.println("This is Login Page of WhatsApp.....!");
+	}
+
+}
