@@ -1,0 +1,21 @@
+package com.Map;
+// Check whether a key exists in Map.
+
+import java.util.HashMap;
+
+public class KeyExistsOrNot {
+
+	public static void main(String[] args) {
+		HashMap <Integer,String> map = new HashMap <Integer,String>();
+		map.put(11, "Payal");
+		map.put(12, "Sonali");
+		map.put(22, "Sarika");
+		map.put(32, "Sonakshi");
+		//key exists Or Not
+		if(map.containsKey(12)) {
+			System.out.println("Yes Key Exists");
+		}else {
+			System.out.println("Not Exists");
+		}
+	}
+}
