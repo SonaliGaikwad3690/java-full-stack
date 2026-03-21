@@ -1,0 +1,8 @@
+package com.Java8Features;
+
+public class MZukarberg {
+
+	public static void main(String[] args) {
+		Meta.privacy();
+	}
+}
