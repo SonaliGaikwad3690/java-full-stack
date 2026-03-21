@@ -1,0 +1,19 @@
+package com.Map;
+// Display all key–value pairs using entrySet().
+
+import java.util.HashMap;
+import java.util.Map.Entry;
+
+public class EntrySet {
+
+	public static void main(String[] args) {
+		HashMap <Integer, String> map = new HashMap <Integer, String> ();
+		map.put(12, "Sonali");
+		map.put(22, "Sarika");
+		map.put(32, "Sonakshi");
+		//Using EntrySet
+		for(Entry<Integer, String> s : map.entrySet()) {
+			System.out.println("Entry Get Key :" + s.getKey() + " And " +  "Entry Get Value : " + s.getValue());
+		}
+	}
+}
