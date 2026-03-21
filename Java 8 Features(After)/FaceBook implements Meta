@@ -1,0 +1,14 @@
+package com.Java8Features;
+
+public class FaceBook implements Meta {
+
+	@Override
+	public void login() {
+		System.out.println("This is Login Page of FaceBook.....!");
+	}
+	public  static void loggOut() {
+		System.out.println("This is LogOut Page of FaceBook.....!");
+	}
+
+	
+}
