@@ -1,0 +1,19 @@
+package com.Map;
+//Remove an entry from Map using key.
+
+import java.util.HashMap;
+
+public class RemoveEntry {
+
+	public static void main(String[] args) {
+		HashMap <Integer,String> map = new HashMap <Integer,String>();
+		map.put(11, "Payal");
+		map.put(12, "Sonali");
+		map.put(22, "Sarika");
+		map.put(32, "Sonakshi");
+		//Remove Entry Using Key
+		map.remove(12);
+		System.out.println(map);
+		System.out.println(map.remove(12, "Sonali"));
+	}
+}
