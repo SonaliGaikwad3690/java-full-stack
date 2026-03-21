@@ -1,0 +1,23 @@
+package com.Java8Features;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// Reference Creation
+		Meta m = new FaceBook();
+		m.logo();
+		m.login();
+		// Static Method call // By using Class Name Calling
+		System.err.println("LogOut Page...........!");
+		FaceBook.loggOut();
+		
+		Meta m1 = new WhatsApp();
+        m1.logo();
+        m1.login();
+        
+		Meta m2 = new InstaGram();
+        m2.logo();
+        m2.login();
+		
+	}
+}
