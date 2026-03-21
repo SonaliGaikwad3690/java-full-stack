@@ -1,0 +1,26 @@
+package com.Java8Features;
+
+public interface A {
+//		before java 8
+
+		// 100 % abstraction , multiple inheritance
+
+//		public static final int a = 45;
+	//
+//		public abstract void m1();
+
+//		public static void m3() {
+//			System.out.println("this is static method of A interface ");
+//		}
+
+//		public static void main(String[] args) {
+//			B b = new B();
+//			b.m2();
+//		}
+
+		default void m5() {
+			System.out.println(" this is home page");
+		}
+
+	
+}
