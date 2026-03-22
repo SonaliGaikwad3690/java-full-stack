@@ -1,0 +1,16 @@
+
+public class Q107 {
+
+	public static void main(String[] args) {
+		String str = "Sonali123";
+		int countChar = 0;
+		for(int i=0;i<str.length();i++) {
+			char ch =str.charAt(i);
+			if(ch >= 'a' && ch <='z' || ch>='A' && ch<='Z'){
+				countChar++;
+			}
+		}
+		System.out.println("Total Characters : " + countChar);
+		
+	}
+}
