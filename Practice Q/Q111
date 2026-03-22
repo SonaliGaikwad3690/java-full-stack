@@ -1,0 +1,10 @@
+
+public class Q111 {
+
+	public static void main(String[] args) {
+		StringBuffer sb = new StringBuffer("Sonal");
+		sb.append(" Gaikwad");
+		System.out.println("Append Name : " + sb );
+
+	}
+}
