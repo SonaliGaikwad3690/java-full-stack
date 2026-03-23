@@ -1,0 +1,10 @@
+package com.Interface;
+
+public class CreditCard1 implements Payment {
+
+	@Override
+	public void pay() {
+          System.out.println("Payment Using Credit Card........!");		
+	}
+
+}
