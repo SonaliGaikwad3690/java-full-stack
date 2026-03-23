@@ -1,0 +1,6 @@
+package com.Interface;
+
+public interface A {
+      public static final double x = 3.14;
+	public abstract void m1();
+}
