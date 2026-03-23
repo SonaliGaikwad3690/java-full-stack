@@ -1,0 +1,23 @@
+class Student {
+    // private variables (data hiding)
+    private int rollNo;
+    private String name;
+
+    // Setter methods (to set values)
+    public void setRollNo(int r) {
+        rollNo = r;
+    }
+
+    public void setName(String n) {
+        name = n;
+    }
+
+    // Getter methods (to get values)
+    public int getRollNo() {
+        return rollNo;
+    }
+
+    public String getName() {
+        return name;
+    }
+}
