@@ -1,0 +1,13 @@
+public class Main {
+    public static void main(String[] args) {
+        Student s = new Student();
+
+        // setting values using setter
+        s.setRollNo(101);
+        s.setName("Sonali");
+
+        // getting values using getter
+        System.out.println("Roll No: " + s.getRollNo());
+        System.out.println("Name: " + s.getName());
+    }
+}
