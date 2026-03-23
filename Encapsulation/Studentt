@@ -1,0 +1,17 @@
+class Student {
+    private int marks;
+
+    // setter with validation
+    public void setMarks(int m) {
+        if (m >= 0 && m <= 100) {
+            marks = m;
+        } else {
+            System.out.println("Invalid Marks!");
+        }
+    }
+
+    // getter
+    public int getMarks() {
+        return marks;
+    }
+}
