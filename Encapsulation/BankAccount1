@@ -1,0 +1,32 @@
+class BankAccount {
+    // private data (hidden)
+    private double balance;
+
+    // constructor
+    public BankAccount(double initialBalance) {
+        balance = initialBalance;
+    }
+
+    // deposit method
+    public void deposit(double amount) {
+        if (amount > 0) {
+            balance += amount;
+            System.out.println("Deposited: " + amount);
+        }
+    }
+
+    // withdraw method
+    public void withdraw(double amount) {
+        if (amount <= balance) {
+            balance -= amount;
+            System.out.println("Withdrawn: " + amount);
+        } else {
+            System.out.println("Insufficient Balance!");
+        }
+    }
+
+    // getter method
+    public double getBalance() {
+        return balance;
+    }
+}
