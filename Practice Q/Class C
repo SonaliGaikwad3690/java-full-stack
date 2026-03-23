@@ -1,0 +1,24 @@
+package com.Interface;
+
+public class C implements A,B {
+
+	@Override
+	public void m1() {
+      System.out.println("This is M1 Method........!");		
+	}
+	@Override
+	public void m2() {
+      System.out.println("This is M2 Method.........!");		
+	}
+	
+        public static void main(String[] args) {
+		  A a = new C();
+		  a.m1();
+		  
+		  B b = new C();
+		  b.m2();
+		   
+	}
+
+	
+}
