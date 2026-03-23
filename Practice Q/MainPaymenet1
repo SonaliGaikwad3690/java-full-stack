@@ -1,0 +1,12 @@
+package com.Interface;
+
+public class MainPaymenet1 {
+
+	public static void main(String[] args) {
+		Payment pay1 =  new CreditCard1();
+		pay1.pay();
+		
+		Payment pay2 = new UPI1();
+		pay2.pay();
+	}
+}
