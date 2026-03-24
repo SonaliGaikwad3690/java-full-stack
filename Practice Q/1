@@ -1,0 +1,5 @@
+class Bank {
+    void getInterestRate() {
+        System.out.println("Bank interest rate is 5%");
+    }
+}
