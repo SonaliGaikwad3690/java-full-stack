@@ -1,0 +1,5 @@
+class ATM {
+    void withdraw() {
+        System.out.println("Withdraw money from ATM");
+    }
+}
