@@ -1,0 +1,6 @@
+class SBI extends Bank {
+    @Override
+    void getInterestRate() {
+        System.out.println("SBI interest rate is 6%");
+    }
+}
