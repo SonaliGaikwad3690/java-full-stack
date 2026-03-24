@@ -1,0 +1,6 @@
+class HDFC_ATM extends ATM {
+    @Override
+    void withdraw() {
+        System.out.println("Withdraw from HDFC ATM with ₹10 charge");
+    }
+}
