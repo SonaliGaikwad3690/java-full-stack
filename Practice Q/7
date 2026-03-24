@@ -1,0 +1,6 @@
+class SBI_ATM extends ATM {
+    @Override
+    void withdraw() {
+        System.out.println("Withdraw from SBI ATM with ₹20 charge");
+    }
+}
