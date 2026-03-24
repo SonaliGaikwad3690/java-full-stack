@@ -1,0 +1,23 @@
+package com.ArrayPracticeQA;
+
+// Quetion -printing all prime number in a range 5 - 50 ...?
+public class Q15 {
+	public static void main(String args[]) {
+		// Range 5 to 50
+		for (int num = 5; num <= 50; num++) {
+			Boolean isPrime = true;
+
+			// check if number is Prime
+			for (int i = 2; i <= num; i++) {
+				if (num % i == 0) {
+					isPrime = false;
+					break;
+
+				}
+			}
+			if (isPrime) {
+				System.out.print(num + " ");
+			}
+		}
+	}
+}
