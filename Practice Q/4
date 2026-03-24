@@ -1,0 +1,12 @@
+public class Main {
+    public static void main(String[] args) {
+
+        Bank b;
+
+        b = new SBI();   // Upcasting
+        b.getInterestRate();  // Calls SBI method
+
+        b = new HDFC();
+        b.getInterestRate();  // Calls HDFC method
+    }
+}
