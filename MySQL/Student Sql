@@ -1,0 +1,144 @@
+Enter password: *********
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 14
+Server version: 8.0.45 MySQL Community Server - GPL
+
+Copyright (c) 2000, 2026, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+4 rows in set (0.06 sec)
+
+mysql> creat database eployee;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'creat database eployee' at line 1
+mysql> create database student;
+Query OK, 1 row affected (0.02 sec)
+
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| student            |
+| sys                |
++--------------------+
+5 rows in set (0.00 sec)
+
+mysql> use student;
+Database changed
+mysql> creat table;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'creat table' at line 1
+mysql> creat table student (id int, name varchar(30),address varchar(50));
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'creat table student (id int, name varchar(30),address varchar(50))' at line 1
+mysql> use student;
+Database changed
+mysql> create table student(id int , name varchar(30),city varchar(30));
+Query OK, 0 rows affected (0.09 sec)
+
+mysql> insert into student values(1,'Sonali','solapur');
+Query OK, 1 row affected (0.03 sec)
+
+mysql> insert into student values(2,'shruti','pune');
+Query OK, 1 row affected (0.01 sec)
+
+mysql> insert into student values(2,'payal','karnataka');
+Query OK, 1 row affected (0.01 sec)
+
+mysql> insert into student values(4,'rashi','sangli');
+Query OK, 1 row affected (0.01 sec)
+
+mysql> insert into student values(5,'rani','mohol');
+Query OK, 1 row affected (0.01 sec)
+
+mysql> select * from student;
++------+--------+-----------+
+| id   | name   | city      |
++------+--------+-----------+
+|    1 | Sonali | solapur   |
+|    2 | shruti | pune      |
+|    2 | payal  | karnataka |
+|    4 | rashi  | sangli    |
+|    5 | rani   | mohol     |
++------+--------+-----------+
+5 rows in set (0.00 sec)
+
+mysql> delete from student where id =1;
+Query OK, 1 row affected (0.01 sec)
+
+mysql> select * from student;
++------+--------+-----------+
+| id   | name   | city      |
++------+--------+-----------+
+|    2 | shruti | pune      |
+|    2 | payal  | karnataka |
+|    4 | rashi  | sangli    |
+|    5 | rani   | mohol     |
++------+--------+-----------+
+4 rows in set (0.00 sec)
+
+mysql> update student set city = 'solpaur' where id =1;
+Query OK, 0 rows affected (0.00 sec)
+Rows matched: 0  Changed: 0  Warnings: 0
+
+mysql> select * from student;
++------+--------+-----------+
+| id   | name   | city      |
++------+--------+-----------+
+|    2 | shruti | pune      |
+|    2 | payal  | karnataka |
+|    4 | rashi  | sangli    |
+|    5 | rani   | mohol     |
++------+--------+-----------+
+4 rows in set (0.00 sec)
+
+mysql> update studentset city = 'kolhapur' where id =2;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 'kolhapur' where id =2' at line 1
+mysql> update student set city = 'solpaur' where id =2;
+Query OK, 2 rows affected (0.01 sec)
+Rows matched: 2  Changed: 2  Warnings: 0
+
+mysql> select * from student;
++------+--------+---------+
+| id   | name   | city    |
++------+--------+---------+
+|    2 | shruti | solpaur |
+|    2 | payal  | solpaur |
+|    4 | rashi  | sangli  |
+|    5 | rani   | mohol   |
++------+--------+---------+
+4 rows in set (0.00 sec)
+
+mysql> insert into student values(1 , 'sonali'; 'kolhapur');
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''kolhapur')' at line 1
+mysql> insert into student values(1 , 'sonali', 'kolhapur');
+Query OK, 1 row affected (0.01 sec)
+
+mysql> select * from student;
++------+--------+----------+
+| id   | name   | city     |
++------+--------+----------+
+|    2 | shruti | solpaur  |
+|    2 | payal  | solpaur  |
+|    4 | rashi  | sangli   |
+|    5 | rani   | mohol    |
+|    1 | sonali | kolhapur |
++------+--------+----------+
+5 rows in set (0.00 sec)
+
+mysql>
