@@ -1,0 +1,23 @@
+package com.ArrayPracticeQA;
+
+public class Q32 {
+
+	public static void main(String[] args) {
+		int sub1 = 93;
+		int sub2 = 65 ;
+		int sub3 = 55;
+		 int total = sub1+sub2+sub3;
+		 double percentage = total/3.0;
+		 System.out.println("Total : " + total);
+		 System.out.println("Percentage : " + percentage);
+		 if(percentage >=90) {
+			 System.out.println("Grade : A");
+		 }else if (percentage >=60) {
+			 System.out.println("Garde : B");
+		 }else if(percentage >=50) {
+			 System.out.println("Grade : C");
+		 }else {
+			 System.out.println("Grade : Fail");
+		 }
+	}
+}
