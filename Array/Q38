@@ -1,0 +1,10 @@
+package com.ArrayPracticeQA;
+
+public class Q38 {
+
+	public static void main(String[] args) {
+		String str ="Core Java";
+		String rev= "";
+		System.out.println(str.concat("Advanced"));
+	}
+}
