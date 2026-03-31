@@ -1,0 +1,25 @@
+package com.ArrayPracticeQA;
+
+public class Q46 {
+
+	public static void main(String[] args) {
+		int arr[][]= { {9,2,3}, 
+                {6,2,4},
+                {1,2,1} };
+		System.out.println("Duplicate Array......!");
+		for(int i=0;i<arr.length;i++) {
+			for(int j=0;j<arr.length;j++) {
+				for(int k=i; k<arr.length;k++) {
+					for(int l=0;l<arr.length;l++) {
+						if(i==k && j>=l){
+							continue;
+						}
+						if(arr[i][j]==arr[k][l]) {
+							System.out.println(arr[i][j]);
+						}
+					}
+				}
+			}
+		}
+	}
+}
