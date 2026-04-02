@@ -1,0 +1,10 @@
+package com.ArrayPracticeQA;
+
+public class Q59 {
+
+	public static void main(String[] args) {
+		StringBuffer sb = new StringBuffer("Sonal");
+
+		System.out.println(sb.append(" Gaikwad"));
+	}
+}
