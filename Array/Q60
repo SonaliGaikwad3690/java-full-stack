@@ -1,0 +1,9 @@
+package com.ArrayPracticeQA;
+
+public class Q60 {
+
+	public static void main(String[] args) {
+		StringBuilder sb = new StringBuilder();
+		System.out.println(sb.isEmpty());
+	}
+}
