@@ -1,0 +1,22 @@
+package com.ArrayPracticeQA;
+
+public class Q63 {
+
+	public static void main(String[] args) {
+		int sub1=80;
+		int sub2=50;
+		int sub3=90;
+		int total = sub1+sub2+sub3;
+		double avg = total/3;
+		if(avg>=90) {
+			System.out.println("Grade : A");
+		}else if(avg >= 80) {
+			System.out.println("Grade : B");
+		}else if(avg >= 50) {
+			System.out.println("Grade : C");
+		}else {
+			System.out.println("Grade : Fail");
+		}
+		
+	}
+}
