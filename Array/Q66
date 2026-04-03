@@ -1,0 +1,19 @@
+package com.ArrayPracticeQA;
+
+public class Q66 {
+
+		public static void main(String[] args) {
+			int count=0;
+			int sum =0;
+			int num =10;
+			while(num>=0) {
+				if(num%2==0) {
+				sum+=num;
+			     count++;
+				}
+				num--;
+			}System.out.println("Count : " + count);
+			System.out.println("Sum : " + sum);
+	}
+
+}
