@@ -1,0 +1,10 @@
+package com.ArrayPracticeQA;
+
+public class Q70 {
+
+	public static void main(String[] args) {
+		String str = "Sonal";
+		String result=str.toLowerCase();
+		System.out.println(result);
+	}
+}
