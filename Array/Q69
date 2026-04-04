@@ -1,0 +1,10 @@
+package com.ArrayPracticeQA;
+
+public class Q69 {
+
+	public static void main(String[] args) {
+		String str = "Core Java";
+		String result ="";
+		System.out.println(str.compareToIgnoreCase(" Advanced"));
+	}
+}
