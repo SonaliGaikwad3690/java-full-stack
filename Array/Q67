@@ -1,0 +1,9 @@
+package com.ArrayPracticeQA;
+
+public class Q67 {
+
+	public static void main(String[] args) {
+		String str = "Core Java ";
+		System.out.println(str.charAt(0));
+	}
+}
