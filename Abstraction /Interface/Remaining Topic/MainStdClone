@@ -1,0 +1,15 @@
+package com.Interface;
+
+public class MainStdClone {
+
+	public static void main(String[] args) throws CloneNotSupportedException {
+		Student s1= new Student (101, "Sonal");
+		 Student s2 = (Student) s1.clone();
+		
+		 System.out.println("Original Object");
+		 System.out.println(s1.id+ " " + s1.name);
+		 
+		 System.out.println("Cloned Object");
+		 System.out.println(s2.id + " " + s2.name);
+	}
+}
