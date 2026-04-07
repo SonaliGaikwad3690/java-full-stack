@@ -1,0 +1,19 @@
+package com.ArrayPracticeQA;
+
+public class Q83 {
+
+	public static void main(String[] args) {
+		int arr[]= {1,2,3,2,1};
+		boolean isBoolean = true;
+		for(int i=0;i<arr.length;i++) {
+			if(arr[i]!=arr[arr.length-1-i]) {
+				isBoolean = false;
+				break;
+			}
+		}if(isBoolean) {
+			System.out.println("Yes Palindrome");
+		}else {
+			System.out.println("Not");
+		}
+	}
+}
