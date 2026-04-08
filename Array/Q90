@@ -1,0 +1,23 @@
+package com.ArrayPracticeQA;
+
+import java.util.LinkedList;
+import java.util.ListIterator;
+import java.util.Vector;
+
+public class Q90 {
+
+	public static void main(String[] args) {
+		Vector<Integer>list= new Vector();
+		list.add(1);
+		list.add(4);
+		list.add(5);
+		list.add(3);
+		list.add(0);
+		System.out.println(list);
+		ListIterator<Integer>itr= list.listIterator();
+		while(itr.hasNext()) {
+			System.out.println(itr.next());
+		}
+		
+	}
+}
