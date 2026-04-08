@@ -1,0 +1,21 @@
+package com.ArrayPracticeQA;
+
+import java.util.ArrayList;
+import java.util.ListIterator;
+
+public class Q85 {
+
+	public static void main(String[] args) {
+		ArrayList<Integer>list = new ArrayList<Integer>();
+		list.add(12);
+		list.add(13);
+		list.add(14);
+		list.add(15);
+		list.add(16);
+		System.out.println(list);
+		ListIterator<Integer>itr=list.listIterator();
+		while(itr.hasNext()) {
+			System.out.println(itr.next());
+		}
+	}
+}
