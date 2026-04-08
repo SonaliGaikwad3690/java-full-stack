@@ -1,0 +1,23 @@
+package com.ArrayPracticeQA;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.ListIterator;
+
+public class Q87 {
+
+	public static void main(String[] args) {
+		List <Integer>list1 = new ArrayList<>();
+		list1.add(10);
+		list1.add(20);
+		list1.add(30);
+		
+		List<Integer>list2=new ArrayList<Integer>(list1);
+		ListIterator<Integer>itr= list2.listIterator();
+		System.out.println("Original List1:" + list1);
+		System.out.println("Copy List :" + list2);
+		while(itr.hasNext()) {
+			System.out.println(itr.next());
+		}
+	}
+}
