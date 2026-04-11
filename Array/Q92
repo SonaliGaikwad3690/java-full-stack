@@ -1,0 +1,26 @@
+package com.ArrayPracticeQA;
+
+public class Q92 {
+
+	public static void main(String[] args) {
+		int []arr= {1,2,3,4,3,2 ,3,5,5};
+		boolean isDuplicate=false;
+		int count=0;
+		System.out.println("Duplicate Elements...!");
+		for(int i=0;i<arr.length;i++) {
+			isDuplicate=false;
+			
+			for(int j = i + 1; j < arr.length; j++) {
+				if(arr[i] == arr[j]) {
+					isDuplicate = true;
+					break;
+				}
+			}
+			if(isDuplicate) {
+				System.out.println(arr[i]);
+				count++;
+			}
+		}
+		System.out.println("Count :" + count);
+	}
+}
