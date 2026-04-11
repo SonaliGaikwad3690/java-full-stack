@@ -1,0 +1,36 @@
+package com.ArrayPracticeQA;
+
+public class Q91 {
+
+	public static void main(String[] args) {
+		String str = "Education@123";
+		
+		    String vowels = "";
+	        String consonants = "";
+	        String numbers = "";
+	        String symbols = "";
+	        
+		for(int i=0;i<str.length();i++) {
+			char ch =str.charAt(i);
+			if(Character.isLetter(ch)) {
+			if(ch=='a'|| ch=='e'||ch=='i'||ch=='o'||ch=='u'||
+					ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U') {
+				vowels +=ch;
+			}else {
+				consonants+=ch;
+			}
+		}
+			else if(Character.isDigit(ch)) {
+			numbers +=ch;
+		   }
+		   else {
+			   symbols+=ch;
+		   }
+		}
+		  System.out.println("Vowels : " + vowels);
+	        System.out.println("Consonants : " + consonants);
+	        System.out.println("Numbers : " + numbers);
+	        System.out.println("Symbols : " + symbols);
+		
+	}
+}
