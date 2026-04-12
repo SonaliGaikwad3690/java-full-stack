@@ -1,0 +1,8 @@
+package com.InterviweQ;
+
+public class Dog extends Animal {
+
+	Dog(){
+		System.out.println("this is Dog....!");
+	}
+}
