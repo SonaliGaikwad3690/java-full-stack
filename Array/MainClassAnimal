@@ -1,0 +1,9 @@
+package com.InterviweQ;
+
+public class MainClassAnimal {
+
+	public static void main(String[] args) {
+		Puppy p = new Puppy();
+		
+	}
+}
