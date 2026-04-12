@@ -1,0 +1,9 @@
+package com.InterviweQ;
+
+public class Animal {
+
+	Animal (){
+		System.out.println("this is constructor....!");
+	}
+}
+
