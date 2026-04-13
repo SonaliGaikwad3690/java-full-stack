@@ -1,0 +1,21 @@
+package com.ArrayPracticeQA;
+
+public class Q100 {
+ 
+	public static void main(String[] args) {
+		int arr[][]= { {1,2,3},{4,5,6},{8,8,5} };
+		for(int i=0;i<arr.length;i++) {
+			for(int j=0;j<arr[i].length;j++) {
+				for(int k=0;k<arr[i].length;k++) {
+					for(int l=0;l<arr[k].length;l++) {
+						if(i==k && j==l) {
+							continue;
+						}if(arr[i][j]==arr[k][l]) {
+							System.out.println(arr[i][j]);
+						}
+					}
+				}
+			}
+		}
+	}
+}
