@@ -1,0 +1,82 @@
+package com.InterviweQ;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.List;
+//4> Chat Message Analyzer
+//Problem:Messages stored in List<String>
+//Tasks:Count total words , Find most used word
+//Filter messages containing specific keyword , Sort messages by length
+// Remove messages shorter than 3 words
+
+public class ChatMessageAnalyzer {
+
+	public static void main(String[] args) {
+		List<String>messages=new ArrayList<String>();
+		messages.add("Hello how are you");
+        messages.add("I am fine");
+        messages.add("Hello Sonal");
+        messages.add("Java is very powerful language");
+        messages.add("Hi");
+        messages.add("Hello how are you doing");
+      System.out.println("Messages : " + messages);
+		
+      //Count total words
+      int totalWord=0;
+      for(String msg : messages) {
+    	  totalWord +=msg.split(" ").length;
+    	  System.out.println("Total Words: " + totalWord);
+      }
+      
+      // 2 Most used word
+      HashMap<String, Integer> map = new HashMap<>();
+
+      for(String msg : messages) {
+          String words[] = msg.toLowerCase().split(" ");
+
+          for(String word : words) {
+              map.put(word, map.getOrDefault(word, 0) + 1);
+          }
+      }
+
+      String mostUsed = "";
+      int max = 0;
+
+      for(String word : map.keySet()) {
+          if(map.get(word) > max) {
+              max = map.get(word);
+              mostUsed = word;
+          }
+      }
+
+      System.out.println("Most Used Word: " + mostUsed);
+
+      // 3 Filter keyword
+      String keyword = "Hello";
+
+      System.out.println("\nMessages containing keyword:");
+
+      for(String msg : messages) {
+          if(msg.contains(keyword)) {
+              System.out.println(msg);
+          }
+      }
+
+      // 4 Sort messages by length
+      Collections.sort(messages, (a, b) -> a.length() - b.length());
+
+      System.out.println("\nSorted Messages:");
+      for(String msg : messages) {
+          System.out.println(msg);
+      }
+
+      // 5 Remove messages shorter than 3 words
+      messages.removeIf(msg -> msg.split(" ").length < 3);
+
+      System.out.println("\nMessages after removing short ones:");
+      for(String msg : messages) {
+          System.out.println(msg);
+      }
+	}
+}
