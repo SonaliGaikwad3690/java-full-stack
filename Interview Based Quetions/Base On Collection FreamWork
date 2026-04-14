@@ -1,0 +1,79 @@
+package com.InterviweQ;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Set;
+
+
+//1> Problem Statement: You are building a system for an institute.
+// You have a list of student names (ArrayList<String>)Perform following operations:
+// Tasks:
+//Remove duplicate names , Sort names alphabetically
+//Find names starting with a vowel ,Count frequency of each name
+//Find the longest name , Convert all names to uppercase
+public class StudentSystem {
+
+	public static void main(String[] args) {
+
+	   ArrayList<String> list =new ArrayList<String>();
+	   list.	add("Sonal");
+	   list.	add("Amit");
+	   list.	add("Payal");
+	   list.	add("Sonal");
+	   list.	add("Payal");
+	   list.	add("Shruti");
+	   list.	add("Sejal");
+	   list.	add("Ankanksha");
+	   list.add("om");
+	   
+	   System.out.println("\nOriginal List : " + list);
+	   
+	 //Remove duplicate names
+	    Set<String> set = new HashSet<String>(list);
+	    System.out.println("\nAfter Removing Duplicate Elements : " + set);
+	    
+	 // Sort names alphabetically
+	    ArrayList<String> sortedList = new ArrayList<String>(set);
+	    Collections.sort(sortedList);
+	    System.out.println("Sorted List : " + sortedList );
+	    
+	 //Find names starting with a vowel
+	   System.out.println("\nStarting with Vowels:");
+	   for(String vwls : sortedList) {
+		   char ch =Character.toLowerCase(vwls.charAt(0));
+		   if(ch=='a' || ch=='e' || ch=='i' || ch=='o' ||ch=='u') {
+			   System.out.println(vwls);
+		    }
+	    }
+	   
+	   //Count frequency of each name
+	   System.out.println("\nFrequency of Names :");
+
+       HashMap<String,Integer> map = new HashMap<>();
+
+       for(String name : list)
+       {
+           map.put(name , map.getOrDefault(name,0)+1);
+       }
+
+       System.out.println(map);
+	    
+      //Find the longest name 
+       String longest="";
+       for(String name : sortedList) {
+    	      if(name.length() > longest.length()) {
+    	    	     longest=name;
+    	      }
+       }
+    	   System.out.println("\nLongest name : " + longest);
+    	   
+    	  //Convert all names to uppercase
+    	   System.out.println("\nConverted into Uppercase name : " + longest);
+    	   for(String name : list) {
+    		   System.out.print(name.toUpperCase() + " ");
+    	   }
+    	   
+	}
+}
