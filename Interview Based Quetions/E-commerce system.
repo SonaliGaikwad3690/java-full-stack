@@ -1,0 +1,96 @@
+package com.InterviweQ;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashSet;
+
+//2> Problem Statement: You are managing products in an e-commerce system.
+// Each product has:name , price :Store products using ArrayList
+//Tasks:
+//Add multiple products , Find product with highest price
+//Sort products by price (ascending & descending) , Filter products with price > 500
+//Search product by name , Remove duplicate product names
+
+public class Product {
+   
+	String name;
+	double price;
+	Product(String name ,double price){
+		this.name = name;
+		this.price= price;
+	}
+	public String toString() {
+		return name + " " + price;
+		
+	}
+	public static void main(String[] args) {
+		ArrayList<Product>list= new ArrayList<Product>();
+		//Add multiple products 
+		list.add(new Product ("mobile", 50000));
+		list.add(new Product ("Bag", 400));
+		list.add(new Product ("Watch",800));
+		list.add(new Product ("Shoes",1200));
+		list.add(new Product ("jeans",900));
+		list.add(new Product ("Laptop",60000));
+		list.add(new Product ("mobile",40000));
+		System.out.println("Multiple Products : " + list);
+		
+		//Find product with highest price
+		System.out.println("\nHighest Price : ");
+		Product highest = list.get(0);
+		for(Product p : list) {
+			if(p.price > highest.price) {
+				highest = p;
+			}
+		}
+		System.out.println("highest Price Product : " + highest);
+		
+		
+		//Sort products by price (ascending & descending)
+		 Collections.sort(list,(a,b)->Double.compare(a.price,b.price));
+
+	        System.out.println("\nAscending Order:");
+	        System.out.println(list);
+
+	        //Descending Order
+	        Collections.sort(list,(a,b)->Double.compare(b.price,a.price));
+
+	        System.out.println("\nDescending Order:");
+	        System.out.println(list);
+	        
+	        //Filter products with price > 500
+	        System.out.println("\nProducts price > 500:");
+	        for(Product p : list) {
+	        	  if(p.price >500) {
+	        		  System.out.println(p);
+	        	  }
+	        }
+	        
+	        //Search product by name
+	        System.out.println("\nSearch product by Name :");
+	        String search = "Shoes";
+	        for(Product p : list) {
+	        	  if(p.name.equalsIgnoreCase(search)) {
+	        		  System.out.println(p);
+	        	  }
+	        }
+
+	        // 6. Remove Duplicate Product Names
+	        HashSet<String> unique = new HashSet<>();
+	        ArrayList<Product> uniqueProducts = new ArrayList<>();
+	        for(Product p : list) {
+	        	
+	        	   if(unique.add(p.name)) {
+	        		 
+	                 uniqueProducts.add(p);
+	             }
+	         }
+	     
+
+	         System.out.println("\nAfter Removing Duplicate:");
+	         System.out.println(uniqueProducts);
+
+	        	
+	      
+	}
+}
