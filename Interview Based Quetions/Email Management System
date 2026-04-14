@@ -1,0 +1,72 @@
+package com.InterviweQ;
+//exalin pr3> Email Management System 
+//Problem:You have a list of emails.
+//Tasks:
+//Remove duplicate emails , Validate emails (must contain @ and .)
+//Group emails by domain (gmail, yahoo, etc.)
+//Count how many users per domain , Sort emails by domain name
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.TreeMap;
+
+public class EmailManagement {
+
+		public static void main(String[] args) {
+
+	        ArrayList<String> emails = new ArrayList<>();
+
+	        emails.add("sonal@gmail.com");
+	        emails.add("amit@yahoo.com");
+	        emails.add("sonal@gmail.com");
+	        emails.add("rahul@gmail.com");
+	        emails.add("pooja@outlook.com");
+	        emails.add("test@invalid");
+	        emails.add("abc@yahoo.com");
+
+	        // 1 Remove duplicates
+	        HashSet<String>uniqueEmails = new  HashSet<String>(emails);
+	        System.out.println("Unique Emails:");
+	        System.out.println(uniqueEmails);
+	        
+	        //Validate emails (must contain @ and .)
+	        ArrayList<String> validEmails = new ArrayList<>();
+             for(String  email : uniqueEmails) {
+            	   if(email.contains("@") && email.contains(".")){
+            		   validEmails.add(email);
+            	   }  
+             }
+             System.out.println("\nValid Emails:");
+             System.out.println(validEmails);
+
+           //Group emails by domain (gmail, yahoo, etc.)
+             HashMap<String, ArrayList<String>> map = new HashMap<>();
+
+             for(String email : validEmails) {
+                 String domain = email.substring(email.indexOf("@") + 1);
+
+                 map.putIfAbsent(domain, new ArrayList<>());
+                 map.get(domain).add(email);
+             }
+
+             System.out.println("\nGrouped Emails:");
+             for(String domain : map.keySet()) {
+                 System.out.println(domain + " -> " + map.get(domain));
+             }
+
+             // // 4 Count users per domain
+             System.out.println("\nUsers per Domain:");
+             for(String domain : map.keySet()) {
+                 System.out.println(domain + " -> " + map.get(domain).size());
+             }
+
+             // 5 Sort domains
+             TreeMap<String, ArrayList<String>> sorted = new TreeMap<>(map);
+
+             System.out.println("\nSorted Emails by Domain:");
+             for(String domain : sorted.keySet()) {
+                 System.out.println(domain + " -> " + sorted.get(domain));
+             }
+	}
+}
