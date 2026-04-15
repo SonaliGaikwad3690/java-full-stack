@@ -1,0 +1,22 @@
+package com.InterviweQ;
+//Banking System : Account → base class (accountNumber, balance)
+//SavingsAccount → inherits from Account (interestRate)
+//PremiumSavingsAccount → inherits from SavingsAccount (additional benefits, higher limits)
+//<ultiple inheritance
+public class BankingSystem {
+ 
+	int accountNumber;
+	double balance;
+	
+	BankingSystem(int accountNumber,double balance){
+		this.accountNumber=accountNumber;
+		this.balance=balance;
+		
+	}
+	
+	
+	 void display() {
+		System.out.println("Account Number : " + accountNumber);
+		System.out.println("Balance : " + balance);
+	}
+}
