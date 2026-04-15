@@ -1,0 +1,19 @@
+package com.InterviweQ;
+
+public class SavingAccount extends BankingSystem {
+ 
+	double interestRate;
+	SavingAccount(int accountNumber,double balance,double interestRate){
+		super(accountNumber,balance);
+		this.interestRate=interestRate;
+	}
+	@Override
+	void display() {
+		super.display();
+		System.out.println("Interset Rate : " + interestRate + "%");
+	}
+	void calculateInterest() {
+		double interest=balance * interestRate/100;
+		System.out.println("Interest Amount : " + interest);
+	}
+}
