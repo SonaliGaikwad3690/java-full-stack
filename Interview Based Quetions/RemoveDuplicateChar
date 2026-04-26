@@ -1,0 +1,26 @@
+package com.InterviweQ;
+
+public class RemoveDuplicateChar {
+
+	public static void main(String[] args) {
+		
+		String str = "sucess";
+		String result="";
+		for(int i=0;i<str.length();i++) {
+			char ch = str.charAt(i);
+			boolean isDuplicate=false;
+			for(int j=0;j<result.length(); j++) {
+				if(ch==result.charAt(j)) {
+					isDuplicate=true;
+					break;
+				}
+			}
+			if(!isDuplicate) {
+			result+=ch;
+			}
+		}
+		System.out.println("Original : " + str);
+		System.out.println("After Removing Duplicate : " + result);
+				
+	}
+}
