@@ -1,0 +1,24 @@
+package com.ArrayPracticeQA;
+
+public class Q125 {
+
+	public static void main(String[] args) {
+		int arr[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+
+		int smallest = Integer.MAX_VALUE;
+		int secondsmallest = Integer.MAX_VALUE;
+		for (int i = 0; i < arr.length; i++) {
+
+			if (arr[i] < smallest) {
+				secondsmallest = smallest;
+				smallest = arr[i];
+			} else if (arr[i] < secondsmallest && arr[i] != smallest) {
+				secondsmallest = arr[i];
+			}
+		}
+
+		System.out.println("smallest : " + smallest);
+		System.out.println("Second Smallest : " + secondsmallest);
+	}
+
+}
