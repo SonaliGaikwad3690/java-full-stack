@@ -1,0 +1,22 @@
+public class RemoveDuplicateCharacters {
+
+    public static void main(String[] args) {
+
+        String str = "programming";
+        String result = "";
+
+        // Read each character
+        for (int i = 0; i < str.length(); i++) {
+
+            char ch = str.charAt(i);
+
+            // Check character already exists in result or not
+            if (result.indexOf(ch) == -1) {
+                result = result + ch;
+            }
+        }
+
+        System.out.println("Original String : " + str);
+        System.out.println("After Removing Duplicates : " + result);
+    }
+}
