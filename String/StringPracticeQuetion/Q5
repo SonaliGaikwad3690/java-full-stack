@@ -1,0 +1,20 @@
+package com.stringPracticeQ;
+
+public class Q5 {
+
+	public static void main(String[] args) {
+		String s = "I Love Java";
+		String result ="";
+		
+		System.out.println(s.replace(" ", ""));
+		 
+//		for(int i=0;i<s.length();i++) {
+//		char ch = s.charAt(i);
+//		if(ch!=' ') {
+//			result += ch;
+//		  }
+//		}
+//		System.out.println("Count characters : " + result );
+		
+	}
+}
