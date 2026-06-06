@@ -1,0 +1,12 @@
+import java.util.*;
+
+public class RemoveDuplicate {
+    public static void main(String[] args) {
+
+        List<Integer> list = Arrays.asList(10, 20, 30, 20, 40, 10, 50);
+
+        Set<Integer> set = new HashSet<>(list);
+
+        System.out.println("After removing duplicates: " + set);
+    }
+}
