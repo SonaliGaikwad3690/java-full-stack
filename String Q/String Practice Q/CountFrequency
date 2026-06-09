@@ -1,0 +1,30 @@
+package com.string;
+
+public class CountFrequency {
+
+	public static void main(String[] args) {
+
+		String s = "success";
+
+		for (int i = 0; i < s.length(); i++) {
+			boolean visited = false;
+			int count = 0;
+			for (int j = 0; j < i; j++) {
+				if (s.charAt(i) == s.charAt(j)) {
+					visited = true;
+
+				}
+			}
+			if (!visited) {
+				for (int k = 0; k < s.length(); k++) {
+					if (s.charAt(i) == s.charAt(k)) {
+						count++;
+					}
+				}
+
+				System.out.println(s.charAt(i) + " = " + count);
+			}
+		}
+
+	}
+}
