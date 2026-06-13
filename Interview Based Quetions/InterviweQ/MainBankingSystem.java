@@ -1,0 +1,11 @@
+package com.InterviweQ;
+
+public class MainBankingSystem {
+
+	public static void main(String[] args) {
+		PremiumSavingAccount p1=new PremiumSavingAccount (101, 50000, 6.5, "Free Insurance");
+		p1.display();
+		p1.calculateInterest();
+				
+	}
+}

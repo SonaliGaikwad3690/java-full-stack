@@ -1,0 +1,19 @@
+package com.InterviweQ;
+
+public class PremiumSavingAccount extends SavingAccount {
+
+	String benefits;
+	double withdrawLimit;
+	PremiumSavingAccount(int accountNumber, double balance, double interestRate , String benefits) {
+		super(accountNumber, balance, interestRate);
+		this.benefits=benefits;
+		this.withdrawLimit=withdrawLimit;
+	}
+	
+	void display() {
+		super.display();
+		System.out.println("Benefits : " + benefits);
+		System.out.println("Withdraw limit : " + withdrawLimit );
+	}
+
+}
