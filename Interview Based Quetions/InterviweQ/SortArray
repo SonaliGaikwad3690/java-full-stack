@@ -1,0 +1,25 @@
+package com.InterviweQ;
+
+public class SortArray {
+
+	public static void main(String[] args) {
+		
+		// Sorted Elemets Without using in-Build Method
+		int [] arr = { 2,6,4,8};
+		for(int i=0;i<arr.length -1;i++) {
+			for(int j=i+1;j<arr.length;j++) {
+				if(arr[i]  > arr[j]) {
+					int temp = arr[j];
+					arr[j]= arr[i];
+					arr[i] = temp;
+				}
+			}
+		}
+		
+		//PrintThe Sorted Array
+		System.out.print("Sorted Array List :");
+		for (int num : arr) {
+			System.out.print( num + " ");
+		}
+	}
+}
