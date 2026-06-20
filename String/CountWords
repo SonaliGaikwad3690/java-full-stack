@@ -1,0 +1,23 @@
+package com.string;
+
+public class CountWords {
+
+	public static void main(String[] args) {
+		String str = "java is Langugae";
+		int countWord=0;
+		boolean isWord=false;
+		for(int i=0;i<str.length();i++) {
+			char ch =str.charAt(i);
+			if(ch !=' ') {
+				if(!isWord) {
+				countWord++;
+				isWord=true;
+			}
+				
+			}else {
+				isWord=false;
+			}
+		}
+		System.out.println("countWord : "+ countWord);
+	}
+}
